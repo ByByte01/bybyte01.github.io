@@ -1,0 +1,9 @@
+.jg-caption-visible::before {
+    content: "⊙ ";
+} 
+.fancybox-caption__body::before {
+    content: "⊙ ";
+} 
+.img-alt.is-center::before {
+    content: "⊙ ";
+}

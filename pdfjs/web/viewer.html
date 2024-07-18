@@ -1,0 +1,742 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>跟着Byte学架构 | 跟着Byte学架构</title><meta name="author" content="CFJ"><meta name="copyright" content="CFJ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="Keywords"><meta name="description"><meta name="description" content="PDF.js viewer                                                                                                    Thumbnails                                                Docu">
+<meta property="og:type" content="website">
+<meta property="og:title" content="跟着Byte学架构">
+<meta property="og:url" content="https://bybyte01.github.io/pdfjs/web/viewer.html">
+<meta property="og:site_name" content="跟着Byte学架构">
+<meta property="og:description" content="PDF.js viewer                                                                                                    Thumbnails                                                Docu">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg">
+<meta property="article:published_time" content="2024-07-01T00:34:41.693Z">
+<meta property="article:modified_time" content="2024-07-01T00:34:41.693Z">
+<meta property="article:author" content="CFJ">
+<meta property="article:tag" content="架构,IT架构,业务架构,数据架构,技术架构,部署架构,逻辑架构,金融IT架构,JAVA,SpringBoot,微服务,容器">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/bybyte.svg"><link rel="canonical" href="https://bybyte01.github.io/pdfjs/web/viewer.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":10,"languages":{"author":"作者: CFJ","link":"链接: ","source":"来源: 跟着Byte学架构","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '跟着Byte学架构',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-07-01 08:34:41'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tools"><span> 设计&amp;开发工具</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/bybyte.svg')"><nav id="nav"><span id="blog-info"><a href="/" title="跟着Byte学架构"><img class="site-icon" src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/bybyte.svg"/><span class="site-name">企业架构 架构治理 金融IT架构 JAVA技术 大数据 Devops 低代码；生活 思维 健身</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/tools"><span> 设计&amp;开发工具</span></a></div><div class="menus_item"><a class="site-page" href="/links/"><i class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">跟着CFJ学架构</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><!DOCTYPE html>
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html dir="ltr" mozdisallowselectionprint>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <title>PDF.js viewer</title>
+
+<!-- This snippet is used in production (included from viewer.html) -->
+<link rel="resource" type="application/l10n" href="locale/locale.json">
+<script src="../build/pdf.mjs" type="module"></script>
+
+    <link rel="stylesheet" href="viewer.css">
+
+  <script src="viewer.mjs" type="module"></script>
+  </head>
+
+  <body tabindex="1">
+    <div id="outerContainer">
+
+      <div id="sidebarContainer">
+        <div id="toolbarSidebar">
+          <div id="toolbarSidebarLeft">
+            <div id="sidebarViewButtons" class="splitToolbarButton toggled" role="radiogroup">
+              <button id="viewThumbnail" class="toolbarButton toggled" title="Show Thumbnails" tabindex="2" data-l10n-id="pdfjs-thumbs-button" role="radio" aria-checked="true" aria-controls="thumbnailView">
+                 <span data-l10n-id="pdfjs-thumbs-button-label">Thumbnails</span>
+              </button>
+              <button id="viewOutline" class="toolbarButton" title="Show Document Outline (double-click to expand/collapse all items)" tabindex="3" data-l10n-id="pdfjs-document-outline-button" role="radio" aria-checked="false" aria-controls="outlineView">
+                 <span data-l10n-id="pdfjs-document-outline-button-label">Document Outline</span>
+              </button>
+              <button id="viewAttachments" class="toolbarButton" title="Show Attachments" tabindex="4" data-l10n-id="pdfjs-attachments-button" role="radio" aria-checked="false" aria-controls="attachmentsView">
+                 <span data-l10n-id="pdfjs-attachments-button-label">Attachments</span>
+              </button>
+              <button id="viewLayers" class="toolbarButton" title="Show Layers (double-click to reset all layers to the default state)" tabindex="5" data-l10n-id="pdfjs-layers-button" role="radio" aria-checked="false" aria-controls="layersView">
+                 <span data-l10n-id="pdfjs-layers-button-label">Layers</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="toolbarSidebarRight">
+            <div id="outlineOptionsContainer">
+              <div class="verticalToolbarSeparator"></div>
+
+              <button id="currentOutlineItem" class="toolbarButton" disabled="disabled" title="Find Current Outline Item" tabindex="6" data-l10n-id="pdfjs-current-outline-item-button">
+                <span data-l10n-id="pdfjs-current-outline-item-button-label">Current Outline Item</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="sidebarContent">
+          <div id="thumbnailView">
+          </div>
+          <div id="outlineView" class="hidden">
+          </div>
+          <div id="attachmentsView" class="hidden">
+          </div>
+          <div id="layersView" class="hidden">
+          </div>
+        </div>
+        <div id="sidebarResizer"></div>
+      </div>  <!-- sidebarContainer -->
+
+      <div id="mainContainer">
+        <div class="findbar hidden doorHanger" id="findbar">
+          <div id="findbarInputContainer">
+            <span class="loadingInput end">
+              <input id="findInput" class="toolbarField" title="Find" placeholder="Find in document…" tabindex="91" data-l10n-id="pdfjs-find-input" aria-invalid="false">
+            </span>
+            <div class="splitToolbarButton">
+              <button id="findPrevious" class="toolbarButton" title="Find the previous occurrence of the phrase" tabindex="92" data-l10n-id="pdfjs-find-previous-button">
+                <span data-l10n-id="pdfjs-find-previous-button-label">Previous</span>
+              </button>
+              <div class="splitToolbarButtonSeparator"></div>
+              <button id="findNext" class="toolbarButton" title="Find the next occurrence of the phrase" tabindex="93" data-l10n-id="pdfjs-find-next-button">
+                <span data-l10n-id="pdfjs-find-next-button-label">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="findbarOptionsOneContainer">
+            <input type="checkbox" id="findHighlightAll" class="toolbarField" tabindex="94">
+            <label for="findHighlightAll" class="toolbarLabel" data-l10n-id="pdfjs-find-highlight-checkbox">Highlight All</label>
+            <input type="checkbox" id="findMatchCase" class="toolbarField" tabindex="95">
+            <label for="findMatchCase" class="toolbarLabel" data-l10n-id="pdfjs-find-match-case-checkbox-label">Match Case</label>
+          </div>
+          <div id="findbarOptionsTwoContainer">
+            <input type="checkbox" id="findMatchDiacritics" class="toolbarField" tabindex="96">
+            <label for="findMatchDiacritics" class="toolbarLabel" data-l10n-id="pdfjs-find-match-diacritics-checkbox-label">Match Diacritics</label>
+            <input type="checkbox" id="findEntireWord" class="toolbarField" tabindex="97">
+            <label for="findEntireWord" class="toolbarLabel" data-l10n-id="pdfjs-find-entire-word-checkbox-label">Whole Words</label>
+          </div>
+
+          <div id="findbarMessageContainer" aria-live="polite">
+            <span id="findResultsCount" class="toolbarLabel"></span>
+            <span id="findMsg" class="toolbarLabel"></span>
+          </div>
+        </div>  <!-- findbar -->
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorHighlightParamsToolbar">
+          <div id="highlightParamsToolbarContainer" class="editorParamsToolbarContainer">
+            <div id="editorHighlightColorPicker" class="colorPicker">
+              <span id="highlightColorPickerLabel" class="editorParamsLabel" data-l10n-id="pdfjs-editor-highlight-colorpicker-label">Highlight color</span>
+            </div>
+            <div id="editorHighlightThickness">
+              <label for="editorFreeHighlightThickness" class="editorParamsLabel" data-l10n-id="pdfjs-editor-free-highlight-thickness-input">Thickness</label>
+              <div class="thicknessPicker">
+                <input type="range" id="editorFreeHighlightThickness" class="editorParamsSlider" data-l10n-id="pdfjs-editor-free-highlight-thickness-title" value="12" min="8" max="24" step="1" tabindex="101">
+              </div>
+            </div>
+            <div id="editorHighlightVisibility">
+              <div class="divider"></div>
+              <div class="toggler">
+                <label for="editorHighlightShowAll" class="editorParamsLabel" data-l10n-id="pdfjs-editor-highlight-show-all-button-label">Show all</label>
+                <button id="editorHighlightShowAll" class="toggle-button" data-l10n-id="pdfjs-editor-highlight-show-all-button" aria-pressed="true" tabindex="102"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorFreeTextParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <div class="editorParamsSetter">
+              <label for="editorFreeTextColor" class="editorParamsLabel" data-l10n-id="pdfjs-editor-free-text-color-input">Color</label>
+              <input type="color" id="editorFreeTextColor" class="editorParamsColor" tabindex="103">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorFreeTextFontSize" class="editorParamsLabel" data-l10n-id="pdfjs-editor-free-text-size-input">Size</label>
+              <input type="range" id="editorFreeTextFontSize" class="editorParamsSlider" value="10" min="5" max="100" step="1" tabindex="104">
+            </div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorInkParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <div class="editorParamsSetter">
+              <label for="editorInkColor" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-color-input">Color</label>
+              <input type="color" id="editorInkColor" class="editorParamsColor" tabindex="105">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorInkThickness" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-thickness-input">Thickness</label>
+              <input type="range" id="editorInkThickness" class="editorParamsSlider" value="1" min="1" max="20" step="1" tabindex="106">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorInkOpacity" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-opacity-input">Opacity</label>
+              <input type="range" id="editorInkOpacity" class="editorParamsSlider" value="100" min="1" max="100" step="1" tabindex="107">
+            </div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorStampParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <button id="editorStampAddImage" class="secondaryToolbarButton" title="Add image" tabindex="108" data-l10n-id="pdfjs-editor-stamp-add-image-button">
+              <span class="editorParamsLabel" data-l10n-id="pdfjs-editor-stamp-add-image-button-label">Add image</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
+          <div id="secondaryToolbarButtonContainer">
+            <button id="secondaryOpenFile" class="secondaryToolbarButton" title="Open File" tabindex="51" data-l10n-id="pdfjs-open-file-button">
+              <span data-l10n-id="pdfjs-open-file-button-label">Open</span>
+            </button>
+
+            <button id="secondaryPrint" class="secondaryToolbarButton visibleMediumView" title="Print" tabindex="52" data-l10n-id="pdfjs-print-button">
+              <span data-l10n-id="pdfjs-print-button-label">Print</span>
+            </button>
+
+            <button id="secondaryDownload" class="secondaryToolbarButton visibleMediumView" title="Save" tabindex="53" data-l10n-id="pdfjs-save-button">
+              <span data-l10n-id="pdfjs-save-button-label">Save</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="presentationMode" class="secondaryToolbarButton" title="Switch to Presentation Mode" tabindex="54" data-l10n-id="pdfjs-presentation-mode-button">
+              <span data-l10n-id="pdfjs-presentation-mode-button-label">Presentation Mode</span>
+            </button>
+
+            <a href="#" id="viewBookmark" class="secondaryToolbarButton" title="Current Page (View URL from Current Page)" tabindex="55" data-l10n-id="pdfjs-bookmark-button">
+              <span data-l10n-id="pdfjs-bookmark-button-label">Current Page</span>
+            </a>
+
+            <div id="viewBookmarkSeparator" class="horizontalToolbarSeparator"></div>
+
+            <button id="firstPage" class="secondaryToolbarButton" title="Go to First Page" tabindex="56" data-l10n-id="pdfjs-first-page-button">
+              <span data-l10n-id="pdfjs-first-page-button-label">Go to First Page</span>
+            </button>
+            <button id="lastPage" class="secondaryToolbarButton" title="Go to Last Page" tabindex="57" data-l10n-id="pdfjs-last-page-button">
+              <span data-l10n-id="pdfjs-last-page-button-label">Go to Last Page</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="pageRotateCw" class="secondaryToolbarButton" title="Rotate Clockwise" tabindex="58" data-l10n-id="pdfjs-page-rotate-cw-button">
+              <span data-l10n-id="pdfjs-page-rotate-cw-button-label">Rotate Clockwise</span>
+            </button>
+            <button id="pageRotateCcw" class="secondaryToolbarButton" title="Rotate Counterclockwise" tabindex="59" data-l10n-id="pdfjs-page-rotate-ccw-button">
+              <span data-l10n-id="pdfjs-page-rotate-ccw-button-label">Rotate Counterclockwise</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="cursorToolButtons" role="radiogroup">
+              <button id="cursorSelectTool" class="secondaryToolbarButton toggled" title="Enable Text Selection Tool" tabindex="60" data-l10n-id="pdfjs-cursor-text-select-tool-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-cursor-text-select-tool-button-label">Text Selection Tool</span>
+              </button>
+              <button id="cursorHandTool" class="secondaryToolbarButton" title="Enable Hand Tool" tabindex="61" data-l10n-id="pdfjs-cursor-hand-tool-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-cursor-hand-tool-button-label">Hand Tool</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="scrollModeButtons" role="radiogroup">
+              <button id="scrollPage" class="secondaryToolbarButton" title="Use Page Scrolling" tabindex="62" data-l10n-id="pdfjs-scroll-page-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-page-button-label">Page Scrolling</span>
+              </button>
+              <button id="scrollVertical" class="secondaryToolbarButton toggled" title="Use Vertical Scrolling" tabindex="63" data-l10n-id="pdfjs-scroll-vertical-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-scroll-vertical-button-label">Vertical Scrolling</span>
+              </button>
+              <button id="scrollHorizontal" class="secondaryToolbarButton" title="Use Horizontal Scrolling" tabindex="64" data-l10n-id="pdfjs-scroll-horizontal-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-horizontal-button-label">Horizontal Scrolling</span>
+              </button>
+              <button id="scrollWrapped" class="secondaryToolbarButton" title="Use Wrapped Scrolling" tabindex="65" data-l10n-id="pdfjs-scroll-wrapped-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-wrapped-button-label">Wrapped Scrolling</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="spreadModeButtons" role="radiogroup">
+              <button id="spreadNone" class="secondaryToolbarButton toggled" title="Do not join page spreads" tabindex="66" data-l10n-id="pdfjs-spread-none-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-spread-none-button-label">No Spreads</span>
+              </button>
+              <button id="spreadOdd" class="secondaryToolbarButton" title="Join page spreads starting with odd-numbered pages" tabindex="67" data-l10n-id="pdfjs-spread-odd-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-spread-odd-button-label">Odd Spreads</span>
+              </button>
+              <button id="spreadEven" class="secondaryToolbarButton" title="Join page spreads starting with even-numbered pages" tabindex="68" data-l10n-id="pdfjs-spread-even-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-spread-even-button-label">Even Spreads</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="documentProperties" class="secondaryToolbarButton" title="Document Properties…" tabindex="69" data-l10n-id="pdfjs-document-properties-button" aria-controls="documentPropertiesDialog">
+              <span data-l10n-id="pdfjs-document-properties-button-label">Document Properties…</span>
+            </button>
+          </div>
+        </div>  <!-- secondaryToolbar -->
+
+        <div class="toolbar">
+          <div id="toolbarContainer">
+            <div id="toolbarViewer">
+              <div id="toolbarViewerLeft">
+                <button id="sidebarToggle" class="toolbarButton" title="Toggle Sidebar" tabindex="11" data-l10n-id="pdfjs-toggle-sidebar-button" aria-expanded="false" aria-controls="sidebarContainer">
+                  <span data-l10n-id="pdfjs-toggle-sidebar-button-label">Toggle Sidebar</span>
+                </button>
+                <div class="toolbarButtonSpacer"></div>
+                <button id="viewFind" class="toolbarButton" title="Find in Document" tabindex="12" data-l10n-id="pdfjs-findbar-button" aria-expanded="false" aria-controls="findbar">
+                  <span data-l10n-id="pdfjs-findbar-button-label">Find</span>
+                </button>
+                <div class="splitToolbarButton hiddenSmallView">
+                  <button class="toolbarButton" title="Previous Page" id="previous" tabindex="13" data-l10n-id="pdfjs-previous-button">
+                    <span data-l10n-id="pdfjs-previous-button-label">Previous</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button class="toolbarButton" title="Next Page" id="next" tabindex="14" data-l10n-id="pdfjs-next-button">
+                    <span data-l10n-id="pdfjs-next-button-label">Next</span>
+                  </button>
+                </div>
+                <span class="loadingInput start">
+                  <input type="number" id="pageNumber" class="toolbarField" title="Page" value="1" min="1" tabindex="15" data-l10n-id="pdfjs-page-input" autocomplete="off">
+                </span>
+                <span id="numPages" class="toolbarLabel"></span>
+              </div>
+              <div id="toolbarViewerRight">
+                <div id="editorModeButtons" class="splitToolbarButton toggled" role="radiogroup">
+                  <button id="editorHighlight" class="toolbarButton" hidden="true" disabled="disabled" title="Highlight" role="radio" aria-checked="false" aria-controls="editorHighlightParamsToolbar" tabindex="31" data-l10n-id="pdfjs-editor-highlight-button">
+                    <span data-l10n-id="pdfjs-editor-highlight-button-label">Highlight</span>
+                  </button>
+                  <button id="editorFreeText" class="toolbarButton" disabled="disabled" title="Text" role="radio" aria-checked="false" aria-controls="editorFreeTextParamsToolbar" tabindex="32" data-l10n-id="pdfjs-editor-free-text-button">
+                    <span data-l10n-id="pdfjs-editor-free-text-button-label">Text</span>
+                  </button>
+                  <button id="editorInk" class="toolbarButton" disabled="disabled" title="Draw" role="radio" aria-checked="false" aria-controls="editorInkParamsToolbar" tabindex="33" data-l10n-id="pdfjs-editor-ink-button">
+                    <span data-l10n-id="pdfjs-editor-ink-button-label">Draw</span>
+                  </button>
+                  <button id="editorStamp" class="toolbarButton hidden" disabled="disabled" title="Add or edit images" role="radio" aria-checked="false" aria-controls="editorStampParamsToolbar" tabindex="34" data-l10n-id="pdfjs-editor-stamp-button">
+                    <span data-l10n-id="pdfjs-editor-stamp-button-label">Add or edit images</span>
+                  </button>
+                </div>
+
+                <div id="editorModeSeparator" class="verticalToolbarSeparator"></div>
+
+                <button id="print" class="toolbarButton hiddenMediumView" title="Print" tabindex="41" data-l10n-id="pdfjs-print-button">
+                  <span data-l10n-id="pdfjs-print-button-label">Print</span>
+                </button>
+
+                <button id="download" class="toolbarButton hiddenMediumView" title="Save" tabindex="42" data-l10n-id="pdfjs-save-button">
+                  <span data-l10n-id="pdfjs-save-button-label">Save</span>
+                </button>
+
+                <div class="verticalToolbarSeparator hiddenMediumView"></div>
+
+                <button id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="43" data-l10n-id="pdfjs-tools-button" aria-expanded="false" aria-controls="secondaryToolbar">
+                  <span data-l10n-id="pdfjs-tools-button-label">Tools</span>
+                </button>
+              </div>
+              <div id="toolbarViewerMiddle">
+                <div class="splitToolbarButton">
+                  <button id="zoomOut" class="toolbarButton" title="Zoom Out" tabindex="21" data-l10n-id="pdfjs-zoom-out-button">
+                    <span data-l10n-id="pdfjs-zoom-out-button-label">Zoom Out</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button id="zoomIn" class="toolbarButton" title="Zoom In" tabindex="22" data-l10n-id="pdfjs-zoom-in-button">
+                    <span data-l10n-id="pdfjs-zoom-in-button-label">Zoom In</span>
+                   </button>
+                </div>
+                <span id="scaleSelectContainer" class="dropdownToolbarButton">
+                  <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="pdfjs-zoom-select">
+                    <option id="pageAutoOption" title value="auto" selected="selected" data-l10n-id="pdfjs-page-scale-auto">Automatic Zoom</option>
+                    <option id="pageActualOption" title value="page-actual" data-l10n-id="pdfjs-page-scale-actual">Actual Size</option>
+                    <option id="pageFitOption" title value="page-fit" data-l10n-id="pdfjs-page-scale-fit">Page Fit</option>
+                    <option id="pageWidthOption" title value="page-width" data-l10n-id="pdfjs-page-scale-width">Page Width</option>
+                    <option id="customScaleOption" title value="custom" disabled="disabled" hidden="true" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 0 }">0%</option>
+                    <option title value="0.5" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 50 }">50%</option>
+                    <option title value="0.75" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 75 }">75%</option>
+                    <option title value="1" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 100 }">100%</option>
+                    <option title value="1.25" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 125 }">125%</option>
+                    <option title value="1.5" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 150 }">150%</option>
+                    <option title value="2" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 200 }">200%</option>
+                    <option title value="3" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 300 }">300%</option>
+                    <option title value="4" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ "scale": 400 }">400%</option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <div id="loadingBar">
+              <div class="progress">
+                <div class="glimmer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="viewerContainer" tabindex="0">
+          <div id="viewer" class="pdfViewer"></div>
+        </div>
+      </div> <!-- mainContainer -->
+
+      <div id="dialogContainer">
+        <dialog id="passwordDialog">
+          <div class="row">
+            <label for="password" id="passwordText" data-l10n-id="pdfjs-password-label">Enter the password to open this PDF file:</label>
+          </div>
+          <div class="row">
+            <input type="password" id="password" class="toolbarField">
+          </div>
+          <div class="buttonRow">
+            <button id="passwordCancel" class="dialogButton"><span data-l10n-id="pdfjs-password-cancel-button">Cancel</span></button>
+            <button id="passwordSubmit" class="dialogButton"><span data-l10n-id="pdfjs-password-ok-button">OK</span></button>
+          </div>
+        </dialog>
+        <dialog id="documentPropertiesDialog">
+          <div class="row">
+            <span id="fileNameLabel" data-l10n-id="pdfjs-document-properties-file-name">File name:</span>
+            <p id="fileNameField" aria-labelledby="fileNameLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="fileSizeLabel" data-l10n-id="pdfjs-document-properties-file-size">File size:</span>
+            <p id="fileSizeField" aria-labelledby="fileSizeLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="titleLabel" data-l10n-id="pdfjs-document-properties-title">Title:</span>
+            <p id="titleField" aria-labelledby="titleLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="authorLabel" data-l10n-id="pdfjs-document-properties-author">Author:</span>
+            <p id="authorField" aria-labelledby="authorLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="subjectLabel" data-l10n-id="pdfjs-document-properties-subject">Subject:</span>
+            <p id="subjectField" aria-labelledby="subjectLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="keywordsLabel" data-l10n-id="pdfjs-document-properties-keywords">Keywords:</span>
+            <p id="keywordsField" aria-labelledby="keywordsLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="creationDateLabel" data-l10n-id="pdfjs-document-properties-creation-date">Creation Date:</span>
+            <p id="creationDateField" aria-labelledby="creationDateLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="modificationDateLabel" data-l10n-id="pdfjs-document-properties-modification-date">Modification Date:</span>
+            <p id="modificationDateField" aria-labelledby="modificationDateLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="creatorLabel" data-l10n-id="pdfjs-document-properties-creator">Creator:</span>
+            <p id="creatorField" aria-labelledby="creatorLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="producerLabel" data-l10n-id="pdfjs-document-properties-producer">PDF Producer:</span>
+            <p id="producerField" aria-labelledby="producerLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="versionLabel" data-l10n-id="pdfjs-document-properties-version">PDF Version:</span>
+            <p id="versionField" aria-labelledby="versionLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="pageCountLabel" data-l10n-id="pdfjs-document-properties-page-count">Page Count:</span>
+            <p id="pageCountField" aria-labelledby="pageCountLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="pageSizeLabel" data-l10n-id="pdfjs-document-properties-page-size">Page Size:</span>
+            <p id="pageSizeField" aria-labelledby="pageSizeLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="linearizedLabel" data-l10n-id="pdfjs-document-properties-linearized">Fast Web View:</span>
+            <p id="linearizedField" aria-labelledby="linearizedLabel">-</p>
+          </div>
+          <div class="buttonRow">
+            <button id="documentPropertiesClose" class="dialogButton"><span data-l10n-id="pdfjs-document-properties-close-button">Close</span></button>
+          </div>
+        </dialog>
+        <dialog class="dialog altText" id="altTextDialog" aria-labelledby="dialogLabel" aria-describedby="dialogDescription">
+          <div id="altTextContainer" class="mainContainer">
+            <div id="overallDescription">
+              <span id="dialogLabel" data-l10n-id="pdfjs-editor-alt-text-dialog-label" class="title">Choose an option</span>
+              <span id="dialogDescription" data-l10n-id="pdfjs-editor-alt-text-dialog-description">
+                Alt text (alternative text) helps when people can’t see the image or when it doesn’t load.
+              </span>
+            </div>
+            <div id="addDescription">
+              <div class="radio">
+                <div class="radioButton">
+                  <input type="radio" id="descriptionButton" name="altTextOption" tabindex="0" aria-describedby="descriptionAreaLabel" checked>
+                  <label for="descriptionButton" data-l10n-id="pdfjs-editor-alt-text-add-description-label">Add a description</label>
+                </div>
+                <div class="radioLabel">
+                  <span id="descriptionAreaLabel" data-l10n-id="pdfjs-editor-alt-text-add-description-description">
+                    Aim for 1-2 sentences that describe the subject, setting, or actions.
+                  </span>
+                </div>
+              </div>
+              <div class="descriptionArea">
+                <textarea id="descriptionTextarea" placeholder="For example, “A young man sits down at a table to eat a meal”" aria-labelledby="descriptionAreaLabel" data-l10n-id="pdfjs-editor-alt-text-textarea" tabindex="0"></textarea>
+              </div>
+            </div>
+            <div id="markAsDecorative">
+              <div class="radio">
+                <div class="radioButton">
+                  <input type="radio" id="decorativeButton" name="altTextOption" aria-describedby="decorativeLabel">
+                  <label for="decorativeButton" data-l10n-id="pdfjs-editor-alt-text-mark-decorative-label">Mark as decorative</label>
+                </div>
+                <div class="radioLabel">
+                  <span id="decorativeLabel" data-l10n-id="pdfjs-editor-alt-text-mark-decorative-description">
+                    This is used for ornamental images, like borders or watermarks.
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div id="buttons">
+              <button id="altTextCancel" class="secondaryButton" tabindex="0"><span data-l10n-id="pdfjs-editor-alt-text-cancel-button">Cancel</span></button>
+              <button id="altTextSave" class="primaryButton" tabindex="0"><span data-l10n-id="pdfjs-editor-alt-text-save-button">Save</span></button>
+            </div>
+          </div>
+        </dialog>
+        <dialog id="printServiceDialog" style="min-width: 200px;">
+          <div class="row">
+            <span data-l10n-id="pdfjs-print-progress-message">Preparing document for printing…</span>
+          </div>
+          <div class="row">
+            <progress value="0" max="100"></progress>
+            <span data-l10n-id="pdfjs-print-progress-percent" data-l10n-args="{ "progress": 0 }" class="relative-progress">0%</span>
+          </div>
+          <div class="buttonRow">
+            <button id="printCancel" class="dialogButton"><span data-l10n-id="pdfjs-print-progress-close-button">Cancel</span></button>
+          </div>
+        </dialog>
+      </div>  <!-- dialogContainer -->
+
+    </div> <!-- outerContainer -->
+    <div id="printContainer"></div>
+  <!-- hexo injector body_end start --><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body>
+</html>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CFJ</div><div class="author-info__description">架构,IT架构,业务架构,数据架构,技术架构,部署架构,逻辑架构,金融IT架构,JAVA,SpringBoot,微服务</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">21</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/bybyte01"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/bybyte01" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://mp.weixin.qq.com/s/sD1V8G9qjvdRbyioOAIljg" target="_blank" title="CSDN"><i class="fa fa-book-open"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><center><b>如果您觉得本网站对您有用，请收藏<b/><br/><a href="/links/" title="友情链接" class="anno_content"><b>友情链接</b></a>   <a href="/links/" title="开源项目" class="anno_content"><b>开源项目</b></a></center></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/6e4e4699.html" title="数据访问层工具"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数据访问层工具"/></a><div class="content"><a class="title" href="/post/6e4e4699.html" title="数据访问层工具">数据访问层工具</a><time datetime="2024-07-18T14:08:51.000Z" title="发表于 2024-07-18 22:08:51">2024-07-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/0.html" title="无题"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无题"/></a><div class="content"><a class="title" href="/post/0.html" title="无题">无题</a><time datetime="2024-07-18T00:36:48.594Z" title="发表于 2024-07-18 08:36:48">2024-07-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/10d9ef49.html" title="Maven 插件开发"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Maven 插件开发"/></a><div class="content"><a class="title" href="/post/10d9ef49.html" title="Maven 插件开发">Maven 插件开发</a><time datetime="2024-07-17T14:08:51.000Z" title="发表于 2024-07-17 22:08:51">2024-07-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/cc066ced.html" title="Maven 插件"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Maven 插件"/></a><div class="content"><a class="title" href="/post/cc066ced.html" title="Maven 插件">Maven 插件</a><time datetime="2024-07-17T14:08:51.000Z" title="发表于 2024-07-17 22:08:51">2024-07-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/10e77ed3.html" title="领域模型的本质是业务认知"><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/avatar.svg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="领域模型的本质是业务认知"/></a><div class="content"><a class="title" href="/post/10e77ed3.html" title="领域模型的本质是业务认知">领域模型的本质是业务认知</a><time datetime="2024-07-15T14:08:51.000Z" title="发表于 2024-07-15 22:08:51">2024-07-15</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/DDD/"><span class="card-category-list-name">DDD</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Git/"><span class="card-category-list-name">Git</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/IT%E6%9E%B6%E6%9E%84/"><span class="card-category-list-name">IT架构</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/"><span class="card-category-list-name">JAVA</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Maven/"><span class="card-category-list-name">Maven</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/RPA/"><span class="card-category-list-name">RPA</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84/"><span class="card-category-list-name">业务架构</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BC%81%E4%B8%9A%E6%9E%B6%E6%9E%84/"><span class="card-category-list-name">企业架构</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/java/" style="font-size: 1.1em; color: #999">java</a> <a href="/tags/%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B/" style="font-size: 1.1em; color: #999">领域模型</a> <a href="/tags/MySQL/" style="font-size: 1.1em; color: #999">MySQL</a> <a href="/tags/Mybaits/" style="font-size: 1.1em; color: #999">Mybaits</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 1.1em; color: #999">安全</a> <a href="/tags/%E9%87%91%E8%9E%8DIT%E6%9E%B6%E6%9E%84/" style="font-size: 1.1em; color: #999">金融IT架构</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E5%B1%82/" style="font-size: 1.1em; color: #999">数据访问层</a> <a href="/tags/RPA/" style="font-size: 1.1em; color: #999">RPA</a> <a href="/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/" style="font-size: 1.1em; color: #999">系统优化</a> <a href="/tags/DDD/" style="font-size: 1.3em; color: #99a1ac">DDD</a> <a href="/tags/%E6%9E%B6%E6%9E%84%E7%AE%A1%E6%8E%A7/" style="font-size: 1.1em; color: #999">架构管控</a> <a href="/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/" style="font-size: 1.1em; color: #999">系统设计</a> <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/" style="font-size: 1.1em; color: #999">自动化</a> <a href="/tags/%E4%B8%9A%E5%8A%A1%E6%9E%B6%E6%9E%84/" style="font-size: 1.3em; color: #99a1ac">业务架构</a> <a href="/tags/%E4%BC%81%E4%B8%9A%E6%9E%B6%E6%9E%84/" style="font-size: 1.5em; color: #99a9bf">企业架构</a> <a href="/tags/%E6%9E%B6%E6%9E%84%E8%A7%84%E5%88%92/" style="font-size: 1.1em; color: #999">架构规划</a> <a href="/tags/%E5%AE%89%E5%85%A8%E6%9E%B6%E6%9E%84/" style="font-size: 1.1em; color: #999">安全架构</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/" style="font-size: 1.1em; color: #999">数据安全</a> <a href="/tags/%E6%94%AF%E4%BB%98/" style="font-size: 1.1em; color: #999">支付</a> <a href="/tags/%E6%89%A9%E5%B1%95%E6%80%A7/" style="font-size: 1.1em; color: #999">扩展性</a> <a href="/tags/%E4%B8%AD%E5%8F%B0/" style="font-size: 1.1em; color: #999">中台</a> <a href="/tags/Maven/" style="font-size: 1.3em; color: #99a1ac">Maven</a> <a href="/tags/IT%E6%9E%B6%E6%9E%84/" style="font-size: 1.5em; color: #99a9bf">IT架构</a> <a href="/tags/Git/" style="font-size: 1.1em; color: #999">Git</a> <a href="/tags/JVM/" style="font-size: 1.1em; color: #999">JVM</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">七月 2024</span><span class="card-archive-list-count">8</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><span class="card-archive-list-count">13</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">21</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-06-06T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">3.5k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-07-18T15:21:54.934Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By CFJ</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">簡</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="/js/tw_cn.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid@10.8.0/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const abcjsInit = () => {
+    const abcjsFn = () => {
+      document.querySelectorAll(".abc-music-sheet").forEach(ele => {
+        ABCJS.renderAbc(ele, ele.innerHTML, {responsive: 'resize'})
+      })
+    }
+    
+    typeof ABCJS === 'object' ? abcjsFn()
+      : getScript('https://cdn.jsdelivr.net/npm/abcjs@6.3.0/dist/abcjs-basic-min.min.js').then(abcjsFn)
+  }
+
+  window.pjax ? abcjsInit() : window.addEventListener('load', abcjsInit)
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
