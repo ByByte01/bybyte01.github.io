@@ -564,31 +564,6 @@
     
     
     <entry>
-      <title>设计模式总览</title>
-      <link href="/post/d2ce3ca5.html"/>
-      <url>/post/d2ce3ca5.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式<h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3></li><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）<h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3></li><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 设计模 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>组件的生命周期</title>
       <link href="/post/66fd44c2.html"/>
       <url>/post/66fd44c2.html</url>
@@ -598,7 +573,7 @@
       
       <categories>
           
-          <category> 设计模 </category>
+          <category> 设计模式 </category>
           
       </categories>
       
@@ -606,6 +581,31 @@
         <tags>
             
             <tag> 组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>设计模式总览</title>
+      <link href="/post/d2ce3ca5.html"/>
+      <url>/post/d2ce3ca5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式<h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3></li><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）<h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3></li><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 设计模式 </tag>
             
         </tags>
       
