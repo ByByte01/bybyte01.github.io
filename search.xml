@@ -199,9 +199,9 @@
       
         <tags>
             
-            <tag> IT架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> IT架构 </tag>
             
         </tags>
       
@@ -226,9 +226,9 @@
       
         <tags>
             
-            <tag> 业务架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> 业务架构 </tag>
             
         </tags>
       
@@ -253,9 +253,9 @@
       
         <tags>
             
-            <tag> IT架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> IT架构 </tag>
             
         </tags>
       
@@ -474,9 +474,9 @@
       
         <tags>
             
-            <tag> 架构管控 </tag>
-            
             <tag> IT架构 </tag>
+            
+            <tag> 架构管控 </tag>
             
         </tags>
       
@@ -564,31 +564,6 @@
     
     
     <entry>
-      <title>组件的生命周期</title>
-      <link href="/post/66fd44c2.html"/>
-      <url>/post/66fd44c2.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 组件 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>设计模式总览</title>
       <link href="/post/d2ce3ca5.html"/>
       <url>/post/d2ce3ca5.html</url>
@@ -606,6 +581,31 @@
         <tags>
             
             <tag> 设计模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>组件的生命周期</title>
+      <link href="/post/66fd44c2.html"/>
+      <url>/post/66fd44c2.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组件 </tag>
             
         </tags>
       
