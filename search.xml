@@ -245,9 +245,9 @@
       
         <tags>
             
-            <tag> 企业架构 </tag>
-            
             <tag> 业务架构 </tag>
+            
+            <tag> 企业架构 </tag>
             
         </tags>
       
@@ -331,29 +331,6 @@
     
     
     <entry>
-      <title>金额支付中台</title>
-      <link href="/post/e8c5c92.html"/>
-      <url>/post/e8c5c92.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 支付 </tag>
-            
-            <tag> 金融IT架构 </tag>
-            
-            <tag> 中台 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>扩展性的几个方面</title>
       <link href="/post/e8c5c92.html"/>
       <url>/post/e8c5c92.html</url>
@@ -369,6 +346,29 @@
             <tag> 系统设计 </tag>
             
             <tag> 扩展性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金额支付中台</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 支付 </tag>
+            
+            <tag> 金融IT架构 </tag>
+            
+            <tag> 中台 </tag>
             
         </tags>
       
