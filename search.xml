@@ -73,11 +73,11 @@
     
     
     <entry>
-      <title>Maven 插件</title>
-      <link href="/post/cc066ced.html"/>
-      <url>/post/cc066ced.html</url>
+      <title>Maven 插件开发</title>
+      <link href="/post/10d9ef49.html"/>
+      <url>/post/10d9ef49.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="e744879c452bb04ac7b360e77aa4e19cf9751971a61721ed2da1bc237eeacd24">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e84b7f9c7d4e12cc667a4b6d0058aa4637a3149b4c763d0a4ccf0fdfd6acf3d05f6f127229936e8f48f383d1773593251e8a6a5570113a31f132124d7bfcb27675908ebc273274c897d76aeb469a45bf4cedc40eb19e2de352b3bc956d594e5fc8bc043717c08aaeb8ffae091b66c369841adcd376704ae9d407789f7bb180665d70b028e47f21e592af5bf7a6b1a03c4a73a24b4daa7e4a7e1cebf34fd8a21a7279ad41b6e4877a8e131970614efd9f99f928a0a7fbd4e35d84395180a42f55ec17fb03d156739d93f4f4418a4b7f847ffc046601c43cffb4b6d3f543e2be7ec245178cc70cf425014f5deba8d9010b0fa2acc13961806ebd18981d36165a3a20704c08fc414a879b3af08dc988663ecfa782467f782a7c7c0652ac50183b308f90e6b244561dd836542d1836cb6e5727d4bbeea2ff36cd2ba2959f9ca359cb122b862663cffcb159e3a155ed3b47c72</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
@@ -98,11 +98,11 @@
     
     
     <entry>
-      <title>Maven 插件开发</title>
-      <link href="/post/10d9ef49.html"/>
-      <url>/post/10d9ef49.html</url>
+      <title>Maven 插件</title>
+      <link href="/post/cc066ced.html"/>
+      <url>/post/cc066ced.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="e744879c452bb04ac7b360e77aa4e19cf9751971a61721ed2da1bc237eeacd24">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e84b7f9c7d4e12cc667a4b6d0058aa4637a3149b4c763d0a4ccf0fdfd6acf3d05f6f127229936e8f48f383d1773593251e8a6a5570113a31f132124d7bfcb27675908ebc273274c897d76aeb469a45bf4cedc40eb19e2de352b3bc956d594e5fc8bc043717c08aaeb8ffae091b66c369841adcd376704ae9d407789f7bb180665d70b028e47f21e592af5bf7a6b1a03c4a73a24b4daa7e4a7e1cebf34fd8a21a7279ad41b6e4877a8e131970614efd9f99f928a0a7fbd4e35d84395180a42f55ec17fb03d156739d93f4f4418a4b7f847ffc046601c43cffb4b6d3f543e2be7ec245178cc70cf425014f5deba8d9010b0fa2acc13961806ebd18981d36165a3a20704c08fc414a879b3af08dc988663ecfa782467f782a7c7c0652ac50183b308f90e6b244561dd836542d1836cb6e5727d4bbeea2ff36cd2ba2959f9ca359cb122b862663cffcb159e3a155ed3b47c72</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
@@ -218,9 +218,9 @@
       
         <tags>
             
-            <tag> IT架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> IT架构 </tag>
             
         </tags>
       
@@ -245,9 +245,9 @@
       
         <tags>
             
-            <tag> 业务架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> 业务架构 </tag>
             
         </tags>
       
@@ -272,9 +272,9 @@
       
         <tags>
             
-            <tag> IT架构 </tag>
-            
             <tag> 企业架构 </tag>
+            
+            <tag> IT架构 </tag>
             
         </tags>
       
@@ -331,29 +331,6 @@
     
     
     <entry>
-      <title>金额支付中台</title>
-      <link href="/post/e8c5c92.html"/>
-      <url>/post/e8c5c92.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 支付 </tag>
-            
-            <tag> 金融IT架构 </tag>
-            
-            <tag> 中台 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>扩展性的几个方面</title>
       <link href="/post/e8c5c92.html"/>
       <url>/post/e8c5c92.html</url>
@@ -369,6 +346,29 @@
             <tag> 系统设计 </tag>
             
             <tag> 扩展性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金额支付中台</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 支付 </tag>
+            
+            <tag> 金融IT架构 </tag>
+            
+            <tag> 中台 </tag>
             
         </tags>
       
@@ -431,7 +431,32 @@
       <link href="/post/3b343194.html"/>
       <url>/post/3b343194.html</url>
       
-        <content type="html"><![CDATA[<h3 id="Java工具类及技术组件"><a href="#Java工具类及技术组件" class="headerlink" title="Java工具类及技术组件"></a>Java工具类及技术组件</h3><ol><li><strong>Jsoup</strong><blockquote><p>jsoup 是一款基于 Java 的HTML解析器，它提供了一套非常省力的API，不但能直接解析某个URL地址、HTML文本内容，而且还能通过类似于DOM、CSS或者jQuery的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用，从网站获取dom结构，从而解析下载数据</p></blockquote></li><li><strong>Swagger2Markup</strong><blockquote><p>Swagger2Markup是一个开源项目，它可以将Swagger生成的API文档转换为多种格式的离线文档。Swagger2Markup支持多种Swagger版本，包括Swagger 2.0。使用Swagger2Markup，你可以将Swagger生成的JSON或YAML格式的API文档转换为Markdown、Confluence、AsciiDoc等格式，方便你在不同的平台上查看和分享API文档。</p></blockquote></li><li>单元测试<ol><li>mockito-all</li><li>powermock-api-mockito</li><li>powermock-api-mockito2</li><li>powermock-module-junit4</li></ol></li><li>Java字节码增强工具/类库 <ol><li>byte-buddy-agent</li><li>objenesis</li></ol></li><li>微基准测试 JMH - java Microbenchmark Harness<ol><li>jmh-generator-annprocess</li></ol></li><li>对象映射工具<ol><li>Orika MapperFacade</li><li>MapStruct</li><li>BeanUtils.copyProperties(A, B);</li></ol></li><li>excel工具<ol><li>easyExcel</li><li>poi</li></ol></li><li>hutool</li><li>编排<ol><li>liteFlow</li></ol></li><li>数据仓库<ol><li>GreenPlum</li><li>Hive</li></ol></li><li>图片处理工具<ol><li>Thumbnailator</li></ol></li><li>pinyin4j</li><li>jersey-client  jersey-core  jersey-json</li><li>Jodconverter+OpenOffice</li><li>commons-beanutil</li><li>commons-lang3</li><li>lowagie.itext<blockquote><p>导出数据为Word文件</p></blockquote></li><li>protobuf-java-format  protobuf-java<br> &gt;</li></ol>]]></content>
+        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java工具类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java工具类/库</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Java工具类及技术组件"><a href="#Java工具类及技术组件" class="headerlink" title="Java工具类及技术组件"></a>Java工具类及技术组件</h3><ol><li><strong>Jsoup</strong><blockquote><p>jsoup 是一款基于 Java 的HTML解析器，它提供了一套非常省力的API，不但能直接解析某个URL地址、HTML文本内容，而且还能通过类似于DOM、CSS或者jQuery的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用，从网站获取dom结构，从而解析下载数据</p></blockquote></li><li><strong>Swagger2Markup</strong><blockquote><p>Swagger2Markup是一个开源项目，它可以将Swagger生成的API文档转换为多种格式的离线文档。Swagger2Markup支持多种Swagger版本，包括Swagger 2.0。使用Swagger2Markup，你可以将Swagger生成的JSON或YAML格式的API文档转换为Markdown、Confluence、AsciiDoc等格式，方便你在不同的平台上查看和分享API文档。</p></blockquote></li><li>单元测试<ol><li>mockito-all</li><li>powermock-api-mockito</li><li>powermock-api-mockito2</li><li>powermock-module-junit4</li></ol></li><li>Java字节码增强工具/类库 <ol><li>byte-buddy-agent</li><li>objenesis</li></ol></li><li>微基准测试 JMH - java Microbenchmark Harness<ol><li>jmh-generator-annprocess</li></ol></li><li>对象映射工具<ol><li>Orika MapperFacade</li><li>MapStruct</li><li>BeanUtils.copyProperties(A, B);</li></ol></li><li>excel工具<ol><li>easyExcel</li><li>poi</li></ol></li><li>hutool</li><li>编排<ol><li>liteFlow</li></ol></li><li>数据仓库<ol><li>GreenPlum</li><li>Hive</li></ol></li><li>图片处理工具<ol><li>Thumbnailator</li></ol></li><li>pinyin4j</li><li>jersey-client  jersey-core  jersey-json</li><li>Jodconverter+OpenOffice</li><li>commons-beanutil</li><li>commons-lang3</li><li>lowagie.itext<blockquote><p>导出数据为Word文件</p></blockquote></li><li><p>protobuf-java-format  protobuf-java<br> &gt;</p></li><li><p>LatencyUtils</p><blockquote><p>强大的延迟统计工具</p></blockquote></li><li>HdrHistogram<blockquote><p>分析系统性能的强大工具</p></blockquote></li><li>Java时间类库 Joda-Time</li><li>JLine  强大的Java命令行输入库</li><li>checkerframework 静态类型检查的新纪元</li><li>mime4j </li></ol>]]></content>
       
       
       <categories>
@@ -493,9 +518,9 @@
       
         <tags>
             
-            <tag> 架构管控 </tag>
-            
             <tag> IT架构 </tag>
+            
+            <tag> 架构管控 </tag>
             
         </tags>
       
