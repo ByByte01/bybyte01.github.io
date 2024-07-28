@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>互联网医院</title>
+      <link href="/post/739c7710.html"/>
+      <url>/post/739c7710.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 互联网医院 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网医院 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>架构真经</title>
       <link href="/post/f784ee36.html"/>
       <url>/post/f784ee36.html</url>
@@ -343,8 +368,6 @@
       
         <tags>
             
-            <tag> 安全 </tag>
-            
             <tag> 数据安全 </tag>
             
             <tag> 安全架构 </tag>
@@ -389,11 +412,36 @@
       
         <tags>
             
-            <tag> 支付 </tag>
+            <tag> 金额支付 </tag>
             
             <tag> 金融IT架构 </tag>
             
             <tag> 中台 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>司库体系</title>
+      <link href="/post/ceed5048.html"/>
+      <url>/post/ceed5048.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 司库 </tag>
+            
+            <tag> 财资 </tag>
+            
+            <tag> 多银行平台 </tag>
+            
+            <tag> 银企直连 </tag>
             
         </tags>
       
