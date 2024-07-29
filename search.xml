@@ -90,7 +90,7 @@
       <link href="/post/e5c0e0d2.html"/>
       <url>/post/e5c0e0d2.html</url>
       
-        <content type="html"><![CDATA[<ol><li>Cesium</li><li>Three.js</li><li>go.js</li><li>pmb.js</li><li>qiankun<h2 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h2></li><li><a href="https://superapi.51hitech.com/study">superapi</a></li><li><a href="https://www.hightopo.com/demo/Simple3DEditor/index.html">3DEdito</a></li><li>[umi-qiankun] (<a href="https://umijs.org/docs/introduce/introduce">https://umijs.org/docs/introduce/introduce</a>)</li><li></li></ol>]]></content>
+        <content type="html"><![CDATA[<ol><li>Cesium</li><li>Three.js</li><li>go.js</li><li>pmb.js</li><li>qiankun<h2 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h2></li><li><a href="https://superapi.51hitech.com/study">superapi</a></li><li><a href="https://www.hightopo.com/demo/Simple3DEditor/index.html">3DEdito</a></li><li>[umi-qiankun] (<a href="https://umijs.org/docs/introduce/introduce">https://umijs.org/docs/introduce/introduce</a>)<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2></li><li><a href="https://gitcode.gitcode.host/docs-cn/lerna-docs-cn/utils/profiler/index.html">lerna</a></li></ol>]]></content>
       
       
       <categories>
@@ -308,9 +308,9 @@
       
         <tags>
             
-            <tag> 企业架构 </tag>
-            
             <tag> 业务架构 </tag>
+            
+            <tag> 企业架构 </tag>
             
         </tags>
       
@@ -588,23 +588,23 @@
     
     
     <entry>
-      <title>业务场景</title>
-      <link href="/post/3b343194.html"/>
-      <url>/post/3b343194.html</url>
+      <title>JVM调优监控的依据及调优步骤</title>
+      <link href="/post/13cb0d4a.html"/>
+      <url>/post/13cb0d4a.html</url>
       
-        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h3 id="JVM调优监控的依据"><a href="#JVM调优监控的依据" class="headerlink" title="JVM调优监控的依据"></a>JVM调优监控的依据</h3><ul><li>运行时日志</li><li>异常推栈</li><li>GC日志</li><li>线程快照</li><li><p>堆转存储</p><h3 id="JVM调优步骤"><a href="#JVM调优步骤" class="headerlink" title="JVM调优步骤"></a>JVM调优步骤</h3><h4 id="熟悉业务场景"><a href="#熟悉业务场景" class="headerlink" title="熟悉业务场景"></a>熟悉业务场景</h4><h4 id="发现问题-性能监控）"><a href="#发现问题-性能监控）" class="headerlink" title="发现问题(性能监控）"></a>发现问题(性能监控）</h4><blockquote><p>一种以非强行或者入侵方式收集或查看应用运营性能数据的活动。<br><br>监控通常是指一种在生产、质量评估或者开发环境下实施的带有预防或主动性的活动。<br><br>当应用相关干系人提出性能问题却没有提供足够多的线索时，首先我们需要进行性能监控，随后是性能分析。<br><br>监控前，设置好回收器组合，选定CPU（主频越高越好），设置年代比例，设置日志参数（生产环境中通常不会只设置一个日志文件）。比如：<br><br>-Xloggc:/opt/xxx/logs/xxx-xxx-gc-%t.log -XX:+UseGCLogFileRotation<br>-XX: NumberOfGCLogFiles=5 -XX:GCLogFileSize=20M -XX: +PrintGCDetails<br>-XX: +PrintGCDateStamps -XX: +PrintGCCause</p></blockquote></li><li><p>GC 频繁</p></li><li>cpu load过高</li><li>OOM</li><li>内存泄漏</li><li>死锁</li><li>程序响应时间较长<h4 id="排查问题-性能分析）"><a href="#排查问题-性能分析）" class="headerlink" title="排查问题(性能分析）"></a>排查问题(性能分析）</h4><blockquote><p>一种以侵入方式收集运行性能数据的活动，它会影响应用的吞吐量或响应性。<br><br>性能分析是针对性能问题的答复结果，关注的范围通常比性能监控更加集中。<br><br>性能分析很少在生产环境下进行，通常是在质量评估、系统测试或者开发环境下进行，是性能监控之后的步骤。</p></blockquote></li><li>打印GC日志，通过GCviewer或者 <a href="http://gceasy.io来分析日志信息">http://gceasy.io来分析日志信息</a></li><li>灵活运用命令行工具，jstack,jmap,jinfo等</li><li>dump出堆文件，使用内存分析工具分析文件</li><li>使用阿里Arthas，或jconsole,JVisualVM来实时查看JVM</li><li>jstack查看堆栈信息<h3 id="解决问题-性能调优"><a href="#解决问题-性能调优" class="headerlink" title="解决问题(性能调优)"></a>解决问题(性能调优)</h3><blockquote><p>一种为改善应用响应性或吞吐量而更改参数、源代码、属性配置的活动，性能调优是在性能监控、性能分析之后的活动。</p><ul><li>适当增加内存，根据业务背景选择垃圾回收器</li><li>优化代码，控制内存使用</li><li>增加机器，分散节点压力</li><li>合理设置线程池线程数量</li><li>使用中间件提高程序效率，比如缓存，消息队列等</li></ul></blockquote></li></ul>]]></content>
       
       
       <categories>
           
-          <category> 业务架构 </category>
+          <category> JVM </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 业务架构 </tag>
+            <tag> JVM </tag>
             
         </tags>
       
@@ -640,6 +640,56 @@
     
     
     <entry>
+      <title>企业架构系列</title>
+      <link href="/post/76f8439c.html"/>
+      <url>/post/76f8439c.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="企业架构系列"><a href="#企业架构系列" class="headerlink" title="企业架构系列"></a>企业架构系列</h3><div class="tip info"><p>企业架构可以分为两大部分  <strong>业务架构</strong> 和 <strong>IT架构</strong>，大部分企业架构方法都是从IT架构发展而来的。</p></div><h5 id="下面是企业架构的文章"><a href="#下面是企业架构的文章" class="headerlink" title="下面是企业架构的文章"></a>下面是企业架构的文章</h5><ul><li><a href="https://mp.weixin.qq.com/s/Kxr2-efQz-w8oiygnmat3g">企业架构的本质</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484442&amp;idx=1&amp;sn=d5cd9c4f16f6be51de627265f90f9cad&amp;chksm=ec702adfdb07a3c98b1217355a907006ba2a13adfcf18a16f37fde40a20ab6c0494c42456032&amp;scene=21#wechat_redirect">企业架构的本质二</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484452&amp;idx=1&amp;sn=47eb3059d918269575af527aa4ae6a11&amp;chksm=ec702ae1db07a3f7e0b58304c205ae2aece3568c0544a1836cc4890c723a2cf0ddf975597966&amp;scene=21#wechat_redirect">企业架构工件</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484144&amp;idx=1&amp;sn=83a6131cbb60091a3528da3fa5c6b69c&amp;chksm=ec702c35db07a523892121a96e9eeea1371d7d969243899f96e5da5ca752d05851a50a2c4595&amp;scene=21#wechat_redirect">数据架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484647&amp;idx=1&amp;sn=ccb22846a8c722d5fc089dc0a8b3abc6&amp;chksm=ec702a22db07a33482ac385377236d8b8bf0b988e0ee3b2bbfba5f72017707dd3d9b80a8fcfd&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">现代企业架构-技术架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484746&amp;idx=1&amp;sn=8ca2ea8dfcf618b1634b08638ca49869&amp;chksm=ec702b8fdb07a299696d31afa5e48704e9ff962785ddd64a078a20ff1a3ed3af6f4e1734db38&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">架构视图和视角</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484828&amp;idx=1&amp;sn=a999bf2161f52d429596cdd37adcd523&amp;chksm=ec702b59db07a24fdef3ae8c2392bcd94ad0e2194de502ed64fd9aa3e501149fccd018abe143&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">业务模型和业务架构的关系</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484934&amp;idx=1&amp;sn=a309b9f085df6972435e983dda72988a&amp;chksm=ec7028c3db07a1d519cf904fc52f95bb7428f8aabccc70ddaad9d37c80dd342d2e5da322780f&amp;cur_album_id=2521095084893814785&amp;scene=189#wechat_redirect">双模交付在混合企业架构中的实践</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484369&amp;idx=1&amp;sn=a6bdaacf85856c98c32e7e9ede3b2ba9&amp;chksm=ec702d14db07a40279c325d2f324c12a7ad74d89cf706204b8a777ae854b6fd69dfa61cd7c57&amp;scene=178&amp;cur_album_id=2553438735867068418#rd">在架构开发方法中应用迭代</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484575&amp;idx=1&amp;sn=1b800a7c992fc142b5d9518f518da25b&amp;chksm=ec702a5adb07a34c0893f8b5ef2f58cda5028bb197ba1ebf7d19b5721c2c0a51a97dda1484d0&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">如何进行系统设计</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484386&amp;idx=1&amp;sn=b46d9d1abdb60a3682a0181dbc2c6802&amp;chksm=ec702d27db07a431829470776194ba1abd4db948ef9747a562805303b67d88f671961f91a321&amp;scene=178&amp;cur_album_id=2553438735414083585#rd">业务能力</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484460&amp;idx=1&amp;sn=6c942411c46ba6b9fd9af64e4d5d50d4&amp;chksm=ec702ae9db07a3ff9b0ce1d08c4aa33129bcaa6590eaa8b50d20a055b9305508ad815f79e990&amp;scene=21#wechat_redirect">架构原则-业务原则</a></li></ul><h4 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h4><ol><li><a href="../post/c0e93fbc.html">IT架构管控</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 企业架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 企业架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>业务场景</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JVM生产环境调优</title>
       <link href="/post/623b3d7b.html"/>
       <url>/post/623b3d7b.html</url>
@@ -661,31 +711,6 @@
             <tag> java </tag>
             
             <tag> JVM </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>企业架构系列</title>
-      <link href="/post/76f8439c.html"/>
-      <url>/post/76f8439c.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="企业架构系列"><a href="#企业架构系列" class="headerlink" title="企业架构系列"></a>企业架构系列</h3><div class="tip info"><p>企业架构可以分为两大部分  <strong>业务架构</strong> 和 <strong>IT架构</strong>，大部分企业架构方法都是从IT架构发展而来的。</p></div><h5 id="下面是企业架构的文章"><a href="#下面是企业架构的文章" class="headerlink" title="下面是企业架构的文章"></a>下面是企业架构的文章</h5><ul><li><a href="https://mp.weixin.qq.com/s/Kxr2-efQz-w8oiygnmat3g">企业架构的本质</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484442&amp;idx=1&amp;sn=d5cd9c4f16f6be51de627265f90f9cad&amp;chksm=ec702adfdb07a3c98b1217355a907006ba2a13adfcf18a16f37fde40a20ab6c0494c42456032&amp;scene=21#wechat_redirect">企业架构的本质二</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484452&amp;idx=1&amp;sn=47eb3059d918269575af527aa4ae6a11&amp;chksm=ec702ae1db07a3f7e0b58304c205ae2aece3568c0544a1836cc4890c723a2cf0ddf975597966&amp;scene=21#wechat_redirect">企业架构工件</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484144&amp;idx=1&amp;sn=83a6131cbb60091a3528da3fa5c6b69c&amp;chksm=ec702c35db07a523892121a96e9eeea1371d7d969243899f96e5da5ca752d05851a50a2c4595&amp;scene=21#wechat_redirect">数据架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484647&amp;idx=1&amp;sn=ccb22846a8c722d5fc089dc0a8b3abc6&amp;chksm=ec702a22db07a33482ac385377236d8b8bf0b988e0ee3b2bbfba5f72017707dd3d9b80a8fcfd&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">现代企业架构-技术架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484746&amp;idx=1&amp;sn=8ca2ea8dfcf618b1634b08638ca49869&amp;chksm=ec702b8fdb07a299696d31afa5e48704e9ff962785ddd64a078a20ff1a3ed3af6f4e1734db38&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">架构视图和视角</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484828&amp;idx=1&amp;sn=a999bf2161f52d429596cdd37adcd523&amp;chksm=ec702b59db07a24fdef3ae8c2392bcd94ad0e2194de502ed64fd9aa3e501149fccd018abe143&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">业务模型和业务架构的关系</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484934&amp;idx=1&amp;sn=a309b9f085df6972435e983dda72988a&amp;chksm=ec7028c3db07a1d519cf904fc52f95bb7428f8aabccc70ddaad9d37c80dd342d2e5da322780f&amp;cur_album_id=2521095084893814785&amp;scene=189#wechat_redirect">双模交付在混合企业架构中的实践</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484369&amp;idx=1&amp;sn=a6bdaacf85856c98c32e7e9ede3b2ba9&amp;chksm=ec702d14db07a40279c325d2f324c12a7ad74d89cf706204b8a777ae854b6fd69dfa61cd7c57&amp;scene=178&amp;cur_album_id=2553438735867068418#rd">在架构开发方法中应用迭代</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484575&amp;idx=1&amp;sn=1b800a7c992fc142b5d9518f518da25b&amp;chksm=ec702a5adb07a34c0893f8b5ef2f58cda5028bb197ba1ebf7d19b5721c2c0a51a97dda1484d0&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">如何进行系统设计</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484386&amp;idx=1&amp;sn=b46d9d1abdb60a3682a0181dbc2c6802&amp;chksm=ec702d27db07a431829470776194ba1abd4db948ef9747a562805303b67d88f671961f91a321&amp;scene=178&amp;cur_album_id=2553438735414083585#rd">业务能力</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484460&amp;idx=1&amp;sn=6c942411c46ba6b9fd9af64e4d5d50d4&amp;chksm=ec702ae9db07a3ff9b0ce1d08c4aa33129bcaa6590eaa8b50d20a055b9305508ad815f79e990&amp;scene=21#wechat_redirect">架构原则-业务原则</a></li></ul><h4 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h4><ol><li><a href="../post/c0e93fbc.html">IT架构管控</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 企业架构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 企业架构 </tag>
             
         </tags>
       
