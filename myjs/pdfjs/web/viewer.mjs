@@ -16668,6 +16668,7 @@ const PDFViewerApplication = {
     if (args.url) {
       this.setTitleUsingUrl(args.originalUrl || args.url, args.url);
     }
+    //alert("cfj"+args.url)
     const apiParams = AppOptions.getAll(OptionKind.API);
     const loadingTask = getDocument({
       ...apiParams,
@@ -17577,9 +17578,9 @@ initCom(PDFViewerApplication);
         return;
       }
       const fileOrigin = new URL(file, window.location.href).origin;
-      if (fileOrigin !== viewerOrigin) {
-        throw new Error("file origin does not match viewer's");
-      }
+     // if (fileOrigin !== viewerOrigin) {
+       // throw new Error("file origin does not match viewer's");
+      //}
     } catch (ex) {
       PDFViewerApplication._documentError("pdfjs-loading-error", {
         message: ex.message
