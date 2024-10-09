@@ -286,6 +286,31 @@
     
     
     <entry>
+      <title>微服务治理-网关</title>
+      <link href="/post/95c78c2c.html"/>
+      <url>/post/95c78c2c.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微服务治理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网关 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python类技术栈</title>
       <link href="/post/f5fa1a3f.html"/>
       <url>/post/f5fa1a3f.html</url>
@@ -349,19 +374,6 @@
             <tag> 实时日志 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
-      
-      
       
     </entry>
     
@@ -653,29 +665,6 @@
     
     
     <entry>
-      <title>金额支付中台</title>
-      <link href="/post/e8c5c92.html"/>
-      <url>/post/e8c5c92.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 金额支付 </tag>
-            
-            <tag> 金融IT架构 </tag>
-            
-            <tag> 中台 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>扩展性的几个方面</title>
       <link href="/post/e8c5c92.html"/>
       <url>/post/e8c5c92.html</url>
@@ -691,6 +680,29 @@
             <tag> 系统设计 </tag>
             
             <tag> 扩展性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金额支付中台</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 金额支付 </tag>
+            
+            <tag> 金融IT架构 </tag>
+            
+            <tag> 中台 </tag>
             
         </tags>
       
@@ -924,31 +936,6 @@
     
     
     <entry>
-      <title>业务场景</title>
-      <link href="/post/3b343194.html"/>
-      <url>/post/3b343194.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 业务架构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 业务架构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>什么是IT架构及架构管理</title>
       <link href="/post/c0e93fbc.html"/>
       <url>/post/c0e93fbc.html</url>
@@ -1001,6 +988,31 @@
     
     
     <entry>
+      <title>业务场景</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JVM生产环境调优</title>
       <link href="/post/623b3d7b.html"/>
       <url>/post/623b3d7b.html</url>
@@ -1017,36 +1029,11 @@
       
         <tags>
             
+            <tag> JVM </tag>
+            
             <tag> 系统优化 </tag>
             
             <tag> Java </tag>
-            
-            <tag> JVM </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>组件的生命周期</title>
-      <link href="/post/66fd44c2.html"/>
-      <url>/post/66fd44c2.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模式 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 组件 </tag>
             
         </tags>
       
@@ -1072,6 +1059,31 @@
         <tags>
             
             <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>组件的生命周期</title>
+      <link href="/post/66fd44c2.html"/>
+      <url>/post/66fd44c2.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组件 </tag>
             
         </tags>
       
