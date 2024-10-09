@@ -317,6 +317,56 @@
     
     
     <entry>
+      <title>数据分析模型</title>
+      <link href="/post/2949b73.html"/>
+      <url>/post/2949b73.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="f420291c587512f4014e8f7c4d51389d2e0e1abee1fc029dc15be497c0c6e43e">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e1ae8cba1102a9f05c807937ab19ab0642971ab1021a0bd14f738e0c886201be7c6ec17c2bfbf46b5d53c2f19163e819198b1b672f0e6c707a09a9e8805f586de8e9e0d607a5009eca527fa66224ba2f3748dbf84ed1ce9881bf50f784183e67d6d357fffe32c961189b66de79fbd3e3d3bd42fedb6db408d102e444acc19d8ddfa45dd4466202e56e8164095cacb44778150439856ad0a8416d880e992fdf6fac79e42600c1d38e5098c77050b38e7c8f4f846d59dd9b1436782bfccee1b2f6417a866d8563a8c90e2c77c23837e6bb40bc4a1852abb1ef23b882c36941f1d96</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析模型 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数字孪生</title>
+      <link href="/post/a495e79a.html"/>
+      <url>/post/a495e79a.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="数字孪生技术栈"><a href="#数字孪生技术栈" class="headerlink" title="数字孪生技术栈"></a>数字孪生技术栈</h3><ol><li>WebGpu</li><li>OpenStreetMap</li><li>CesiumJS<blockquote><p>Cesium是一个基于JavaScript开发的WebGL三维地球和地图可视化库。它利用了现代Web技术，如HTML5、WebGL和WebAssembly，来提供跨平台和跨浏览器的三维地理空间数据可视化。Cesium的主要特点包括：</p><ol><li>ArcGIS</li><li>GeoServer</li></ol></blockquote></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数字孪生 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数字孪生 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端技术栈和框架</title>
       <link href="/post/e5c0e0d2.html"/>
       <url>/post/e5c0e0d2.html</url>
@@ -392,23 +442,23 @@
     
     
     <entry>
-      <title>MPLS</title>
+      <title>Maven 插件开发</title>
       <link href="/post/10d9ef49.html"/>
       <url>/post/10d9ef49.html</url>
       
-        <content type="html"><![CDATA[<h3 id="MPLS"><a href="#MPLS" class="headerlink" title="MPLS"></a>MPLS</h3><ol><li>多协议标签交换;多协议标记交换;多协议标记交换技术;多协议标志交换;多协议标签交换技术;</li><li></li></ol>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
           
-          <category> MPLS </category>
+          <category> Maven </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> MPLS </tag>
+            <tag> Maven插件开发 </tag>
             
         </tags>
       
@@ -442,23 +492,23 @@
     
     
     <entry>
-      <title>Maven 插件开发</title>
+      <title>MPLS</title>
       <link href="/post/10d9ef49.html"/>
       <url>/post/10d9ef49.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<h3 id="MPLS"><a href="#MPLS" class="headerlink" title="MPLS"></a>MPLS</h3><ol><li>多协议标签交换;多协议标记交换;多协议标记交换技术;多协议标志交换;多协议标签交换技术;</li><li></li></ol>]]></content>
       
       
       <categories>
           
-          <category> Maven </category>
+          <category> MPLS </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Maven插件开发 </tag>
+            <tag> MPLS </tag>
             
         </tags>
       
@@ -796,31 +846,6 @@
     
     
     <entry>
-      <title>通过SSH连接到GitHub</title>
-      <link href="/post/cf0d23e5.html"/>
-      <url>/post/cf0d23e5.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="如何实现SSH连接Github"><a href="#如何实现SSH连接Github" class="headerlink" title="如何实现SSH连接Github"></a>如何实现SSH连接Github</h3><hr><ul><li>为了通过SSH连接到GitHub，您需要设置SSH keys，并将它们添加到GitHub账户中。以下是步骤和示例代码：<span id="more"></span></li></ul><ol><li>在您的计算机上生成SSH keys（如果您还没有的话）：<blockquote><p>ssh-keygen -t rsa  -f ~/.ssh/id_rsa.github  -C “您的邮箱”</p></blockquote></li><li>确保SSH agent正在运行：<blockquote><p>eval $(ssh-agent -s)</p></blockquote></li><li>将SSH私钥添加到SSH agent：<blockquote><p>ssh-add ~/.ssh/id_rsa.github</p></blockquote></li><li>将SSH公钥添加到GitHub账户<br><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git01.png" alt="GitHub截图"></li><li>测试SSH连接：<blockquote><p>ssh -T git@github.com<br>  <img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git02.png" alt="测试SSH连接结果"></p><ol><li>为了让这些设置永久有效，你可以将这些命令添加到你的 shell 初始化文件中<br>如 ~/.bashrc 或 ~/.zshrc<br>在 ~/.bashrc 或 ~/.zshrc 文件的末尾添加：<br>eval $(ssh-agent)<br>ssh-add ~/.ssh/id_rsa.github</li></ol></blockquote></li></ol><hr><p> <strong>参考：</strong> <a href="https://blog.csdn.net/CarrreyYan_979292/article/details/132225810">ssh-keygen详解</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Java工具类/库</title>
       <link href="/post/3b343194.html"/>
       <url>/post/3b343194.html</url>
@@ -863,6 +888,31 @@
         <tags>
             
             <tag> Java工具类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>通过SSH连接到GitHub</title>
+      <link href="/post/cf0d23e5.html"/>
+      <url>/post/cf0d23e5.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="如何实现SSH连接Github"><a href="#如何实现SSH连接Github" class="headerlink" title="如何实现SSH连接Github"></a>如何实现SSH连接Github</h3><hr><ul><li>为了通过SSH连接到GitHub，您需要设置SSH keys，并将它们添加到GitHub账户中。以下是步骤和示例代码：<span id="more"></span></li></ul><ol><li>在您的计算机上生成SSH keys（如果您还没有的话）：<blockquote><p>ssh-keygen -t rsa  -f ~/.ssh/id_rsa.github  -C “您的邮箱”</p></blockquote></li><li>确保SSH agent正在运行：<blockquote><p>eval $(ssh-agent -s)</p></blockquote></li><li>将SSH私钥添加到SSH agent：<blockquote><p>ssh-add ~/.ssh/id_rsa.github</p></blockquote></li><li>将SSH公钥添加到GitHub账户<br><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git01.png" alt="GitHub截图"></li><li>测试SSH连接：<blockquote><p>ssh -T git@github.com<br>  <img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git02.png" alt="测试SSH连接结果"></p><ol><li>为了让这些设置永久有效，你可以将这些命令添加到你的 shell 初始化文件中<br>如 ~/.bashrc 或 ~/.zshrc<br>在 ~/.bashrc 或 ~/.zshrc 文件的末尾添加：<br>eval $(ssh-agent)<br>ssh-add ~/.ssh/id_rsa.github</li></ol></blockquote></li></ol><hr><p> <strong>参考：</strong> <a href="https://blog.csdn.net/CarrreyYan_979292/article/details/132225810">ssh-keygen详解</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
             
         </tags>
       
