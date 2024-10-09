@@ -123,19 +123,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="MPLS"><a href="#MPLS" class="headerlink" title="MPLS"></a>MPLS</h3><ol><li>多协议标签交换;多协议标记交换;多协议标记交换技术;多协议标志交换;多协议标签交换技术;</li><li></li></ol>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>互联网医院</title>
       <link href="/post/739c7710.html"/>
       <url>/post/739c7710.html</url>
@@ -236,6 +223,31 @@
     
     
     <entry>
+      <title>微服务治理-网关</title>
+      <link href="/post/95c78c2c.html"/>
+      <url>/post/95c78c2c.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微服务治理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网关 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>插件化编程</title>
       <link href="/post/e2fef8fd.html"/>
       <url>/post/e2fef8fd.html</url>
@@ -278,31 +290,6 @@
         <tags>
             
             <tag> 资料下载 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>微服务治理-网关</title>
-      <link href="/post/95c78c2c.html"/>
-      <url>/post/95c78c2c.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 微服务治理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网关 </tag>
             
         </tags>
       
@@ -397,6 +384,31 @@
         <tags>
             
             <tag> 数据访问层 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MPLS</title>
+      <link href="/post/10d9ef49.html"/>
+      <url>/post/10d9ef49.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="MPLS"><a href="#MPLS" class="headerlink" title="MPLS"></a>MPLS</h3><ol><li>多协议标签交换;多协议标记交换;多协议标记交换技术;多协议标志交换;多协议标签交换技术;</li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> MPLS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MPLS </tag>
             
         </tags>
       
@@ -813,7 +825,7 @@
       <link href="/post/3b343194.html"/>
       <url>/post/3b343194.html</url>
       
-        <content type="html"><![CDATA[<h3 id="Java工具类及技术组件"><a href="#Java工具类及技术组件" class="headerlink" title="Java工具类及技术组件"></a>Java工具类及技术组件</h3><ol><li><strong>Jsoup</strong><blockquote><p>jsoup 是一款基于 Java 的HTML解析器，它提供了一套非常省力的API，不但能直接解析某个URL地址、HTML文本内容，而且还能通过类似于DOM、CSS或者jQuery的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用，从网站获取dom结构，从而解析下载数据</p></blockquote></li><li><strong>Swagger2Markup</strong><blockquote><p>Swagger2Markup是一个开源项目，它可以将Swagger生成的API文档转换为多种格式的离线文档。Swagger2Markup支持多种Swagger版本，包括Swagger 2.0。使用Swagger2Markup，你可以将Swagger生成的JSON或YAML格式的API文档转换为Markdown、Confluence、AsciiDoc等格式，方便你在不同的平台上查看和分享API文档。</p></blockquote></li><li>单元测试<ol><li>mockito-all</li><li>powermock-api-mockito</li><li>powermock-api-mockito2</li><li>powermock-module-junit4</li></ol></li><li>Java字节码增强工具/类库 <ol><li>byte-buddy-agent</li><li>objenesis</li></ol></li><li>微基准测试 JMH - java Microbenchmark Harness<ol><li>jmh-generator-annprocess</li></ol></li><li>对象映射工具<ol><li>Orika MapperFacade</li><li>MapStruct</li><li>BeanUtils.copyProperties(A, B);</li></ol></li><li>excel工具<ol><li>easyExcel</li><li>poi</li></ol></li><li>hutool</li><li>编排<ol><li>liteFlow</li></ol></li><li>数据仓库<ol><li>GreenPlum</li><li>Hive</li></ol></li><li>图片处理工具<ol><li>Thumbnailator</li></ol></li><li>pinyin4j</li><li>jersey-client  jersey-core  jersey-json</li><li>Jodconverter+OpenOffice</li><li>commons-beanutil</li><li>commons-lang3</li><li>lowagie.itext<blockquote><p>导出数据为Word文件</p></blockquote></li><li><p>protobuf-java-format  protobuf-java<br> &gt;</p></li><li><p>LatencyUtils</p><blockquote><p>强大的延迟统计工具</p></blockquote></li><li>HdrHistogram<blockquote><p>分析系统性能的强大工具</p></blockquote></li><li>Java时间类库 Joda-Time</li><li>JLine  强大的Java命令行输入库</li><li>checkerframework 静态类型检查的新纪元</li><li>mime4j </li><li>janino<blockquote><p> Janino 是一个极小、极快的 开源Java 编译器（Janino is a super-small, super-fast Java™ compiler.）。Janino 不仅可以像 JAVAC 一样将 Java 源码文件编译为字节码文件，还可以编译内存中的 Java 表达式、块、类和源码文件，加载字节码并在 JVM 中直接执行。Janino 同样可以用于静态代码分析和代码操作。</p><ul><li>org.codehaus.janino.commons-compiler  </li><li>org.codehaus.janino.janino<br><a href="https://blog.csdn.net/qq_20042935/article/details/135749067">Janino：动态编译Java代码的神器</a><br><a href="https://janino-compiler.github.io/janino/#janino-as-a-code-manipulator">janino</a></li></ul><hr></blockquote></li><li><p>feign 支持表单提交</p><ul><li>feign-form-spring</li><li>feign-form</li></ul><ol><li>使用Feign实现Form表单提交 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form-spring<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FeignClient(name = &quot;xxx&quot;, url = &quot;http://www.itmuch.com/&quot;, configuration = TestFeignClient.FormSupportConfig.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">TestFeignClient</span> &#123;</span><br><span class="line">   <span class="meta">@PostMapping(value = &quot;/test&quot;,</span></span><br><span class="line"><span class="meta">            consumes = &#123;MediaType.APPLICATION_FORM_URLENCODED_VALUE&#125;,</span></span><br><span class="line"><span class="meta">            produces = &#123;MediaType.APPLICATION_JSON_UTF8_VALUE&#125;</span></span><br><span class="line"><span class="meta">            )</span></span><br><span class="line">   <span class="keyword">void</span> <span class="title function_">post</span><span class="params">(Map&lt;String, ?&gt; queryParam)</span>;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">class</span> <span class="title class_">FormSupportConfig</span> &#123;</span><br><span class="line">      <span class="meta">@Autowired</span></span><br><span class="line">      <span class="keyword">private</span> ObjectFactory&lt;HttpMessageConverters&gt; messageConverters;</span><br><span class="line">      <span class="comment">// new一个form编码器，实现支持form表单提交</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Encoder <span class="title function_">feignFormEncoder</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">SpringFormEncoder</span>(<span class="keyword">new</span> <span class="title class_">SpringEncoder</span>(messageConverters));</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="comment">// 开启Feign的日志</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Logger.Level <span class="title function_">logger</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> Logger.Level.FULL;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@GetMapping(&quot;/user/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> User <span class="title function_">findById</span><span class="params">(<span class="meta">@PathVariable</span> Long id)</span> &#123;</span><br><span class="line">HashMap&lt;String, String&gt; param = Maps.newHashMap();</span><br><span class="line">param.put(<span class="string">&quot;username&quot;</span>,<span class="string">&quot;zhangsan&quot;</span>);</span><br><span class="line">param.put(<span class="string">&quot;password&quot;</span>,<span class="string">&quot;pwd&quot;</span>);</span><br><span class="line"><span class="built_in">this</span>.testFeignClient.post(param);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">User</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ul><li>feign-slf4j</li><li><p>Feign使用JAXRS注解</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">&lt;!-- Feign对JAXRS的支持 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-jaxrs<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>9.5.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- JAXRS --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>javax.ws.rs<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>jsr311-api<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.1.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.GET;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.Path;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">RsClient</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@GET</span></span><br><span class="line">    <span class="meta">@Path(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">()</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> &gt; 测试类：</span><br><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> org.crazyit.cloud.HelloClient;</span><br><span class="line"> <span class="keyword">import</span> feign.Feign;</span><br><span class="line"> <span class="keyword">import</span> feign.jaxrs.JAXRSContract;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">RsMain</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">       <span class="type">RsClient</span> <span class="variable">client</span> <span class="operator">=</span> Feign.builder()</span><br><span class="line">                .contract(<span class="keyword">new</span> <span class="title class_">JAXRSContract</span>())</span><br><span class="line">                .target(RsClient.class,</span><br><span class="line">                <span class="string">&quot;http://localhost:8080&quot;</span>);</span><br><span class="line">       <span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> client.hello();</span><br><span class="line">       System.out.println(result);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul></li><li>mysql-binlog-connector-java</li><li>在线JAVA编辑器<ul><li>vue-codemirror集成和使用</li><li>JavaCompiler的使用</li><li>JavaScript正则和Vue中的插槽（slot）</li><li>自定义ClassLoader实现动态加载</li></ul></li></ol>]]></content>
+        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li></ul>]]></content>
       
       
       <categories>
@@ -838,7 +850,7 @@
       <link href="/post/3b343194.html"/>
       <url>/post/3b343194.html</url>
       
-        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li></ul>]]></content>
+        <content type="html"><![CDATA[<h3 id="Java工具类及技术组件"><a href="#Java工具类及技术组件" class="headerlink" title="Java工具类及技术组件"></a>Java工具类及技术组件</h3><ol><li><strong>Jsoup</strong><blockquote><p>jsoup 是一款基于 Java 的HTML解析器，它提供了一套非常省力的API，不但能直接解析某个URL地址、HTML文本内容，而且还能通过类似于DOM、CSS或者jQuery的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用，从网站获取dom结构，从而解析下载数据</p></blockquote></li><li><strong>Swagger2Markup</strong><blockquote><p>Swagger2Markup是一个开源项目，它可以将Swagger生成的API文档转换为多种格式的离线文档。Swagger2Markup支持多种Swagger版本，包括Swagger 2.0。使用Swagger2Markup，你可以将Swagger生成的JSON或YAML格式的API文档转换为Markdown、Confluence、AsciiDoc等格式，方便你在不同的平台上查看和分享API文档。</p></blockquote></li><li>单元测试<ol><li>mockito-all</li><li>powermock-api-mockito</li><li>powermock-api-mockito2</li><li>powermock-module-junit4</li></ol></li><li>Java字节码增强工具/类库 <ol><li>byte-buddy-agent</li><li>objenesis</li></ol></li><li>微基准测试 JMH - java Microbenchmark Harness<ol><li>jmh-generator-annprocess</li></ol></li><li>对象映射工具<ol><li>Orika MapperFacade</li><li>MapStruct</li><li>BeanUtils.copyProperties(A, B);</li></ol></li><li>excel工具<ol><li>easyExcel</li><li>poi</li></ol></li><li>hutool</li><li>编排<ol><li>liteFlow</li></ol></li><li>数据仓库<ol><li>GreenPlum</li><li>Hive</li></ol></li><li>图片处理工具<ol><li>Thumbnailator</li></ol></li><li>pinyin4j</li><li>jersey-client  jersey-core  jersey-json</li><li>Jodconverter+OpenOffice</li><li>commons-beanutil</li><li>commons-lang3</li><li>lowagie.itext<blockquote><p>导出数据为Word文件</p></blockquote></li><li><p>protobuf-java-format  protobuf-java<br> &gt;</p></li><li><p>LatencyUtils</p><blockquote><p>强大的延迟统计工具</p></blockquote></li><li>HdrHistogram<blockquote><p>分析系统性能的强大工具</p></blockquote></li><li>Java时间类库 Joda-Time</li><li>JLine  强大的Java命令行输入库</li><li>checkerframework 静态类型检查的新纪元</li><li>mime4j </li><li>janino<blockquote><p> Janino 是一个极小、极快的 开源Java 编译器（Janino is a super-small, super-fast Java™ compiler.）。Janino 不仅可以像 JAVAC 一样将 Java 源码文件编译为字节码文件，还可以编译内存中的 Java 表达式、块、类和源码文件，加载字节码并在 JVM 中直接执行。Janino 同样可以用于静态代码分析和代码操作。</p><ul><li>org.codehaus.janino.commons-compiler  </li><li>org.codehaus.janino.janino<br><a href="https://blog.csdn.net/qq_20042935/article/details/135749067">Janino：动态编译Java代码的神器</a><br><a href="https://janino-compiler.github.io/janino/#janino-as-a-code-manipulator">janino</a></li></ul><hr></blockquote></li><li><p>feign 支持表单提交</p><ul><li>feign-form-spring</li><li>feign-form</li></ul><ol><li>使用Feign实现Form表单提交 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form-spring<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FeignClient(name = &quot;xxx&quot;, url = &quot;http://www.itmuch.com/&quot;, configuration = TestFeignClient.FormSupportConfig.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">TestFeignClient</span> &#123;</span><br><span class="line">   <span class="meta">@PostMapping(value = &quot;/test&quot;,</span></span><br><span class="line"><span class="meta">            consumes = &#123;MediaType.APPLICATION_FORM_URLENCODED_VALUE&#125;,</span></span><br><span class="line"><span class="meta">            produces = &#123;MediaType.APPLICATION_JSON_UTF8_VALUE&#125;</span></span><br><span class="line"><span class="meta">            )</span></span><br><span class="line">   <span class="keyword">void</span> <span class="title function_">post</span><span class="params">(Map&lt;String, ?&gt; queryParam)</span>;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">class</span> <span class="title class_">FormSupportConfig</span> &#123;</span><br><span class="line">      <span class="meta">@Autowired</span></span><br><span class="line">      <span class="keyword">private</span> ObjectFactory&lt;HttpMessageConverters&gt; messageConverters;</span><br><span class="line">      <span class="comment">// new一个form编码器，实现支持form表单提交</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Encoder <span class="title function_">feignFormEncoder</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">SpringFormEncoder</span>(<span class="keyword">new</span> <span class="title class_">SpringEncoder</span>(messageConverters));</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="comment">// 开启Feign的日志</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Logger.Level <span class="title function_">logger</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> Logger.Level.FULL;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@GetMapping(&quot;/user/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> User <span class="title function_">findById</span><span class="params">(<span class="meta">@PathVariable</span> Long id)</span> &#123;</span><br><span class="line">HashMap&lt;String, String&gt; param = Maps.newHashMap();</span><br><span class="line">param.put(<span class="string">&quot;username&quot;</span>,<span class="string">&quot;zhangsan&quot;</span>);</span><br><span class="line">param.put(<span class="string">&quot;password&quot;</span>,<span class="string">&quot;pwd&quot;</span>);</span><br><span class="line"><span class="built_in">this</span>.testFeignClient.post(param);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">User</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ul><li>feign-slf4j</li><li><p>Feign使用JAXRS注解</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">&lt;!-- Feign对JAXRS的支持 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-jaxrs<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>9.5.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- JAXRS --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>javax.ws.rs<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>jsr311-api<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.1.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.GET;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.Path;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">RsClient</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@GET</span></span><br><span class="line">    <span class="meta">@Path(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">()</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> &gt; 测试类：</span><br><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> org.crazyit.cloud.HelloClient;</span><br><span class="line"> <span class="keyword">import</span> feign.Feign;</span><br><span class="line"> <span class="keyword">import</span> feign.jaxrs.JAXRSContract;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">RsMain</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">       <span class="type">RsClient</span> <span class="variable">client</span> <span class="operator">=</span> Feign.builder()</span><br><span class="line">                .contract(<span class="keyword">new</span> <span class="title class_">JAXRSContract</span>())</span><br><span class="line">                .target(RsClient.class,</span><br><span class="line">                <span class="string">&quot;http://localhost:8080&quot;</span>);</span><br><span class="line">       <span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> client.hello();</span><br><span class="line">       System.out.println(result);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul></li><li>mysql-binlog-connector-java</li><li>在线JAVA编辑器<ul><li>vue-codemirror集成和使用</li><li>JavaCompiler的使用</li><li>JavaScript正则和Vue中的插槽（slot）</li><li>自定义ClassLoader实现动态加载</li></ul></li></ol>]]></content>
       
       
       <categories>
@@ -1029,36 +1041,11 @@
       
         <tags>
             
-            <tag> JVM </tag>
-            
             <tag> 系统优化 </tag>
             
             <tag> Java </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>设计模式总览</title>
-      <link href="/post/d2ce3ca5.html"/>
-      <url>/post/d2ce3ca5.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式</li></ol><h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3><ol><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）</li></ol><h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3><ol><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模式 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 设计模式 </tag>
+            <tag> JVM </tag>
             
         </tags>
       
@@ -1084,6 +1071,31 @@
         <tags>
             
             <tag> 组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>设计模式总览</title>
+      <link href="/post/d2ce3ca5.html"/>
+      <url>/post/d2ce3ca5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式</li></ol><h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3><ol><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）</li></ol><h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3><ol><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 设计模式 </tag>
             
         </tags>
       
