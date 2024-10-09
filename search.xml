@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MySQL FEDERATED 存储引擎的使用</title>
+      <link href="/post/f8cf7fcf.html"/>
+      <url>/post/f8cf7fcf.html</url>
+      
+        <content type="html"><![CDATA[<ol><li>FEDERATED存储引擎能让你访问远程的MySQL数据库而不使用replication或cluster技术(类似于Oracle的dblink),使用FEDERATED存储引擎的表,本地只存储表的结构信息,数据都存放在远程数据库上,查询时通过建表时指定的连接符去获取远程库的数据返回到本地。</li><li>FEDERATED存储引擎默认不启用<ul><li>如果是使用的源码，需要使用CMake 加上DWITH_FEDERATED_STORAGE_ENGINE选项。</li><li>如果是二进制包,则在启动MySQL时指定 [—federated] 选项开启或在my.cnf文件中的[mysqld]部分加上federated参数</li></ul></li><li>本地服务器 FEDERATED 存储引擎的表只存放表的.frm结构文件<br>2 远程服务器 存放了.frm和数据文件<br>3 增删改查操作都是通过建立的连接来访问远程数据库进行操作,把结果返回给本地。<br>4 远程数据表的存储引擎为MySQL支持的存储引擎,如MyISAM,InnoDB等</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> MySQL </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>旷视-刘天伟-旷视AI产品背后的研发效能体系建设</title>
+      <link href="/post/92441581.html"/>
+      <url>/post/92441581.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="旷视-刘天伟-旷视AI产品背后的研发效能体系建设"><a href="#旷视-刘天伟-旷视AI产品背后的研发效能体系建设" class="headerlink" title="旷视-刘天伟-旷视AI产品背后的研发效能体系建设"></a>旷视-刘天伟-旷视AI产品背后的研发效能体系建设</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/旷视-刘天伟-旷视AI产品背后的研发效能体系建设.pdf" style="width:100%;height:900px"></iframe> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 在线PDF </tag>
+            
+            <tag> AI </tag>
+            
+            <tag> 研发效能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CBM白皮书</title>
+      <link href="/post/6f68f324.html"/>
+      <url>/post/6f68f324.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="业务组件化模型-企业实现专业的有效工具"><a href="#业务组件化模型-企业实现专业的有效工具" class="headerlink" title="业务组件化模型-企业实现专业的有效工具"></a>业务组件化模型-企业实现专业的有效工具</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/CBM白皮书.pdf" style="width:100%;height:900px"></iframe> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务组件化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Troubleshooting Kubernetes Deployment</title>
+      <link href="/post/e48cce46.html"/>
+      <url>/post/e48cce46.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="Troubleshooting-Kubernetes-Deployment"><a href="#Troubleshooting-Kubernetes-Deployment" class="headerlink" title="Troubleshooting Kubernetes Deployment"></a>Troubleshooting Kubernetes Deployment</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/Troubleshooting Kubernetes Deployment.pdf" style="width:100%;height:900px"></iframe> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kubernetes </tag>
+            
+            <tag> 容器技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/post/0.html"/>
+      <url>/post/0.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="MPLS"><a href="#MPLS" class="headerlink" title="MPLS"></a>MPLS</h3><ol><li>多协议标签交换;多协议标记交换;多协议标记交换技术;多协议标志交换;多协议标签交换技术;</li><li></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>互联网医院</title>
+      <link href="/post/739c7710.html"/>
+      <url>/post/739c7710.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是互联网医院"><a href="#什么是互联网医院" class="headerlink" title="什么是互联网医院"></a>什么是互联网医院</h3><p><strong>互联网医院：</strong> 以及依托实体医疗机构独立设置的互联网医院。互联网医院可以使用在本机构和其他医疗机构注册的医师开展互联网诊疗活动。互联网医院可以为患者提供部分常见病、慢性病复诊、家庭医生签约服务。此外，当患者到实体医疗机构就诊时，由接诊的医师通过互联网医院邀请其他医师进行会诊时，会诊医师以出具诊断意见并开具处方</p><h4 id="陪诊"><a href="#陪诊" class="headerlink" title="陪诊"></a>陪诊</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 互联网医院 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网医院 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>架构真经</title>
+      <link href="/post/f784ee36.html"/>
+      <url>/post/f784ee36.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="94d5bc9ce41125d7ff3079a18c372904fd319817563e1e3ad14307f6fa8c03b3">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9eba8dff4415deceb357afdf3e902254ce1aa9c47db8c6b994a8fcfc4348c9085abf009c0251d26897916165c62003d5c7539348f02cc40ac86a14e7ba37827e65a1910fefd7cb0a8ae5ebf2f8f23451a695d624faa160027dbc1523143acfa975d9d38ee6efc9741eba0d3316cf7f435c3027fb621855f3421c0022a8f8f11015db04e433ba6422b81ed55ee0f9ebc0eddb6db4c7ca8bc3b41808a083a569eaaf81f9e427bdcbcd684c632ee89322cc1e2f5a9a81ae65b7e57bee309c6d97647dee13403461f4cfced3a2085966337b320d0352287282b2ca13dde85107aa05e383a9d61b575a83dc85238e5f13d521dc09ee68b3086b03cf3b4cbb2372f29bf4cba909bc0d577eed1919d63ec812c3a45124b2d31f1b9e3261f0cf738d4282390593c7f7ede5bb3d3aabfafb2d1a5fa8af120e86dab5024eb0dff133c7f681401f328b7afb36d5a3af3beaf4a4b599af3dc767222357bbe4b57929ce0155715f8bf40704e87440861255a84200f4c98118d3e7df63c9b7e979cfa0fa50ce478875fdf10c578daafe4a5ebe05572b7ff139a92b5d199c9fd22e102bf8f4c8b9c8c7d19cf979edf9279031c796158cb17c873816c4265c6c34987ab51e57a5a57051de82823c436ee1bb3778f69a9d3a897e47f911a81fa7ba24e570903dadf5ac8a3f7f6ef2e61d6d8778eafe78bf583ee221c61e9ddb6c8fc4be9d438bd98205c072ea43fb7d87fb8bbb53256c879e1051104f4992068337ed738502dd24f4d4c346cfd8e1513fa419c43ad20f5462d542d8f4cad78b67f02b6bb7a60a6140456b938d00f9b6c7dcd26ae220ed6e5bc6870c9a3dacc2b1e69beb552c31f11ffd3e6dbffe8ae42d7dcaa7838f0ab5eb1cab34367662af0e05fc7d272a7501439d0854c00c86792ee8fdc59399322a842a93d53dc938813b7ad5a26b70338f815a0575426a3d53fed73ea1459c04572fb761b894c1c89602ef5f0b9163adef0b2bf92b531fdc8c5df08e8f4393c236073fca3235b017941f54b45786c134e108c06ed9c84f13ac6738c0acbdda405a56c3c971893dd756e113528e2ac73c939bbb8f921f9a2a8ba36bd20352ad65bf37bb443da7a058b8d95e0472dd93ca248f0f4fc0233de2934621468d6ae58c27122e745d6665d5342c2b8f7291eaf77fe4a105dcf60ad769496ce5f46d20636174325493b875492e0eaf6b0d2128ec2988f105bc33280d7bdebfff63a298178b036f198e112faef35dbd18aea534901c138f</script>  <h3 id="分而治之"><a href="#分而治之" class="headerlink" title="分而治之"></a>分而治之</h3><ol><li>X轴扩展：水平扩展，通过复制服务处理负载。</li><li>Y轴拆分：垂直拆分，把服务或资源进行拆分。</li><li>Z轴拆分：业务拆分，根据客户的独特属性进行拆分（分片)</li></ol><h3 id="大道至简"><a href="#大道至简" class="headerlink" title="大道至简"></a>大道至简</h3><ol><li>核心逻辑一定要简单明了，经得起时间检验。</li></ol>,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> IT架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python类技术栈</title>
+      <link href="/post/f5fa1a3f.html"/>
+      <url>/post/f5fa1a3f.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="2a307543e9ad8937853b5b7c7b1e4e4516c6fefa7a29d3800d25092d29f6758b">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9ef73124c35b2a8f3b14946c6546dff49c02470f683d60a0c48a019a14ff2c41effc1d6d663a72eb00c6e5661b18a7d75cf7f39319e9356dc7ebc642b198b2b857552531e3a66a60b2ff3cc2423603ad483e6839b17951495b340ad961f46eaa3909a73fd3d07ea222fd15d2d6a1e4938fcf09844103290195c69b67751838028b21a8f08025d6fd77bcb2bf14c02093f902f176c8e25e24af97e801dc91eea6ba20ab6d3c1508aedbead701bdba0a1e5b397650f143fb3b7d147df33deb78b6f739c46a7852b2cabb2456c72c036abe9eac41477eec8300ad6a402d7d9478b86c4d6359e7b9dc4dff5f7c31edd47b9300ea1c06098a07392fdbc3d80d0cc5175c4039a024c6bbcd2b8286f3ccbac73689c36b9643d0958bf191128635289d8dc18de65656372bd5ad1875035e3c86ebe43595131010e90b0decc812ae960b7cfab9f3c38f7e39cd562ab3c8901683facff93256b7da533b930cd07cacc48982d4dfd5239f26b9e1a5a04b8ebb0246b96ffbe94761b1218f0053acc58c1bfa29b7f400331a604639ea5a00adcaae25907f5931423d05481d47161db0c46020d310d8117393b4c98368a74d98dc8e2619d3daf7bb6f3612c33b24197b15d8db79912609d4b8414e4e93a33c0cbecfa356c251a1e126fbed4cb6a0b8ca0a87b54f1d73035d445ff75a3d70b403822bb356258dc081263caf1d2a57435e8899150cc37671fd2d45a0bd1a9c7a238064db86a79d2b1dca452c036122c28ab981976da441f4f4213b0e885878d91572b1581e2022560a08beb120c49db811d7175756133fccb1c35869ba14f5c058fd4f3900f750b376a60430705598e43ab84ac5f0cb548ba6b6ec70241e4dfb221126dfeea4df9711b66730ae4004b7e863d66292a5d0394834576495a4e82947d824b0bc65e45f7ce479b49a37816d5b8927addafea8ce883946c22b19d9e588542386c8d4d9532f310429a27bf6a63b6fb3417f13557faee3eccc9e0fa3434042feb9d7c5b69fb64b5f06a354b3c26a4a94982e7dc6f02fa427f606d92976c2e85cc2697ec0c64a86678aa21dffdbe72d131603c7fc52c3a1c98fe76a0a37c36ae3453aaf755f6c9da2c89d7f1aaa3e5ed189877f67aba75014a6da1ff16a5bdd0ea7be78692e856bc196b7be9b01f3b16cff58bc0fb0ed2c7a8b1887389f7711a961f1aea5d5a9ba0533f5891ae096cd1f1c56bd3833020877080206397419df92f900aaf2887c47e0ac68989e833d284ed3b06c823fd01a9f88cf4a6d69c7c09ec51357b06816d0686c2145e6758fad2b11fdb497f4248aba20f9d3e4814bc39be90789979da8171e2902ac2a07b96a022d78381697d49c52b8116e651ba8d94450d09e1561a53c48b0f0635e55165b2c2f9ca6f96340ca085029b1ab0dc1f2763fde2204896d315ecb530db13e1809105561b3b41b5e3b3e690a3c5da592f33cb431d130ff3a4ff9870aa2fa09512f1d3b484aed75b8b0ff0455b9cb7ea601c3b8e2eccebc5daae43b67271c50065acce2aa454d5e29b8e4e5337d2500dc16cf31f70991d73f3938b0069cbe8991c0ad25197dc76831789d26694ddaaf05093daf5445</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端技术栈和框架</title>
+      <link href="/post/e5c0e0d2.html"/>
+      <url>/post/e5c0e0d2.html</url>
+      
+        <content type="html"><![CDATA[<ol><li>Cesium</li><li>Three.js</li><li>go.js</li><li>pmb.js</li><li>qiankun</li><li>Formily<h2 id="数字孪生"><a href="#数字孪生" class="headerlink" title="数字孪生"></a>数字孪生</h2></li><li><a href="https://superapi.51hitech.com/study">superapi</a></li><li><a href="https://www.hightopo.com/demo/Simple3DEditor/index.html">3DEdito</a></li><li>[umi-qiankun] (<a href="https://umijs.org/docs/introduce/introduce">https://umijs.org/docs/introduce/introduce</a>)<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2></li><li><a href="https://gitcode.gitcode.host/docs-cn/lerna-docs-cn/utils/profiler/index.html">lerna</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据访问层工具</title>
+      <link href="/post/6e4e4699.html"/>
+      <url>/post/6e4e4699.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="数据访问层工具"><a href="#数据访问层工具" class="headerlink" title="数据访问层工具"></a>数据访问层工具</h3><ol><li>p6spy<blockquote><p>p6spy 是数据库动态监控的一种框架，是一个可以用来监控JDBC执行语句的开源产品，它可以使得数据库数据无缝拦截和操作，而不必对现有应用程序的代码作任何修改。利用p6spy很容易的就能监控到JDBC中执行的SQL语句，便于系统调试和性能调优。p6spy分发包括P6Log，它是一个可记录任何Java应用程序的所有JDBC事务的应用程序。其配置完成使用时，可以进行数据访问性能的监测。</p></blockquote></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据访问层 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据访问层 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven 插件</title>
+      <link href="/post/cc066ced.html"/>
+      <url>/post/cc066ced.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Maven-插件"><a href="#Maven-插件" class="headerlink" title="Maven 插件"></a>Maven 插件</h3><ol><li><p>flatten-maven-plugin</p><blockquote><p>处理版本占位符</p></blockquote></li><li><p>jacoco-maven-plugin</p></li><li><p>versions-maven-plugin</p></li><li><p>docker-maven-plugin</p></li><li><p>versions-maven-plugin</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Maven </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven 插件开发</title>
+      <link href="/post/10d9ef49.html"/>
+      <url>/post/10d9ef49.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Maven </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven插件开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>领域模型的本质是业务认知</title>
+      <link href="/post/10e77ed3.html"/>
+      <url>/post/10e77ed3.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="本章重点"><a href="#本章重点" class="headerlink" title="本章重点"></a>本章重点</h3><ol><li>什么是领域模型？</li><li>为什么说领域模型反映了对业务的重要认知？</li><li>建立共同的业务认知，保障产品质量和架构质量<h3 id="什么是领域模型"><a href="#什么是领域模型" class="headerlink" title="什么是领域模型"></a>什么是领域模型</h3>领域模型定义了领域内的关键概念以及这些概念之间的关系</li></ol><ul><li>领域模型是概念模型</li><li>领域模型描述的是现实世界的事物和他们之间的关系</li><li>领域模型和软件无关，反映的是<font color="blue">问题空间</font>的本质理解</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> DDD </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DDD </tag>
+            
+            <tag> 领域模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MySQL 如何自动分区</title>
+      <link href="/post/b995c40c.html"/>
+      <url>/post/b995c40c.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="3a64bebcdfb576072b95bb9f4d886c2f2e70cdac1a7086b95071c3ce6a893844">ff8093e7a65d4753ca1aafc7bbf304abc719e5f20c08d4cb150ca408334479c1ddda777af355e3ed9dd62b680be58cdcc4b8f0f73f864b71333b07ab7ede3db248b468c3a660327471be99f547fb78e66ec16e4b76db5c3ddad073081e1a88d260613297a6934b54fcb86ca27babbc061d367cf1dea886c24163371209c0d2cf58e03d734644828012b9a9460e042b794204198d1543788a0942d8251375d2e4b3d71dfd0274fb86684b3160cf0d71436875ea70f0ce0c8deac1ec0c6f36f7754ce4a88888f3623e5a702921a2b426c1c54569bff4d7da13963d3cc47747e33c2897b16886d26bbb9b2b246e311ad6fae1fddf5783b782dcad085ebb876718a90a17dd2801937017dd76df6364c6094d1342943888642273fd69b10a174e29f0b8fd23e367e6ad9c355778572c40bc45d6f71c1fd2bfb9567f02b8dea810cebfed69a1f2de4be2cbfd769b9204d0c4fb3c545e63dac753509c9fecbd836d54195623b0e540bf8ba4b55a93dce66c6be50a9dcab3a8781aaf7fde97e47b131a4ce25e45a5af721dbce44fad128a10e3031adf008987fe585ffb74e82c14e99138d9418bd7acbeea2497d425401516d5efee49bc90a318924d66698b40c013936aadc89c83af6e47f2ec4c20f69fb4c451b2a9680037c5945afd8912e723a345f7c80c144475c8109e7a9f7fda284d9f04cabb9e0bff6033a777474b194532a3c999edf390d08a9e7d01efc73c581e36ae179bc0c251eb8aa706789a2093cbea07110461b2ad39026c0276faca22084d62c6df3abccdc9916342c4cc17b13596ed351b6ba9fd8052f094863809ac17a74c9ac03a275013c2a2213842384660f8355c53b7dcebb22de4386e5be7cf888b8d208803236b3d18261d075aad0932fe46b2b2b7a7548e105faa6e37050703b97f213bb7c19bda79604012d1562f327807717e42f02ca0852973f3a611b2fbe6db85c2294142cfc59f51522e3d904a57b31e2ba4eafe41bb0cd5ebe31ca7214bb3a2438919ccc2f6d7922daec5fd410fae5dcdb06ffe310d8257ba85dafa3b470c6c297cd940d8e73e750deb6cc13cc12be6bfcfb4c963fae293f82437d888d0d21c63099873d2c93e2f3aab25cca8c0a07ce15cf0df0c6f925b5ffc81aa0708978db3e38f4303d73baace9629c87eb4acaa905da23bcfe476fd6295fd8adb4e030fca822f70c41de0c794aa1a0ce327183d772dc088c37e48c5702d73aab1c9cf1d9c4de915cf08c1c000b59f6d57878eef4e21da08423bd4aad819b964d7f1e0f4b62df83f387d1c45fd44f184e3dec3490a3cb82d071c48963e323279c96da611070d265349e324f89f410a0b81c538a4b67b5d9a8f530fef01f33cc55a1aca4d3cf46ec4f69b801d064e90d698a8e6018758fdb605398da068f82d710224710030961a1b2f278997e4ef65da58967d41247e188dda17496eed2341fb3932eef4164664a5aae09ec356bb98f6a714f05d4c2441600446022655f2ed2999761a7b5683e8b43ae35807cecc654d989e742fcabcfb36b9613cc3300395c7194b9b46decdf801e9dff9d4825f94fa0b38b96c853773925fd343d1a1893968471e28f0ec7c479d9d490fe5a272a038d39f57c9b4c528a9cd3631b9bc6f74e8627240ff49946bdc370bc779c554e33ef56b9552ce2cef0c2a069c70976548f9681c7d8166325978a7264e9f559b034cbf19cda4f82c41b57072ae208f64afd45e742c4e30818c5ef90e9c0038de05cefcace45bca9c34eac6ac9951690777d42fe345c187785e504f10ff60006ffbe3bb726c282aef9877242b7ff059c99d79709392a8eddb520b7bff5db959d221df2de74929d236d65d06ec3f7fe5cbcaa9096e41fe8b45b7f8db711b69566bde4bab257cfcbe81d4ff7df06a0490f44a9ee8947c07688941a8ccf97e61de11ef1f01437349e09dace61baa17dc5e969f30d62d49d01b4c1ae91d7b792a98008fa536d19a206c02079d35f9b9ed978b22ee3e1e71614c0ff664e0c7984d92048d7db08c70ef3dcb5d07a2dc306a6195ab949210f2b426c3bc03cc9584d458ec010001960fc6bdc5efedf5b8dc43ae8723423106af1b455792bfa7a23ab33f564d04d7eae9275d3e29b329cdb6b5cd9a2aa4ff542088591255ae969ef8b83681e2828e642738cd82a19b655aeef2cd11317513a0332c8fe701252a33ab1ad608d79e8651c910bad46fedbc4db59c5cf10db8d65bcba0fc36dbf9775f94c294fca607c60cb18368bbd16235ae1763bc08ed1feb25eda5901830a7cf9a91f3bd18c0ad1854a015153265b19a3f36db7f3ef592a75ce714c7598ab154b91e8e2ace153ebe9442caa20654466e96397cfe5896bf5d3f391aecdf0d0609104bd3ed012184472a358cff6e3d53b98a1b0d5612d882c1c455472c33bd390296d1102cd9c151a92b9fe07514685d30603e79af052b0e9f0083adc673d763fda0c1328b9b0767adea7c2a0a161220261e8acf46a517ce014d2e098c2df1e9a2556fe2c8ebfd4b5892222c8ea278ddd64a9d6804c225c015f738011a4b7303125e9cc031504eebc4a6dc151561f052572831604b59cd8a9e98de85b9ea5f65ae8b092e94d2d4fb5965888d1a67bf1e2c32e1140bb330e6faac6a3150811705ab2d581935d7f92e6b929936d94aae8a8a03e38678f69d149f54327ee639d4f52df6c2a5ab35e146405a3c97f00fc3747c0e55413fea285c3490777c3975058a6335d5575de508f61d9652666af23fa37797f35dd45b64d759b273993553629b109ec9490fb7882e8481cf8abbe9b0f1d850b675d442714d295c4ca68c8772a8bc5a03788d466447f97f8be7a610129a4cf5bcb69d87c9af1038c166bdb248047f58e355ffe50bf283885fa20d56052eff94652171ff4744f11a75ccf3bcd737df24e48d62101186f966914ee0d3d7a77ea96016d419f9658ec974d47e2ab11bb31ffe02e38899afe76366a71e6867ccb061fac81ab9d9cd6523b6f39fc14ce508c8a230af9badad27d0cfdd3b90ee2e9c2a9dfcb800cf9ec8a9f38117dc0ef02fae0130bc7edd5011af090f6c9b45836b9b7d594f69cb63454e9b90aef1a64e5e6613fa2385d8f291ff7d61e517f99012e846183ae5e67d9a03f60756996af9bbe8e92e9d5ac13035d7ebd3beae5bceac8702fc07cd0d33153fa0074225534daab15dbc28bf7775befcfb406a9d1b282a89aed2a34fa0476df2c0c5482feb4ff67d1773cb50760bbacf8609ff0874f59f745d9cd6222a7e029fd5248627f23c08d637c53496f12e1eee2abc8a8877122dfaf125079b8c2525309552a36934875948685e2fc50743de2e1a73085c4489d0805af91b9f0f4a202e1c08743922c8c7708b0c2157651ca541fe89a2a38385712d2a896bf02edf8bdf9a86b18fde27652fd53fda035e11d413b6033184a85984f82d801c6bd765c5f5f5675b1f64a3fb9fb4b0832fa9ab3ee73054d9bb257ca86b39274946bc1a4fcd460c986dc826b4bfe0abac04f69b8fafa1fcb7570188950b979b1dfe24641ac01431a10b4df867fa5286397cd3dae3f906099dcbe6acc51f366eb4ccf8bd2094214fcd67dfbf76b946c4ab05e3e519ba1b7165b2f6eda3d357f9bc99b4e7ee38f43d745a6c8c16cdc97ac6a79006c630e0d5386772044d2985789e14b9d91b52cbe8a118cae101329372ba4d8311574c9fbac416385d9551cb7b46a5ff6f8b225f78892ee7ff04325fe17b0bb644aa8d7616e09fdc109438fb29dc687273dc6fd5365da2f15e3b11d63fb5e959bc0c54b9523e6f2088e943df0f98c5ee1f417346cf2c21cf71cef6f586b6b3a2da705c317b5e9d992b57c697d3b4265e95a6ee3a487fd259f0a8d0fc3eb408fbb1e870876d8d284f76381a7164daadb155cde59d1ef2e9ed20d8045822b51dcc064b045fdaf21b487210576db0b99c4a34bdb94197c593f5b9a124696a7f0b7e7907d1c9a4681cc4a5fb7afcd27aeb4756adabd7859031f8f262a02b100c3170c68d6408f1dee7597e166b4a7bd1af15feb60215166ff521b6392730431582cbd1eb7a2a989e2fb268a69db9ced332601b21d548ab7ea62ddd7e91a661ddb089f727300ac5c8ad06ea3979f4fec431674547a69268a0f14070d583fb63b181107677eeb3fe8c141d081a6644424011242e5018464f2fcea302f9073f24f52b2c040f1f0a3275fbd71f83c503175db3082bdee8a72a5426ef49724f2389d3e922367a17cc6ae27615e86f2d5c540d5b74a4c5b8d2c470193677b35d4be2317f2c458835e299e204b285da1646614cabb0ca0f73ae87f275a4e629dceac30aaefdbac86af1a23e95de44242e30ba8f094e520d3fb3054d74d9a847b74092f0063f6583995fb328e503d8e032149339ee455383b8932fa78b11647193928252d991a70e924895551acd33f0fc65984d0792415f35e327cd00f96a943d2b6b5e4b07890fca65899f66e234ef8e7b27552f102ce1539d8b92b3ae8c28a692f13bff75d6409d20de1d933859b441169e98cda9bfac87254d8bad1d655c3c7419746e649b51484fbbaff7aea2a95496b104c8b5c775d31d7438fc79a94877ac08821bca229a9f8721dbb82231ea3e891d02e009bf3eea00eca214afacaae38c6a909929c0563f5ad3fd822e93609a5ea78def255806a550aaeb631b8997f644606e694113396f8822eabfc2499fc34f087e9b60b2d2ded1b12f2dd56be800566528ddc9b6b95ff2afb103a8f25a287f4faa0c5065e457a113b460f2ff14b04d8f4df67968331bea988f8eeec0bc4b5a2d1249333084dc5d237bca90a688caa8107902a1acb7bc0cb24bd60b21b97cc9db21d375c4b507cf6bbefc2a5b8b33273a992d990732b53a58d5722ad5cd0a8e71a4aaa52579449a94f3365d57120a5e751926a291b832b980fec9ed4e066eba40af1cd051b18ea3ddb554bede3eb01edb592c48e96da2fc2ec8a5a15217746662ca055e8a64d18ce86718599efbdc15cc8f676e238e7c02c0372e28e5eedd5692f30915e01b084e2cdde0128e549db49b18460917b95836af106f1e8e732d912e2b0b7ef199802881c262390f197993e96ca8253bf85b2a6f0038ebc97b82979afd1145d6f5cef4f7bd43523d402ac62cc21d0e064572e0cac2e90692eb9cb6250c192407aa397082e0c7c5d84da4cdccb2358574d599d707ab2d131a6cd81c145ae31483973511b113c5fdcbaa3904c6275fc126c6fe6e669d3cb0962e4e0c612b8c5231948faa89c9952cb3211ca395788ff891f26419b9426eda61e26652c8bf844c64a5f6dc50c2889f9dac7588265fc7d8bdb8733d0376f6e138f885b488910c0705eb17dca8cfb1acb9370b2e301b7b25159fa62189dad77514f778a18c45fc34223554c85e6dbcb388c11ae717fc70b2a92af86ed765487a17ee754a6949fb1b8b6adcd38e56544d3d355f9df947036e290995656d152628bc56c691af1401a0ae864afa8a11b46499c4535c5fab1ab5a443b8cf0c1377ff5af17f1b301a2f0b3df3b9747d64d71516d58cb98b274ca0b4b0df83d1c8b094779b3acc6ab477680f5d5973f4749de8490efc0b9bfabd51b43bb0f082ace26e78a054841ef2002cdc892cb60aec27675c17644169046b414bdfa8a769e308b6fcbcae3b4f24087390922f7dd2414a18c635671d96169fc69a8e62ee417e37bec381935c2764d96d037d8066c8fb4220154c128752e6cc2c741e29e5bf79c4886710a8ee0092ef9558a85d1134f4266f4f3dc73c6247d4f0b5fd84b3a9256694beaeb8be80a5e0d3fc6228ec0183ffcbe2edf24b4fff79e0cd1fbbad00f3af045b3406d84db9b6539dc42e697d3d97093834d8c4f8a348889b2d602eee91ff7d3664d43617b53c08141bd692643f359c6d870e2332f9b01c738c3bb05f9e0442457118e8cd66552014da676e6287af8a4852edd8b937f7d36d0c53673cc8eff0adb66dbdb48c7816d15e37cdbcef4f0ad73377b0b212c0b27392cae6abc609e48b6a2b5fd2099758639f1465768f732fab98b638f1123a0fcac8083d49894fdd8b449ddd8f9934728ca2726e8fff49025846215413151ce75b59d4f92894cc1f283502e771d4ea88a426119ff8bc5820d3370f1bc8610e4b528af855c7963c7fb1ab6048dba266f6a87a9c140f207bdfdf3705d003de29fcd7620293c9a6841e66ccf650e20a26c0c24ac34dd7d7194b510b6b1a8fcd36271b9fe037d74439446d1ae353ceb398ae172b0b29b1263b4afc2d8eef90d1876473d031d916e2ff2d4153d239a83401f14ba04e89f57cf072ba2d290d6ecf5f0ff8f2e80ab4632a2823ef1ddc05790a9caddf4ed55ab6e0eae85402a3c4d641618dafc2ebc20685f40b36d577d4e97d738457087125f2b455c718545df40f0f16b3238251789173fa99e43bbcd4294593f74e8a6c3ec53a44a5694de1375eb2ea7e7d0881d421736c4ee80cd8367892ad90810eb7760a7830e684a6c8d48bafc4a624f6c53de1eb72857b681bf081b11ad48760ff8d4ddcf00d3ce28050ab28acba3d724a5c38c515ec3df30ed6fc0eb036cb578eab3eb2714fdd915efb34876263b56bc3b222d7d13858829f66fa4035cbf0689dcdb1b16933c662e58ef3d69634d97ed0a8b69ab86a9fa55cf0d930f6d4cdc9c492297fd610732dc81d03abbf021ab0dce6ddfddc34982f82309851cc83d623df9479a9b5b36503c0e5ae5c79a90d7dfa838b5fee1d4241bd2d5b724fe3cfa103f3d2275e9b20f4c6bc82516934fa8c9f38836932c7ce33492de98e824359af49b8bae6b423f797c9f4cd380cf23eb0b980f2f8de086401eddb3d7d9c5938ea51efbe7c5ef8d639335a56bea2e52c5f7eed049e9b5cb1d88d6812b1967736a4e707994e2c95e021cf42ca38254a2997212bf35d9128a2e0b9d03826c361e5a0ce66574abee76ba0712615c84c106bf89cfcc7ba096e9102507157ea34ce3fd2af4c80ec35c607e579c52c87b34daa3415990d4fabf6e2238a92b27affaecaba7292fe40e001069c2032579581e3cf56076656ce7283abb8998294f3dad504c8939094e301bc3dc8591b2b5ff3bd8aa6064be93b349f63fc6d43332ac821b27060e6ca4b588dbce3cea3e511acea4c143fba90ff97e31bab46c6622982831eeaf1a6e26ed14d14a0242d1da838ae365ec8fb2c5bad38264edffb8b6f5bab2aa74138e115a55b02ceb5dfa0e079b79cd4893a3b96cff8f7bfb1b8fa79b81967020bd254ac330e120b0d9f98369489ee81bef15fc5fcc37bec9cc43cdcf340e49180a133ad4b05ae15b003b111d75e9463f702cfa172458dd26b4a211ed578c37bae0e02998b55f7f3cc36f4e64dcabaf2c1a6da634d262efac10d7c848c8a173acdebd83ffd58b8c4b36dbf48288b7f707a20d9cf11383a9514bdf452778603269361f9825d7d95d8a2bafdac4ddb27bd4c2a92992ceba9af744085410e313800fdbbdc798ac8df637625fdc4d6c4e420ad566bea77b345bb8fa7edd4dd5a18b8973e8aafd4d02490f0d5e3680b88df4be9e3232f4448c6cc8a438a483a7392207df37313c1ab77b176ccd59692577f1c1954212adf4264a32f9c2056fa0dd93d360428bc880dcdf3d9776aaacaf8de444b75cea6521ccb3becb54b2dfcae8e12782c033e4dd69c17b1bd41d49eb4b5cf38857502f0b27185afc3b53f38204f8ee020d904aaca53663b3c69840656e73207a52b0b5614121f6cae75a9586c6ec588764baf0152fdf4f02480c4408d51ea31321a5e628a0624b062115b7b3cebd8e422a4e0e61b1d019f58233fa26b6803e1a1e4ab45b609a7f28867f3de176c37a09b36a74e734c257c35e3b2666da64fb3ffbf06ba22e6bcc7e4f16ae5dbe0003bd00bef610e25aeeab81db8889ef0d4705c6864654b9baa28bd406614638f41f99776419f78a0722e8ebbae3314048f6555ebb04af47b31d37bfdfc94a25150abc5dde2a759e893b03cb4a582f6bbae3984f6f78fcf61ace6ff88b441be3229402e14574f65a57f8be92fc1663e767fe7587ab8f396daa2d1d0d4b3c9ff835b4347a8ee003f0c4eb643b2ae021d27e2b4369c261c4f840d53bacc8dab7cabf2460c54d81b6d976e5555975773afaa13b04631e7631719172f8c808d898d8d748ad120d768c2b0485875bde191676dc9241c9ce849745e1c63c788dc2f5e6447a26175a6a37c265bd12874dec5bd0f937a63d99770f7ad1efa2b7e22f32eab8f820d7f25407b8945ccf238a582b99dc70e802d01ddd95bd52ff2e30f5bf3bed9922b46e3aacfc69555821373dcc1487c4e4a2767bc0297cbe3c0d4b379ba957a03993ca823ee8eaf86a07a6a6836ffb6c84c592f75bd0429b466e95a8987bc5bf19a5d1c314c501ba6340fa37069080dbd56f473d54b50cc40337ac5cee53bc4da94b1ad85b8e91faeacb0f6920d5595a4b4baacd3fda8ec13e87a4a0fdead3872de15561369a07598d75d352c120809b937938a27d13c87785ce3470e9e490dcb055d741cf2d3280779319c46f6cf6a19f28f6affa0b60c5e45d660d1d599bd079f3dcd5fe9d13c59716ff875334b31ddd6ccb4aa33b32b4773bccd551674843c13a9274247040758ab5f68f554f222de98a3f5174c140e5a084b865ececadc21152d9cba04055aa9a209ff350356ca6359fe5b1f7cb8de4f7ac4cd38578c3a6607e8bcccaeb018a5008420e2e83d9ec5fb66da4f53bae132b660ccf6a3873a2ca30050353c9dd89f5c685de35619ff2b2729e89dcc376b9ddc825ad8240dcb5608d3f771627c317b3ffce3f6ad9f37c850c89b210e8121d2cef2cf2dc03e79954ff3a21ffc01f42f8e5e223fa500c767402c1516e1fc1c81469f0d34a23dda6612b9c86b7e53ce3fdc3ea35da3da15acf673372fb178008ad49d62359fb71a45ba55f32120e73567235f0837ac7e5ecc690a33158f21b68be73c082e48dfcc8c80fd2e6dde5563382e26659d38538cf92feb820e4f16947eb51616cfbb672050e64008e113d2e31c03c279fd5c802f57cf1ea00f272858395ea2e1f4304bb098b176fc8e6d5e75d2d764bce90cb606c22d1b8cb4779a744bcabaf25dde2c7176c6aaf816dab392e915990c488e3067634eb1d2d445fd5bb903affc5b7f1e38390715afec660b3fbd6e30761a9de1bb902def9fca19ff2e6802a9e6b13c4956404c0ee05976d0c9ce1c711e417c2e566f76c5e2798a3d17ba6c3335e55d3a1a260f84019a465b97d84c709dd90409d3ee65204e08c04fe0254ccdf96dc59af20d82f6b9d179c04f320796d9392d3e0de7dae8f00c2a060a8492e86056700fb6b9bef0c196c0e20ff12e8951d6335c381a8bf538b74cc1953971ff436a575657bc4f319f9b18b0cb1aec2f0679090992b161282ac47b6a579d6ce9d437e93171c8fb1c246e7bd984d8161aee576f97eb081a4ed3d0578e756b1d16ffce964d8843fa44b707f69166eb1002466a22384f395dd8c3b0e278389539cdcc12b6d8bf838b3fe4ef969fb2ed2e7581ac7127d69ad303550ad502c16c7c4a0315504f7d3158c8f1cb93596435a12fbd034796f5b084504efc146da80fd633f6a2547f2bd2e26a55ae570df5ca9207840076cf672cbcf2aeab7d636e09bd9bae05703c55597199efe5f70d284ec1107e39ea556a9f51e7a4a530739da0be0ee8485ffa6db7d25eb39b72299ca02f2d8120977390f15059426f1539aea5832f78aba58c3a0f26dc63a1bfe3d65144d42afcfa1c15573a5af1e80aadace78d6935e323a15b823f3561d0e0ae8e93e73de0b73dfc60459d5e219fc3b5f2e3ab7e076eb1ec5bdd4e419989a040fb35df7d7fcca2480368a763411f2c946bb1ada947736443382ed15bde312e80c247a567b53dc3aa83279f3901aff55c09142466cefe783d74ca4b9f8958fff114b6f7d7ec33af6eaa6c06ebbe375fabda30980c0bcf7dbf4e87524490bf3c45016958c38c32f1830b0c4af556b428b50eac6898b9b2f235ce3faa1521c26a6a8aca54b3807d55c1c2dfba18b8ff92eb2372b545f14ea8966989b6c6f1ef8121634e1e343813b52448634be796436210cdec61b8cb7fc0c8c8e70e9f102634ef6d1217eadc939a5128ed88b21bcb65dccc3e1b20d0a70999f9032d9b8d89d9cd57297bd9de8831a90ada319076a1e3e1fe0f6bfa1bfda8955bc6e73300c0091c6685c8037f878450cb11faebe2b612f23e375489021174eb9ab97bc1339edd3a9ff36ea3ec95513f1c43443b56421cb4b6c108538d9d1ca7eed4685fa7598523ce465776980e42e250d8125b75f77d20ed6d698f3f99664524840326dce181f515b6868e7d8e4b5dbb846611fb827eee7b3095125518e44bdc3a91c6c8890da41b42a98e892cd93377e7642d1f8e9afe130649ae4b04a9b9150a923787b81fa3fa2d1901a9a62eade46d92a012f0a9d7af0c3b3523a179842e51a68b6c5b7bd9dc4c5ef66cbf53b944859c292e2293779ba9c5282d86917c1702d5220e22ccf4936aa1d5c9be809e5f37cabcef8d6977667b5ec8e759c44daceec0cdbb080037bd1602e1e66be7eea62e092080d431fb29a75031bf3cb23742cd10dcd1c5ed0fe928d9ef3f779a815bde73b62fd66eb601309f4948e4d4df80d361d394672c88b51d91fb7c3c11126e21a84de52cb4617b3182cf5083d325b2c0788d9964ab7f1a10554cea9c8654bce7bfa8844aeddffd54dae0d003b623cbca93c36321389f2e1652275fc55cca3ea86f21547f818897f4fc9c41ded33e6d71640929f17f4ca2e372d16c57d7d6ed6a8a1e38c78a285c3536b6c571c3263ac1cc4cd9c63364a39066fd7dc566d48664e27ca72b824e76540962d7e0967f7198a902a9a563b4ec7d276e899d5d2cce204bd9fde28e824cf2a83196d928b15784e45fcb40b66eb4ba0ecb10d48e112d066c7fe35cd49ec0168c3c3b3ef96cfb978f40db3e7f9bf2192895911543e52607ae2ec1578251cb3d85338b322972ff36169c063f7a3bae71ba0e08dc9b852f089ab970e7783c4a3308ddf5eab7074b1315e91cf959b305619732ec56fa2f2aea1b0c2200fa8f7d1d640d318447b4b4bf5540a665d18c01ecdbf3e1d98fe838e112ed0b843c81d0c253448bd02fd4839f81ed6e10d15a5bafb1e5082f8978fbf982f6eb62284ee9c91d02e8b4ddfb2eeac365d4a8acd737461dbb7d12b27e7ef8718a04f68142c390e8b58756454cab7e99e288865eb49ed941fec7ef11b97a03e3c4d9ffec8c41ac8cc12f10e4c79a15debebf5c0187364ad2bddfd42e84535fd30d465fb89e1d93a66ed4b8640dac38d435959cb8861687493a13f0ceeee42e28e3b52ac4f2e9a5014943ef148fb13eb4c7442f95382913322bf25446e80e74af28b67650b1273429e872a5d207ffdbcb173c649e6b3fee21eb767f0cd2c441bd0cf1132332ec92e7ce469fb54ec5a5039135070c64a898de6afd8e3fd17043591eccc9d02d6767f37c95ebc83aa35fe3c66f04718ec5533e576f130b4d4be137dd5269367dd55e714cf0cf9006940f108445aa2e61f8543247830ffb6cb25282dfbbc600d93845ee37213e123a03bd97410126cb7a672f99a0bb033cb3107a3eb466f5973e9465f88084f4b1b1990b9603f93e529b8e5763ebac163b41d089fe6c8de1bcd467152baee2edff1d403a70e3ba324cd859ee0c90b7d1a00a5c05837e33ba47ec1fd6a55a901937b55a6eccf85ec5ff74b585bfb833f2e81b94cf3d5418e3fd4bf55d5f0f078e0925e6eb1b9c9e6479594b2eefbad8e906b46ce10c6d981d8e9573ef6551cb6037cb8bd36153a24eacfe492a0b4e762907fe103ef48355c74c4880c9e2fc0bb29b9745801d9dc62cb89d133fe7e4a581e30c098f8bf215f14b5610f4cc93756bdb98000f87d6ffacf2b3b1d5ba28d56786df7fc4e79e6352f82aa60678a95d4a6bd99e9ad3a94777ba7f0500dabacaabb7e260895ff351c7d1d854b39c02ecc6e8d15e6f4a1f3b1add31a4f10c6e78f9a6020463cf924966c27e7ac34a111e51a95dade694ae5ef4b4a2ccd05674891ccdc43c0aeff3147c903d8ffe772b328897594e6a23a599d35b88d48ae1f5e1ccba0f39a27f1a6a12c5c1a0b2ac227f09da3a37ceaf08a25b0317575d760dc2f8d8d36b575242ed04c524875435268a3241666aaa1ec430a4d4c6230d984f9f8173c13fac08007850b144bce6600d8fcd7b7252a4ad0013ec2ff161f939197094d92743198045d66dd16edb4a61a7ed0d3a744309e3d6ede732d6fb0a6f72df7ab43c1f968f63fac30d23169e38245282d86331bf77e8a73e3934e01f15cfae8ead863ce3f226ffdb015f9e0518be981b5a9b7e6c9e38c8094abdc486a90748455ebd448e7551661f5b100e5be33405eb54a2730d835603faba4c7a17ed37c31c4eb2a775ed6f9f389f433a9b5a8dc088af77cca3d611d7275232bae4b776b63ccb62f8a626e22a67f21a9018ff94935c3a4b517fd1ef9fe5f0ee6ced1df6c0f8539751a9225cb86869ecbfdad540f7baebb259959c96f461ba922c2d29eb0aab8477db09b9f4cb849cdb2e82fe1e917850c827275e52ceac001659bee5af29acca33056846b3fdebbf94bc6deeee86ecb467cc95e20bd6d3afabcf21865364de5b3c9610770fd96934e3eb82d595b985dc0ce48ebbc5fa19ad8ad0198b35b8a075d43586a04416fdad77b69bd0c460d7ed8e5ea28dab27ac94fb4df22781c26cd641e721d8b2d6ce22997ebf857602e40f74e6da9c495bb1c184e84e68e34d6eab2c4defa0dcb6bd2b171cc54447b9cab3e61299b49ab1fb9f16785e29a41216248cb9ce8207f4a38d9502e2a9d3b94e13260d46fb2b377d3544adbbc8abe9fda8ad23ad94fb045cd60da3b1929d7146b60eff14a8250199c962a0c805fc61bc235890efa73412a98228fc7b0db24d5452eba295167eaabbe13bd67149079b9e89f0403a64338da469779762fafe9fb0f4590d6a69c2026b3e2ce59c29bf1da35c4c7461cd5602cc29326ab8007e71b411b8888b0370f1071125ba5d045d1fadff808c288b84e9cb038593100363b2d4b5499aff6b505d058624b28da102458727f525c2693675b378d9bd51d0f2a586fd7efc5a88a249a95301d363d325e01e41406f58c83b13a7e02058efd4f453f31e1d3e420f93c7f12f00e7a2a84b5a13ea28e3de23f36fa3a70cf7c3310a26e1f685f845ba579b9c798427c54e1fa9e80929f04f5740287d62f5697f60b05aba7d6e4ab559c5c63aeea8bbc6fb82745742a16ccbf76c678422a9afbed2041b068f731daab3fd363336fc2f8fef1e5d82ec12d8c99efa190a35269cfd50676648e1f9223e174d46ba2e9a81914ff35c00bbce49d1bf38c49dea9bdf439ccdcadeb27b956d9d0b63c9ee98afc2746041b4187221c64508a0a42f959679c55b2019e7dc5a834b6e62cf946dc6dcf688641f2b1df33c77dd9b7c503eace5c17cc473b02827e59bef37296363239c846cd2f6a778cdd89dba4378fcded3049890de08ae60018875fca621fb492a43166836c418137c260cfe70009cce8fae83101ae3fcdbe4a530d7fff1a79522d334af7933f4bd19ce788b3ba6bc103fabe10d02f2725fc938444b95e527b942fc7da9008a7c7582d71905e6c3d837c5b5975f815153c5a73729e77ebfe0db639e0ba23b7ab01b8e6ed3e701e988dc93befc75836e3f8ea5d64635d3e98446c2379077c2235262ed062b517939426e90d64bf1672a7581690bb2147edc14991eda79fe595b1cefa8a3</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MySQL </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RPA</title>
+      <link href="/post/2b190f9e.html"/>
+      <url>/post/2b190f9e.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="b3c97117039200cc6c809dc8b0e873e2dcd7fa21a6bbb03cf3aac1fa59b9bd60">ff8093e7a65d4753ca1aafc7bbf304abbce740a84c4f422865cbf2190ee2a6c5501daa3918932e9c881d9704218d9cbd92c0f611865d4fc5fc646bdea52f9ec56ec2ef0ad7088c9d958ca597a4e49894595209aa13118981f4d2f4c68582525514e4b7f8526b2ca3ca9dd876dcfe88fb7b35648018f430d55d0189988f3fdc0fd83ccbe7a22dd647cb7c05d3d70077433830f07a51e3fa4b9348061a99d94cd338ecc9fa052708df871d6140f48aa89b8bb60e0a4fd7233a4c789568489054152969427e149dcc30643aa69de50492a790f47e66c9e143cff19c1e4924a3100cc9e3364d7eb463a9ad68d7b0528a746c35da2206eebe611a6edbf47cd5d451194276ee1c8e24566ec11f4607f2a38048630bd311bb4d2473b7a73155a31f3bce19a5402226787fbb3cf58a2b0195da2bd72ac437380b000c28494e631f1a79a14621de1783032ec7657c821e896f3c0d73c3ab29d89054c2cf2800f08d11984354b6f3f1b771a608012f9f65d8b884c028cf69d760ee62281f2df02c99f448bdf11ea1e5ad852a20c76054d48526c3b4</script>  <h2 id="RPA-图谱"><a href="#RPA-图谱" class="headerlink" title="RPA 图谱"></a>RPA 图谱</h2><p><img src="../images/RPA01_02.png" alt="RPA"></p><h2 id="RPA-技术点"><a href="#RPA-技术点" class="headerlink" title="RPA 技术点"></a>RPA 技术点</h2><ol><li>VBA</li></ol>,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> RPA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动化 </tag>
+            
+            <tag> RPA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>架构视图和视角</title>
+      <link href="/post/cdf20823.html"/>
+      <url>/post/cdf20823.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="架构视图和视角"><a href="#架构视图和视角" class="headerlink" title="架构视图和视角"></a>架构视图和视角</h4><div class="row">    <embed src="../pdf/架构视图和视角.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
+            
+            <tag> 企业架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>S2E_Business_Architecture_Team</title>
+      <link href="/post/73ad689f.html"/>
+      <url>/post/73ad689f.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="S2E-Business-Architecture-Team"><a href="#S2E-Business-Architecture-Team" class="headerlink" title="S2E_Business_Architecture_Team"></a>S2E_Business_Architecture_Team</h4><iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/S2E_Business_Architecture_Team.pdf" style="width:100%;height:900px"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+            <tag> 企业架构 </tag>
+            
+            <tag> 在线PDF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Enterprise_Architecture_beyond_the_Enter</title>
+      <link href="/post/50444719.html"/>
+      <url>/post/50444719.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="Enterprise-Architecture-beyond-the-Enter"><a href="#Enterprise-Architecture-beyond-the-Enter" class="headerlink" title="Enterprise_Architecture_beyond_the_Enter"></a>Enterprise_Architecture_beyond_the_Enter</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/Enterprise_Architecture_beyond_the_Enter.pdf" style="width:100%;height:900px"></iframe> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 在线PDF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
+            
+            <tag> 企业架构 </tag>
+            
+            <tag> 在线PDF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mybaits中的别名</title>
+      <link href="/post/1f26b8fa.html"/>
+      <url>/post/1f26b8fa.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Mybaits中的别名"><a href="#Mybaits中的别名" class="headerlink" title="Mybaits中的别名"></a>Mybaits中的别名</h3><h4 id="bind标签-name属性"><a href="#bind标签-name属性" class="headerlink" title="bind标签 name属性"></a>bind标签 name属性</h4><ol><li>在Like中的使用<ul><li>bind 标签可以使用 OGNL 表达式创建一个变量井将其绑定到上下文中，比如在可以在Mybaits这样使用 <strong>Like</strong><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">select</span> <span class="attr">id</span>=<span class="string">&quot;&quot;</span> <span class="attr">resultType</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">bind</span> <span class="attr">name</span>=<span class="string">&quot;_lastName&quot;</span> <span class="attr">value</span>=<span class="string">&quot;&#x27;%&#x27;+lastName+&#x27;%&#x27;&quot;</span>/&gt;</span></span><br><span class="line">select * from tbl_employee where last_name like #&#123;_lastName&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">select</span>&gt;</span></span><br></pre></td></tr></table></figure>2. </li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据访问层 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mybaits </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>数据安全</title>
+      <link href="/post/6dd6108f.html"/>
+      <url>/post/6dd6108f.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="数据安全"><a href="#数据安全" class="headerlink" title="数据安全"></a>数据安全</h2><ul><li>数据安全我们可以从一下个角度考虑</li><li>数据输入安全</li><li>数据传输安全</li><li>数据处理安全</li><li>数据存储安全</li><li>数据备份策略<h3 id="数据输入和数据传输安全有哪几个技术点？"><a href="#数据输入和数据传输安全有哪几个技术点？" class="headerlink" title="数据输入和数据传输安全有哪几个技术点？"></a>数据输入和数据传输安全有哪几个技术点？</h3></li><li>数字签名</li><li>公钥私钥</li><li>主密钥、工作密钥、会话密钥、PIN密钥。</li><li>数字信封，PKCS#7</li><li>CFCA</li><li>SM2</li><li>SM3</li><li>SM4</li><li>RSA（RSA工具集-openssl,rsatool,RsaCtfTool,RSAtool）</li><li>DESede</li><li>RC4</li><li>数字信封，签名和验签</li><li>p1和p7签名,P12</li><li>公钥认证中心（CA），保证公钥的安全</li><li>HTTPS</li><li>MD5 +盐值</li><li><a href="http://gmssl.org/">http://gmssl.org/</a></li><li>数据水印</li><li>隐私计算</li><li>脱敏</li><li>联邦计算</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 数据安全 </tag>
+            
+            <tag> 安全架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>扩展性的几个方面</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="扩展性的几个方面"><a href="#扩展性的几个方面" class="headerlink" title="扩展性的几个方面"></a>扩展性的几个方面</h1><h3 id="架构扩展性"><a href="#架构扩展性" class="headerlink" title="架构扩展性"></a>架构扩展性</h3><p><strong>AKF扩展立方体（Scalability Cube）</strong></p><p><img src="../images/扩展性1.png" alt="AKF扩展立方体"><br><strong>1.</strong> X：服务，数据的水平复制（数据副本），多实例部署；</p><p>   <strong><font color="red">弹性扩容伸缩</font></strong>   <strong><font color="blue">性能规划</font></strong>       <strong><font color="red">业务解耦 </font></strong>     <strong><font color="green">部署复杂度增加</font></strong> </p><p><strong>2.</strong> Y：按功能、服务或资源划分。<br><psw>文本内容</psw></p><aside>💡 一个服务可能代表一系列用途，通常最容易想象的是把它想象成一个动词或行为，比如“登录”，而面向资源的分割最容易想象成名词，比如“帐户信息”Y轴伸缩将整体应用程序拆分为一组服务。每个服务都实现了一组相关的功能，如订单管理、客户管理、库存等。此外，每个服务应该有自己的非共享数据，以确保高可用性和故障隔离。Y 轴伸缩与多维数据集的所有轴共享增加事务可伸缩性的好处。</aside><p><strong>3.</strong>   Z: 根据(数据)逻辑划分划.</p><aside>💡 当使用z轴缩放时，每个服务器运行一个相同的代码副本。这与x轴缩放相似。最大的区别在于，每个服务器只负责数据的一个数据子集。系统的某些组件负责将每个请求路由到适当的服务器。一个常用的路由标准是请求的属性，例如被访问实体的主键。另一个常见的路由标准是客户类型.例如，通过将付费客户的请求路由到另一组容量更大的服务器，应用程序可以为付费客户提供比免费客户更高的SLA。Z轴拆分通常用于缩放数据库。<u>基于每个记录的属性，将数据分区（又称分片）在一组服务器上进行了分区。在此示例中，餐厅表的主要键用于将两个不同数据库服务器之间的行分开。请注意，通过将一个或多个服务器部署为副本/从属服务器，Z轴缩放也可以应用于应用程序。比如搜索服务由许多分区组成。路由器将每个内容项发送到适当的分区，并在该分区中索引和存储。查询聚合器将每个查询发送到所有分区，并将每个查询的结果结合在一起</u></aside><p><strong><font color="blue">分开处理数据（子集）</font></strong>     <strong><font color="green">提高资源利用率</font></strong>   <strong><font color="red">提高业务可伸缩性</font></strong>   <strong><font color="blue">改进故障隔离</font> </strong><font color="red">业务解偶 </font><strong>     </strong><font color="red">有状态服务</font><strong>   </strong><font color="blue">增加复杂度</font>**</p><h3 id="应用扩展性"><a href="#应用扩展性" class="headerlink" title="应用扩展性"></a>应用扩展性</h3><ol><li>X<ul><li>无状态应用，多节点克隆复制。</li><li>容器技术快速复制（比如Docker）</li><li>负载均衡器，控制业务负载流向（比如Nginx,F5,SpringCloud Rabbion,Feign）</li><li>有状态应用，状态分离（比如会话存储（ cookie 存储 token  ，Redis ，Session），文件存储 无状态（FastDFS），日志无状态（日志标准输出，监控服务））</li></ul></li><li>Y<ul><li>（微）前端</li><li>后端（子系统，模块，聚合化分，微服务化）</li></ul></li><li>Z<ul><li>业务ID分割</li><li>地理位置分割，单元化</li><li>产品ID   SPU，SKU</li></ul></li></ol><h3 id="数据扩展性"><a href="#数据扩展性" class="headerlink" title="数据扩展性"></a>数据扩展性</h3><ol><li><p>X:</p><ul><li>读写分离</li><li>多副本</li><li><p>缓层读取</p><p><strong>CAP最终一致性</strong>   <strong>CDC复制</strong>   <strong>数据高可用</strong> </p></li></ul></li><li><p>Y：</p><ul><li>配合应用Y扩展</li><li>每个子系统，微服务独立数据库；数据群集</li><li>康威定律</li></ul></li><li><p>Z：</p><ul><li>Key分表：ID SPU，SKU，Hash 取模</li><li><p>分库分表（MyCat ShardingSphere）</p><p><strong>加速查询</strong>   <strong>业务解偶</strong>    <strong>X（副本）Z（分片）</strong>  </p></li></ul></li></ol><h3 id="编码扩展性"><a href="#编码扩展性" class="headerlink" title="编码扩展性"></a>编码扩展性</h3><ol><li>插件编程</li><li>SPI</li></ol><h2 id="组织扩展性"><a href="#组织扩展性" class="headerlink" title="组织扩展性"></a>组织扩展性</h2><ol><li>披萨组织<ul><li>目标一致- &gt;吃披萨<ul><li>贝索斯推荐：6～12</li><li>配合应用和数据的Y轴</li><li>可扩展责任矩阵（RASCI）</li></ul></li></ul></li></ol><h2 id="流程扩展性"><a href="#流程扩展性" class="headerlink" title="流程扩展性"></a>流程扩展性</h2><ol><li>ITI L</li><li>ITSM</li><li>6西格码</li><li>Devops</li><li>JAD 联合架构设计</li><li>ARB 架构评审会</li><li>OKR</li><li>SMART</li></ol><h2 id="实现方案"><a href="#实现方案" class="headerlink" title="实现方案"></a>实现方案</h2><ol><li>分布式架构设计</li><li>复制</li><li>应用无状态 容器化 </li><li>数据多副本，读写分离，冷热备份</li><li>中间件，最终一致性<span id="more"></span></li><li><strong>CDC</strong> 技术（canal）<br> <aside> 💡 canal 是阿里巴巴 MySQL 数据库 Binlog 的增量订阅 & 消费组件。 </aside><br>  <img src="../images/扩展性2.png" alt="AKF扩展立方体"></li><li>服务拆分（微服务架构）<ul><li>需求驱动（业务关联性，流程边界）</li><li>用户群体</li><li>DDD领域驱动（值对象，实体，聚合，聚合根，模块，界限上下午，领域（子域，核心域，通用域，支撑域））</li><li>事件风暴 event storming</li></ul></li><li>服务发现，服务治理，负载均衡，链路追踪,监控<ul><li>SpringCloud</li><li>负载均衡（客户端Ribbon/Feign，服务端Nginx ，K8S Service ,ESB, API Gateway）</li></ul></li><li>数据分片，分库分表（Sharding jdbc Spanner,MyCat,Aurora）</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
+            
+            <tag> 系统设计 </tag>
+            
+            <tag> 扩展性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金额支付中台</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 金额支付 </tag>
+            
+            <tag> 金融IT架构 </tag>
+            
+            <tag> 中台 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>司库体系</title>
+      <link href="/post/ceed5048.html"/>
+      <url>/post/ceed5048.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="金额支付中台"><a href="#金额支付中台" class="headerlink" title="金额支付中台"></a>金额支付中台</h1><p><img src="../images/支付中台1.png" alt="支付中台1"><br><img src="../images/支付中台2.png" alt="支付中台1"><br><img src="../images/支付中台3.png" alt="支付中台1"><br><img src="../images/支付中台4.png" alt="支付中台1"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 司库 </tag>
+            
+            <tag> 财资 </tag>
+            
+            <tag> 多银行平台 </tag>
+            
+            <tag> 银企直连 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>领域驱动-从战略、战术到落地系列</title>
+      <link href="/post/f02f08d.html"/>
+      <url>/post/f02f08d.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="领域驱动-从战略、战术到落地系列"><a href="#领域驱动-从战略、战术到落地系列" class="headerlink" title="领域驱动-从战略、战术到落地系列"></a>领域驱动-从战略、战术到落地系列</h3><ol><li><a href="https://mp.weixin.qq.com/s/sD1V8G9qjvdRbyioOAIljg">DDD之领域及领域划分</a></li><li><a href="https://mp.weixin.qq.com/s/LR7Efj0hDWrkl-JP5GFJjQ">DDD 之聚合</a>  <span id="more"></span></li><li><a href="https://mp.weixin.qq.com/s/H_83Hj0ywLwU9wRRPz26jQ">DDD主要概念以及之间的关系</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484702&amp;idx=1&amp;sn=be7bd25a8460841f8da6f5a50b15282b&amp;chksm=ec702bdbdb07a2cd42dd011c5ba91487e8240ad3b472cc956514bc6bcbdc66cb1e2a1ac5fdcd&amp;scene=178&amp;cur_album_id=2499292693789949953#rd">落地DDD的方法</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484492&amp;idx=1&amp;sn=40dfcf39d660450b2e07431231edf579&amp;chksm=ec702a89db07a39f0579a07f2645a28913a8774a5567bcbac7d793f2eb63fd84b593287e91e4&amp;scene=178&amp;cur_album_id=2499292693789949953#rd">DDD管理软件的复杂度</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 领域设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DDD </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>通过SSH连接到GitHub</title>
+      <link href="/post/cf0d23e5.html"/>
+      <url>/post/cf0d23e5.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="如何实现SSH连接Github"><a href="#如何实现SSH连接Github" class="headerlink" title="如何实现SSH连接Github"></a>如何实现SSH连接Github</h3><hr><ul><li>为了通过SSH连接到GitHub，您需要设置SSH keys，并将它们添加到GitHub账户中。以下是步骤和示例代码：<span id="more"></span></li></ul><ol><li>在您的计算机上生成SSH keys（如果您还没有的话）：<blockquote><p>ssh-keygen -t rsa  -f ~/.ssh/id_rsa.github  -C “您的邮箱”</p></blockquote></li><li>确保SSH agent正在运行：<blockquote><p>eval $(ssh-agent -s)</p></blockquote></li><li>将SSH私钥添加到SSH agent：<blockquote><p>ssh-add ~/.ssh/id_rsa.github</p></blockquote></li><li>将SSH公钥添加到GitHub账户<br><img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git01.png" alt="GitHub截图"></li><li>测试SSH连接：<blockquote><p>ssh -T git@github.com<br>  <img src="https://cdn.jsdelivr.net/gh/bybyte01/bybyte01.github.io/images/02Git02.png" alt="测试SSH连接结果"></p><ol><li>为了让这些设置永久有效，你可以将这些命令添加到你的 shell 初始化文件中<br>如 ~/.bashrc 或 ~/.zshrc<br>在 ~/.bashrc 或 ~/.zshrc 文件的末尾添加：<br>eval $(ssh-agent)<br>ssh-add ~/.ssh/id_rsa.github</li></ol></blockquote></li></ol><hr><p> <strong>参考：</strong> <a href="https://blog.csdn.net/CarrreyYan_979292/article/details/132225810">ssh-keygen详解</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java工具类/库</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java工具类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java工具类/库</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Java工具类及技术组件"><a href="#Java工具类及技术组件" class="headerlink" title="Java工具类及技术组件"></a>Java工具类及技术组件</h3><ol><li><strong>Jsoup</strong><blockquote><p>jsoup 是一款基于 Java 的HTML解析器，它提供了一套非常省力的API，不但能直接解析某个URL地址、HTML文本内容，而且还能通过类似于DOM、CSS或者jQuery的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用，从网站获取dom结构，从而解析下载数据</p></blockquote></li><li><strong>Swagger2Markup</strong><blockquote><p>Swagger2Markup是一个开源项目，它可以将Swagger生成的API文档转换为多种格式的离线文档。Swagger2Markup支持多种Swagger版本，包括Swagger 2.0。使用Swagger2Markup，你可以将Swagger生成的JSON或YAML格式的API文档转换为Markdown、Confluence、AsciiDoc等格式，方便你在不同的平台上查看和分享API文档。</p></blockquote></li><li>单元测试<ol><li>mockito-all</li><li>powermock-api-mockito</li><li>powermock-api-mockito2</li><li>powermock-module-junit4</li></ol></li><li>Java字节码增强工具/类库 <ol><li>byte-buddy-agent</li><li>objenesis</li></ol></li><li>微基准测试 JMH - java Microbenchmark Harness<ol><li>jmh-generator-annprocess</li></ol></li><li>对象映射工具<ol><li>Orika MapperFacade</li><li>MapStruct</li><li>BeanUtils.copyProperties(A, B);</li></ol></li><li>excel工具<ol><li>easyExcel</li><li>poi</li></ol></li><li>hutool</li><li>编排<ol><li>liteFlow</li></ol></li><li>数据仓库<ol><li>GreenPlum</li><li>Hive</li></ol></li><li>图片处理工具<ol><li>Thumbnailator</li></ol></li><li>pinyin4j</li><li>jersey-client  jersey-core  jersey-json</li><li>Jodconverter+OpenOffice</li><li>commons-beanutil</li><li>commons-lang3</li><li>lowagie.itext<blockquote><p>导出数据为Word文件</p></blockquote></li><li><p>protobuf-java-format  protobuf-java<br> &gt;</p></li><li><p>LatencyUtils</p><blockquote><p>强大的延迟统计工具</p></blockquote></li><li>HdrHistogram<blockquote><p>分析系统性能的强大工具</p></blockquote></li><li>Java时间类库 Joda-Time</li><li>JLine  强大的Java命令行输入库</li><li>checkerframework 静态类型检查的新纪元</li><li>mime4j </li><li>janino<blockquote><p> Janino 是一个极小、极快的 开源Java 编译器（Janino is a super-small, super-fast Java™ compiler.）。Janino 不仅可以像 JAVAC 一样将 Java 源码文件编译为字节码文件，还可以编译内存中的 Java 表达式、块、类和源码文件，加载字节码并在 JVM 中直接执行。Janino 同样可以用于静态代码分析和代码操作。</p><ul><li>org.codehaus.janino.commons-compiler  </li><li>org.codehaus.janino.janino<br><a href="https://blog.csdn.net/qq_20042935/article/details/135749067">Janino：动态编译Java代码的神器</a><br><a href="https://janino-compiler.github.io/janino/#janino-as-a-code-manipulator">janino</a></li></ul><hr></blockquote></li><li><p>feign 支持表单提交</p><ul><li>feign-form-spring</li><li>feign-form</li></ul><ol><li>使用Feign实现Form表单提交 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign.form<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-form-spring<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>3.2.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure> <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FeignClient(name = &quot;xxx&quot;, url = &quot;http://www.itmuch.com/&quot;, configuration = TestFeignClient.FormSupportConfig.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">TestFeignClient</span> &#123;</span><br><span class="line">   <span class="meta">@PostMapping(value = &quot;/test&quot;,</span></span><br><span class="line"><span class="meta">            consumes = &#123;MediaType.APPLICATION_FORM_URLENCODED_VALUE&#125;,</span></span><br><span class="line"><span class="meta">            produces = &#123;MediaType.APPLICATION_JSON_UTF8_VALUE&#125;</span></span><br><span class="line"><span class="meta">            )</span></span><br><span class="line">   <span class="keyword">void</span> <span class="title function_">post</span><span class="params">(Map&lt;String, ?&gt; queryParam)</span>;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">class</span> <span class="title class_">FormSupportConfig</span> &#123;</span><br><span class="line">      <span class="meta">@Autowired</span></span><br><span class="line">      <span class="keyword">private</span> ObjectFactory&lt;HttpMessageConverters&gt; messageConverters;</span><br><span class="line">      <span class="comment">// new一个form编码器，实现支持form表单提交</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Encoder <span class="title function_">feignFormEncoder</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">SpringFormEncoder</span>(<span class="keyword">new</span> <span class="title class_">SpringEncoder</span>(messageConverters));</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="comment">// 开启Feign的日志</span></span><br><span class="line">      <span class="meta">@Bean</span></span><br><span class="line">      <span class="keyword">public</span> Logger.Level <span class="title function_">logger</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> Logger.Level.FULL;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@GetMapping(&quot;/user/&#123;id&#125;&quot;)</span></span><br><span class="line"><span class="keyword">public</span> User <span class="title function_">findById</span><span class="params">(<span class="meta">@PathVariable</span> Long id)</span> &#123;</span><br><span class="line">HashMap&lt;String, String&gt; param = Maps.newHashMap();</span><br><span class="line">param.put(<span class="string">&quot;username&quot;</span>,<span class="string">&quot;zhangsan&quot;</span>);</span><br><span class="line">param.put(<span class="string">&quot;password&quot;</span>,<span class="string">&quot;pwd&quot;</span>);</span><br><span class="line"><span class="built_in">this</span>.testFeignClient.post(param);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">User</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol><ul><li>feign-slf4j</li><li><p>Feign使用JAXRS注解</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">&lt;!-- Feign对JAXRS的支持 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>io.github.openfeign<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>feign-jaxrs<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>9.5.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- JAXRS --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>javax.ws.rs<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>jsr311-api<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">   <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.1.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.GET;</span><br><span class="line"> <span class="keyword">import</span> javax.ws.rs.Path;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">RsClient</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="meta">@GET</span></span><br><span class="line">    <span class="meta">@Path(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">()</span>;</span><br><span class="line"> &#125;</span><br><span class="line"> &gt; 测试类：</span><br><span class="line"> <span class="keyword">package</span> org.crazyit.cloud.jaxrs;</span><br><span class="line"> <span class="keyword">import</span> org.crazyit.cloud.HelloClient;</span><br><span class="line"> <span class="keyword">import</span> feign.Feign;</span><br><span class="line"> <span class="keyword">import</span> feign.jaxrs.JAXRSContract;</span><br><span class="line"> <span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">RsMain</span> &#123;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">       <span class="type">RsClient</span> <span class="variable">client</span> <span class="operator">=</span> Feign.builder()</span><br><span class="line">                .contract(<span class="keyword">new</span> <span class="title class_">JAXRSContract</span>())</span><br><span class="line">                .target(RsClient.class,</span><br><span class="line">                <span class="string">&quot;http://localhost:8080&quot;</span>);</span><br><span class="line">       <span class="type">String</span> <span class="variable">result</span> <span class="operator">=</span> client.hello();</span><br><span class="line">       System.out.println(result);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul></li><li>mysql-binlog-connector-java</li><li>在线JAVA编辑器<ul><li>vue-codemirror集成和使用</li><li>JavaCompiler的使用</li><li>JavaScript正则和Vue中的插槽（slot）</li><li>自定义ClassLoader实现动态加载</li></ul></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java工具类 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于能力的规划</title>
+      <link href="/post/13cb0d4a.html"/>
+      <url>/post/13cb0d4a.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是基于能力的规划？"><a href="#什么是基于能力的规划？" class="headerlink" title="什么是基于能力的规划？"></a>什么是基于能力的规划？<br></h3><p>  基于能力的规划方法关注规划、工程，以及企业交付的能力。例如，它可以用来关注组织花费在为达到战略意图的关键能力开发上的投资<br><br> 它要求组织关注组织正在创造的、建立的或改进的特定能力的干预措施（项目和项目群）的一致性这样使得流程更关注于业务收益，并且直接与价值实现相连接。<br></p><h3 id="什么是业务能力？"><a href="#什么是业务能力？" class="headerlink" title="什么是业务能力？"></a>什么是业务能力？<br></h3><p>   业务能力是业务通过拥有或交换达到特定的目的或结果的能力。它描述了业务为它的客户和利益攸关者创造价值需要做什么但是没有定义详细的实现方<br>     <span id="more"></span><br>   法。业务能力整合了人、流<br>程、技术和信息</p><h3 id="基于能力的规划的通用步骤"><a href="#基于能力的规划的通用步骤" class="headerlink" title="基于能力的规划的通用步骤"></a>基于能力的规划的通用步骤<br></h3><p>  基于能力的规划有四个通用的步骤，任何架构和流程都需要包括它们，如下图所示<br>   <img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/01_1.png" alt="ArchiMate"><br>   总的来说，四个通用的步骤描述如下：</p><ul><li><p><strong>映射：</strong></p><ul><li>定义、分组和关联组织的能力，在不同的层级聚合、分解。</li><li>连接能力到它们的动机（战略目标）和它们的实施（由Enterprise Architecture模型代表的资源、能力、信息、流程等）。</li><li><strong>评估：</strong></li><li><p>为评估能力定义相关的绩效指标，这些指标可以从组织的关键绩效指标（KPI）衍生。</p></li><li><p>识别低、高绩效或者缺失的能力，基于已经定义的指标和它们对于实现组织的战略意图的贡献  </p></li><li><strong>规划：</strong></li><li>为每个能力开发成熟度路线图，用于指导定义能力增量</li><li>借助能力增量（通过参考成熟度路线图）定义能力的发展计划</li><li>分配必要的资源以实现这个转变</li><li>把干预措施分组成项目群或项目，以最大化资源和之后的管理控制。</li><li><strong>控制：</strong></li><li>监控能力的发展，并与规划相比较。</li><li>用相关的资源使用和过程步骤评审和评估能力的转变</li><li>测度工作执行中的改进的影响。</li><li>更新相关的绩效指标，并评审已经实现的组织的战略意图。</li><li>基于已经实现的情况，更新能力增量。<h3 id="使用ArchiMate语言的基于能力的规划的实例"><a href="#使用ArchiMate语言的基于能力的规划的实例" class="headerlink" title="使用ArchiMate语言的基于能力的规划的实例"></a>使用ArchiMate语言的基于能力的规划的实例</h3>我们创建了一个对于业务价值和年度投资的评估基线。这是按照基线对整个投资优先级的评估<br><br>接下来，我们需要将基线能力图与投资优先级叠加在一起，投资优先级如下图所示<br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/01_2.png" alt="ArchiMate"> <h4 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h4></li></ul><ol><li><a href="http://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484893&amp;idx=1&amp;sn=a127da401318dd663bec2ae1a167f6cf&amp;chksm=ec702b18db07a20ec0ef8356d2247e3687099b15e2c9f8d84e679a8a3e94f5cd0367b744de91&amp;scene=21#wechat_redirect">一图了解Archimate3</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484386&amp;idx=1&amp;sn=b46d9d1abdb60a3682a0181dbc2c6802&amp;chksm=ec702d27db07a431829470776194ba1abd4db948ef9747a562805303b67d88f671961f91a321&amp;scene=21#wechat_redirect">业务能力</a></li></ol></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 架构规划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JVM调优监控的依据及调优步骤</title>
+      <link href="/post/13cb0d4a.html"/>
+      <url>/post/13cb0d4a.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="JVM调优监控的依据"><a href="#JVM调优监控的依据" class="headerlink" title="JVM调优监控的依据"></a>JVM调优监控的依据</h3><ul><li>运行时日志</li><li>异常推栈</li><li>GC日志</li><li>线程快照</li><li><p>堆转存储</p><h3 id="JVM调优步骤"><a href="#JVM调优步骤" class="headerlink" title="JVM调优步骤"></a>JVM调优步骤</h3><h4 id="熟悉业务场景"><a href="#熟悉业务场景" class="headerlink" title="熟悉业务场景"></a>熟悉业务场景</h4><h4 id="发现问题-性能监控）"><a href="#发现问题-性能监控）" class="headerlink" title="发现问题(性能监控）"></a>发现问题(性能监控）</h4><blockquote><p>一种以非强行或者入侵方式收集或查看应用运营性能数据的活动。<br><br>监控通常是指一种在生产、质量评估或者开发环境下实施的带有预防或主动性的活动。<br><br>当应用相关干系人提出性能问题却没有提供足够多的线索时，首先我们需要进行性能监控，随后是性能分析。<br><br>监控前，设置好回收器组合，选定CPU（主频越高越好），设置年代比例，设置日志参数（生产环境中通常不会只设置一个日志文件）。比如：<br><br>-Xloggc:/opt/xxx/logs/xxx-xxx-gc-%t.log -XX:+UseGCLogFileRotation<br>-XX: NumberOfGCLogFiles=5 -XX:GCLogFileSize=20M -XX: +PrintGCDetails<br>-XX: +PrintGCDateStamps -XX: +PrintGCCause</p></blockquote></li><li><p>GC 频繁</p></li><li>cpu load过高</li><li>OOM</li><li>内存泄漏</li><li>死锁</li><li>程序响应时间较长<h4 id="排查问题-性能分析）"><a href="#排查问题-性能分析）" class="headerlink" title="排查问题(性能分析）"></a>排查问题(性能分析）</h4><blockquote><p>一种以侵入方式收集运行性能数据的活动，它会影响应用的吞吐量或响应性。<br><br>性能分析是针对性能问题的答复结果，关注的范围通常比性能监控更加集中。<br><br>性能分析很少在生产环境下进行，通常是在质量评估、系统测试或者开发环境下进行，是性能监控之后的步骤。</p></blockquote></li><li>打印GC日志，通过GCviewer或者 <a href="http://gceasy.io来分析日志信息">http://gceasy.io来分析日志信息</a></li><li>灵活运用命令行工具，jstack,jmap,jinfo等</li><li>dump出堆文件，使用内存分析工具分析文件</li><li>使用阿里Arthas，或jconsole,JVisualVM来实时查看JVM</li><li>jstack查看堆栈信息<h3 id="解决问题-性能调优"><a href="#解决问题-性能调优" class="headerlink" title="解决问题(性能调优)"></a>解决问题(性能调优)</h3><blockquote><p>一种为改善应用响应性或吞吐量而更改参数、源代码、属性配置的活动，性能调优是在性能监控、性能分析之后的活动。</p><ul><li>适当增加内存，根据业务背景选择垃圾回收器</li><li>优化代码，控制内存使用</li><li>增加机器，分散节点压力</li><li>合理设置线程池线程数量</li><li>使用中间件提高程序效率，比如缓存，消息队列等</li></ul></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> JVM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JVM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>什么是IT架构及架构管理</title>
+      <link href="/post/c0e93fbc.html"/>
+      <url>/post/c0e93fbc.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="9e5cb14589882dfc852338bb224810a263e41d7e66abcc8bb6669cff8c2517b0">ff8093e7a65d4753ca1aafc7bbf304abc719e5f20c08d4cb150ca408334479c1941a4d8899d1beabf08c3bd79407b3ccdcfb0a52626ff890385753f7f57cd13db3eaba92f88a7ddb93ff3288229c117c46ca1113974ba1db8b416613aa5210a9d26392cc2a210fe8b57143a9d2447971b9acf59e7fa9914dfac386eb76988709a9f84d8ed59a32f24157508a479703f09b574fe4660c445786e6aab29a2d5f9645c5e0075825ad17c40da74e6437107f938d31801c9c87309d0e2f1d2cf0d3ff47a02ecca4d797dd75d47526a180387a019e88c0c7ce2302b05457c086f1b411f540f40629200f185f2e554314225eb2436a420e5735d7cf333a3b87061863f8d4d596278b0846b7af14cddbca0ade4d365cc5b0ae834f17e45fbe35e1d89aff1834674e6ea53393767e5755b4bda560e31779bdf6836f0b2522490aa527dd0b60e7cc95066ea58384f97fca5bdfb6197911a7ff831731c4f89ee485807a4cf153c89b84818618766953f176f3dd606332c01e32775686ef06489e2a5292d7cd11c16f815b3e424524731dd33665c46fb1d9323f9198d948ebdadb4d1830f9e8f4711f8712839aa2b945abe13a8faa9275c9a3001904e50dc49b0a1330800c7c9028df8b5ee5e8320c508f4d2b6f3b98ee254bc0a836f91df78f85f91561559ca6264be99e8ab040be00caf0348b53e72d7e00efa0cf2d94c19cd9bd1dbdbd8d3a4739007a2ceb2f8d6378fb0b25cd96c51f192ddb2636d6e5651b3fe803c5c23d17c77ea819e6aa677cf6d041bf25c2cfd3df8fd349977e9c8f255f008664ef3e655ad635fe4037cf8c7e31acea974d3057b7cf1eadded04ffeaa1cfc7ed00305b358a0da20c9682dcc3dbd0bb6b91cbd6e17049d52a533b6edd981dc06447b7aafede6f3816ec6b5153c7aab19b697396072646e521afb2224dd9a4a832d6930e8e09f03b8d9bbd42506ff68c0e3c1df6a9647c07011463a669f62ac54dbd6e482fce92f60918f8de4fc768ea4fb54df0444a476d9d606e69d64f2d02cd7ea1e6fe48def9bb5cceb4af79a1012242215d1a8118ab6ed344c87ea9cd5ef576ca286af6dd0745746551db3addd97300ae7cad2e573f0db1a00c0e435e988c0330b939fb4f0263232bd88cca1366a6ad7e873eccf8bbcf4063f511e609beee9140f0e607a1bddaa0df243cff16dabaff47a26cee006c053afb68475e8816e0ad7eff370be751bb8440231c2fd93e29c6f3972ab0ac2e12536625e4277f260dad31b25517cbdf0b625107b5395bb67a60ea8cbd09fe450b66228a47883c08539278db106c47613a30d74b4be2099edf44a111971961bfa72f78fec67f39320143e2cfa6caf76a9c122f5e1d7ccaa07bb37fe8c12860f5b51619503a194d7b8a8fe5b94bc0a9d65e8fa2c2e157dc2a8e2f8dcfc9fa9923f4fb8165296b069c4245103c896bad9ed1cf6ef5dc45ac19fe7fca9e7a2c31ac3184a921a3ba8982bb6463755b3d1156bcd591c9f176fa9ad29c607a93a779a736623fc6bba76e63465429cbf18ce64e5525e2c20e7e8b50aeea3d439bd1b602bde58dd5428259476e7816638c4b512e24cb1a07a9f86437b20e0a2f24077268fdad08308074fec5c65a0b396aa55b30ad0befda635288376d6c99b5e1f038d37b500249cd54a632f8e7321769312e638d9945b7a8ed9fff5b592689bd4dbadcae275fd6b226a659c32305a0e364efb69f7d7e27d07882884d2b3aec51594e82fc264fdc7e2a6073525064b6281759fa3ede50b68e0da68e8a5c6ff9061d0a50880d5e8902925d3ffc0e12e32a938ca91fc573ed1411cd06ea75dfc7abc7056696176c9ae0b582b6addfd9430595f3bbcd91db21e269b43493729f5efef52c6b3edc43ead4cb722867dce24256cbfe2eb74e6ccbb4b6b5f476625a1fb10a0170165184e1e80274245b1d8629212b61d8c9d1282d78de54f2d648f213d1366a9aeeb406f133b552e40620a9b3946768f0f5f62468a41e1357444d3f316cd950793e246c3b66c8a49d357139ea75f07d2233901ba040387d8d30ed7035014ce8744a90255d0f15aabfa2754a82b8f1606f1860f09373e06abcd8cfe90d34cd8850cbcbb04833a94454a091e2d1e082e2990566e30fe0ba6d8bbccd733908675320dd17593235513a1f2e5d77ffe648f89cbcfd17ec8fce56fa6acf47aea95267ec74eed3227ec1374ed5fbea5696ec72c12ce86c0384b1a1b1aba4741f9a767feae73394cd9595cbc00805fb40bbd9dc4f80d48a1d91dd5279aa11aee2c0198e0b6aee3dd2e0cdf1f806b400c9f3a9cbfbfe9ebb82367ab96b7e076c4e916002deeba6d06fcbdca932b86f902698d346988197977f88aa2ce8b1406c7b7bfbfdefdd1ff6d2bf666737f46b93b64477a265348d5e425162e4cb7bac08969fc1de7ae5190460a7835d2c3b141ca5bb8f1e177d719c301a789d741f07a4af0295f199c3b522929a2f9926f62af5737cf0f80769bc67ed8a8a815f14b514ffc9c483aff6ea8211c5f0878251dafb5391f28f64f973de8e3b5d1b9759502fe4098b99a8635c2f029ff05f8771810a1f2a3d59409d1fa9be7cfd79c02a08748e0ee3bd1517a40aab2902fc3c325858e2590e1a8f3dfe97ff918beda08d8c280ef1ccdbff3a7a2524af000cdc43a07d46587f4db16819889cc48858c684c602255657792869960c853453107ec99295ead46516e036e687ca96781c9d90d049f32eede87bebabc47502e0e47c99949ba0b67e3281e08ba24577fffd3c7736e9d340eb3522862bd8c9f3eb66abde6b5a56ac8ea2ce9a6b361321bfaf5eae8b2d554daf13b959f6b1e02f3820a1a64e60917d5c4513fcea9029fdd946fd8dcee027d5f77a05969462fd6dad7fb916e29605890c3abd9493653f7c537620028458031ea7c3f018dad1cc8817a949dc9a464088c89e3d32c58394c12c979cf56f925cc06bf3b90ec6290100c4f35c1c97a73d23868053eee928c8d5d145bd915e07c3e291e1f8de0a2acc12b235cd00438342dc6eaea4ffb37d92b9f21f91fe3c6d88628eb4b85c8876f953e1ddf395bed999ceed81249bf6d4879bacb0c1883573e42f3885b3da6fe965a7435975952de5a924dbe118c0a510eb91cf08a9f3e609d3a9023cb5d4b1b4d97955922d238812b5443cca8b2869b1b22eb9a936d5644f3d2b7f30c49d58e0819666257217fd5b5da0583876596c9c14984e71cd5e64092e642af3eafeffa3527bf345396760e1c5b516835c1b7014830fe74d65c476adf27a10a3530737baf96a5b0ab92ed98ca4191271ffe44d5a793b00bb81d99488d58b43f7c43d27c0e39564c3435aa19ccb4c6f8cd6ca4fbc94a59fc6050ef1027d9654be94c56c9b4a9548dfe436ce4f2648951fb12dc4f686edbed8d4f0f298f6072b22a469dc4dbf3d7a1df9c5314f736cc2bff421236edc40a06cbd2f01e011ed3068255dce32b11db2d5a78cd9d307b205b88b9224865fae2b18d347cf7123f3c66dc4cc95b8dba1385d8b9d2da76b7f178ef6fba5ae38cdfdbbd2a6b11bfac5a1f23cbf6aa0d47acb8cf7fb591b211824b6a0972d9bf2f52a808d56c2540a135cfa1f531a734d56f032abd226ad4698f8074ae35eb73432397f64e2930c1f2f57726b8e776791515725b9ec7a0a7e56a053b286a3a74262158e548f2b91439b263b75f293c3f496e58dce4253094680ed6870a73aee91268809b977b428ea3b3e156c994be33678b2d38a82ce5d24889c616af230513412f57aab2530f0240caf736b5eee04d0d1048de73438e326d4fc84b5d382e38c258b5ace2b710e19da3b135e023d36e9f435b8ff4df1266ff1965376d278fe7374d68d4e03b19951c701ad9ca13b8e1b1c466a771eb719347ab4eff7dce60d5dfcb9cf0c5e9ce6e31318317608a6ace22a0745638890cecfe41e451efec5aa15227675a65ff229296c54ddbcccff63e80a26f4532d8524746b6691e3375688d7f1ede540dc57dc7c2b7244db6fb8279a1261426e5305a27f5f269086540d2290b7623f131f4a3dad168551176f013b001289581454ae4557b8ab6552428aa1028c013baa47a64253c343c213bdff246f6b56ce48a528beb854deb1baa1caf6f428fe0f60ca37e54159e903637998bccced9c6970e56266fa3d7ec8b5bf38e99cc70604d512aa19fd1655570850b2ca89d000b07a05eb1cdfdad349314d8c47b74c5dbd3e86f561b7f57f58d88138fb52c1860626f7fd2a90bc017de19e149ee260a4110d4f04dc088389053711b694f0acbec885b4c78b31af5df66ca00990f23c63a74c5acbc</script>  <h4 id="第一节-总则"><a href="#第一节-总则" class="headerlink" title="第一节 总则"></a>第一节 总则</h4><h6 id="第一条-目的"><a href="#第一条-目的" class="headerlink" title="第一条 目的"></a>第一条 目的</h6><p>IT架构管理的目的是明确IT架构管理的组织与职责、目标、范围。</p><h6 id="第二条-目标"><a href="#第二条-目标" class="headerlink" title="第二条 目标"></a>第二条 目标</h6><p>明确架构管理流程、规划、技术标准，有效衔接业务系统。</p><h6 id="第三条-原则"><a href="#第三条-原则" class="headerlink" title="第三条 原则"></a>第三条 原则</h6><p> 业务驱动，架构规范;统筹建设，分层实施</p><h6 id="第四条-术语定义"><a href="#第四条-术语定义" class="headerlink" title="第四条 术语定义"></a>第四条 术语定义</h6><ul><li><strong>IT 架构:</strong> IT架构包含业务架构、应用架构、数据架构、技术架构和安全架构.</li><li><strong>IT架构管理:</strong> 指架构治理及架构体系规范的建设，IT 架构指业务架构、应用架构、数据架构、技术架构和安全架构。</li></ul>,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> IT架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 架构管控 </tag>
+            
+            <tag> IT架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>企业架构系列</title>
+      <link href="/post/76f8439c.html"/>
+      <url>/post/76f8439c.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="企业架构系列"><a href="#企业架构系列" class="headerlink" title="企业架构系列"></a>企业架构系列</h3><div class="tip info"><p>企业架构可以分为两大部分  <strong>业务架构</strong> 和 <strong>IT架构</strong>，大部分企业架构方法都是从IT架构发展而来的。</p></div><h5 id="下面是企业架构的文章"><a href="#下面是企业架构的文章" class="headerlink" title="下面是企业架构的文章"></a>下面是企业架构的文章</h5><ul><li><a href="https://mp.weixin.qq.com/s/Kxr2-efQz-w8oiygnmat3g">企业架构的本质</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484442&amp;idx=1&amp;sn=d5cd9c4f16f6be51de627265f90f9cad&amp;chksm=ec702adfdb07a3c98b1217355a907006ba2a13adfcf18a16f37fde40a20ab6c0494c42456032&amp;scene=21#wechat_redirect">企业架构的本质二</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484452&amp;idx=1&amp;sn=47eb3059d918269575af527aa4ae6a11&amp;chksm=ec702ae1db07a3f7e0b58304c205ae2aece3568c0544a1836cc4890c723a2cf0ddf975597966&amp;scene=21#wechat_redirect">企业架构工件</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484144&amp;idx=1&amp;sn=83a6131cbb60091a3528da3fa5c6b69c&amp;chksm=ec702c35db07a523892121a96e9eeea1371d7d969243899f96e5da5ca752d05851a50a2c4595&amp;scene=21#wechat_redirect">数据架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484647&amp;idx=1&amp;sn=ccb22846a8c722d5fc089dc0a8b3abc6&amp;chksm=ec702a22db07a33482ac385377236d8b8bf0b988e0ee3b2bbfba5f72017707dd3d9b80a8fcfd&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">现代企业架构-技术架构</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484746&amp;idx=1&amp;sn=8ca2ea8dfcf618b1634b08638ca49869&amp;chksm=ec702b8fdb07a299696d31afa5e48704e9ff962785ddd64a078a20ff1a3ed3af6f4e1734db38&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">架构视图和视角</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484828&amp;idx=1&amp;sn=a999bf2161f52d429596cdd37adcd523&amp;chksm=ec702b59db07a24fdef3ae8c2392bcd94ad0e2194de502ed64fd9aa3e501149fccd018abe143&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">业务模型和业务架构的关系</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484934&amp;idx=1&amp;sn=a309b9f085df6972435e983dda72988a&amp;chksm=ec7028c3db07a1d519cf904fc52f95bb7428f8aabccc70ddaad9d37c80dd342d2e5da322780f&amp;cur_album_id=2521095084893814785&amp;scene=189#wechat_redirect">双模交付在混合企业架构中的实践</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484369&amp;idx=1&amp;sn=a6bdaacf85856c98c32e7e9ede3b2ba9&amp;chksm=ec702d14db07a40279c325d2f324c12a7ad74d89cf706204b8a777ae854b6fd69dfa61cd7c57&amp;scene=178&amp;cur_album_id=2553438735867068418#rd">在架构开发方法中应用迭代</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484575&amp;idx=1&amp;sn=1b800a7c992fc142b5d9518f518da25b&amp;chksm=ec702a5adb07a34c0893f8b5ef2f58cda5028bb197ba1ebf7d19b5721c2c0a51a97dda1484d0&amp;scene=178&amp;cur_album_id=2521095084893814785#rd">如何进行系统设计</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484386&amp;idx=1&amp;sn=b46d9d1abdb60a3682a0181dbc2c6802&amp;chksm=ec702d27db07a431829470776194ba1abd4db948ef9747a562805303b67d88f671961f91a321&amp;scene=178&amp;cur_album_id=2553438735414083585#rd">业务能力</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484460&amp;idx=1&amp;sn=6c942411c46ba6b9fd9af64e4d5d50d4&amp;chksm=ec702ae9db07a3ff9b0ce1d08c4aa33129bcaa6590eaa8b50d20a055b9305508ad815f79e990&amp;scene=21#wechat_redirect">架构原则-业务原则</a></li></ul><h4 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h4><ol><li><a href="../post/c0e93fbc.html">IT架构管控</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 企业架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 企业架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>业务场景</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JVM生产环境调优</title>
+      <link href="/post/623b3d7b.html"/>
+      <url>/post/623b3d7b.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="JVM调优的基本问题"><a href="#JVM调优的基本问题" class="headerlink" title="JVM调优的基本问题"></a>JVM调优的基本问题</h3><h4 id="为什么要调优"><a href="#为什么要调优" class="headerlink" title="为什么要调优"></a>为什么要调优</h4><ol><li>防止出现OOM，进行JVM规划和预调优</li><li>解决程序运行中各种OOM</li><li>减少Full GC出现的频率，解决运行慢、卡顿问题</li></ol><h4 id="调优的大方向"><a href="#调优的大方向" class="headerlink" title="调优的大方向"></a>调优的大方向</h4><ol><li>合理地编写代码</li><li>充分并合理的使用硬件资源</li><li>合理地进行JVM调优</li></ol><h4 id="不同阶段的考虑"><a href="#不同阶段的考虑" class="headerlink" title="不同阶段的考虑"></a>不同阶段的考虑</h4><ol><li>上线前</li><li>项目运行阶段</li><li>线上出现OOM</li></ol><h4 id="调优监控的依据"><a href="#调优监控的依据" class="headerlink" title="调优监控的依据"></a>调优监控的依据</h4><ol><li>运行日志</li><li>异常堆栈</li><li>GC日志</li><li>线程快照</li><li>堆转储快照<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4></li><li><FONT color="red">调优从业务场景开始，监控先行!!</FONT></li><li><p>系统性能问题我们可以从硬件、操作系统、JVM和应用程序这几个维度进行分析,如下图<br><img src="../images/jvm1.png" alt="alt text"></p></li></ol><hr><p><strong>拓展</strong></p><ol><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247485026&amp;idx=1&amp;sn=58cce164de0da9112a1f8b637b3afb45&amp;chksm=ec7028a7db07a1b1aea1afb58597cd05558eef9e5f9ac2b4fb639fbc397512944de859a87993&amp;scene=178&amp;cur_album_id=3441485805057900545#rd">如何提高API的性能</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247485019&amp;idx=1&amp;sn=2f31fa176e19c88d261dec6776cc2375&amp;chksm=ec70289edb07a1889a08fac238a204fdee5b0cec9aacb18400682ca2e5c53b77cdbc298f482c&amp;scene=178&amp;cur_album_id=3441485805057900545#rd">Lightrun-调试Java程序生产问题的优秀工具【译】</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzQ4NTQ4Mg==&amp;mid=2247484036&amp;idx=1&amp;sn=ecf091a1f52b23dd6035d30ce5c821c4&amp;chksm=ec702c41db07a55740f8bdbd2b108095fbb38e7f061f100424e719a64f3e0a7b261d0a571d29&amp;scene=21#wechat_redirect">深入研究 JVM 调优</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> JVM </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统优化 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> JVM </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>组件的生命周期</title>
+      <link href="/post/66fd44c2.html"/>
+      <url>/post/66fd44c2.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>设计模式总览</title>
+      <link href="/post/d2ce3ca5.html"/>
+      <url>/post/d2ce3ca5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式</li></ol><h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3><ol><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）</li></ol><h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3><ol><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
