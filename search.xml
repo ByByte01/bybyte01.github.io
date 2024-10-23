@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>k8s包管理模板Chart语法</title>
+      <link href="/post/56d67633.html"/>
+      <url>/post/56d67633.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在Kubernetes（K8s）生态系统中，Helm 是一款流行的包管理工具，而 Helm Chart 则是用于描述和定义 K8s 应用程序的模板。本文将深入讨论 Helm Chart 的语法，包括 Chart 的结构、模板文件、函数、变量等方面，同时提供详细的示例演示如何使用 Helm Chart 创建和定制 K8s 应用程序。</p><h2 id="Helm-Chart-结构"><a href="#Helm-Chart-结构" class="headerlink" title="Helm Chart 结构"></a>Helm Chart 结构</h2><p>一个 Helm Chart 通常由一组文件和目录组成，其中包含了定义 K8s 应用程序所需的所有信息。以下是一个标准 Helm Chart 的基本结构：<br>mychart/<br>|— Chart.yaml<br>|— values.yaml<br>|— charts/<br>|— templates/<br>|   |— deployment.yaml<br>|   |— service.yaml<br>|— …</p><ul><li>Chart.yaml： Chart 的元数据文件，包含 Chart 的名称、版本、描述等信息。</li><li>values.yaml： 默认的配置值文件，用于定义 Chart 的默认配置。</li><li>charts/： 用于存放依赖的子 Charts。</li><li>templates/： 包含 K8s 资源的模板文件，如 Deployment、Service 等。</li></ul><h2 id="values-yaml-文件"><a href="#values-yaml-文件" class="headerlink" title="values.yaml 文件"></a>values.yaml 文件</h2><p>values.yaml 文件用于定义 Chart 的默认配置值，以下是一个简单的示例：</p><h2 id="values-yaml"><a href="#values-yaml" class="headerlink" title="values.yaml"></a>values.yaml</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">replicaCount: 1</span><br><span class="line">image:</span><br><span class="line">  repository: nginx</span><br><span class="line">  tag: stable</span><br><span class="line">  pullPolicy: IfNotPresent</span><br><span class="line">service:</span><br><span class="line">  name: my-service</span><br><span class="line">  type: ClusterIP</span><br><span class="line">  port: 80</span><br></pre></td></tr></table></figure><h2 id="在模板文件中，可以使用这些配置值，例如："><a href="#在模板文件中，可以使用这些配置值，例如：" class="headerlink" title="在模板文件中，可以使用这些配置值，例如："></a>在模板文件中，可以使用这些配置值，例如：</h2><h1 id="templates-deployment-yaml"><a href="#templates-deployment-yaml" class="headerlink" title="templates/deployment.yaml"></a>templates/deployment.yaml</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">apiVersion: apps/v1</span><br><span class="line">kind: Deployment</span><br><span class="line">metadata:</span><br><span class="line">  name: &#123;&#123; include &quot;mychart.fullname&quot; . &#125;&#125;</span><br><span class="line">spec:</span><br><span class="line">  replicas: &#123;&#123; .Values.replicaCount &#125;&#125;</span><br><span class="line">  template:</span><br><span class="line">    spec:</span><br><span class="line">      containers:</span><br><span class="line">      - name: my-container</span><br><span class="line">        image: &quot;&#123;&#123; .Values.image.repository &#125;&#125;:&#123;&#123; .Values.image.tag &#125;&#125;&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="模板文件"><a href="#模板文件" class="headerlink" title="模板文件"></a>模板文件</h2><p>模板文件位于 templates 目录下，其中包含了 K8s 资源的 YAML 文件，使用 Go 的模板语法进行参数替换。以下是一个简单的 Deployment 模板文件示例：</p><h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><ul><li><a href="https://developer.aliyun.com/article/1616970">k8s学习—chart包开发(创建chart包)</a></li><li></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> k8s </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MySQL FEDERATED 存储引擎的使用</title>
       <link href="/post/f8cf7fcf.html"/>
       <url>/post/f8cf7fcf.html</url>
@@ -223,31 +242,6 @@
     
     
     <entry>
-      <title>微服务治理-网关</title>
-      <link href="/post/95c78c2c.html"/>
-      <url>/post/95c78c2c.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 微服务治理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网关 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>插件化编程</title>
       <link href="/post/e2fef8fd.html"/>
       <url>/post/e2fef8fd.html</url>
@@ -265,6 +259,31 @@
         <tags>
             
             <tag> 插件化编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微服务治理-网关</title>
+      <link href="/post/95c78c2c.html"/>
+      <url>/post/95c78c2c.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="网关"><a href="#网关" class="headerlink" title="网关"></a>网关</h2><ol><li>Apache ShenYu<blockquote><p>这是一个异步的，高性能的，跨语言的，响应式的 API 网关。</p></blockquote></li><li>Apache APISIX <blockquote><p>Apache APISIX 是 Apache 软件基金会下的云原生 API 网关，它具有动态、实时、高性能等特点，提供了负载均衡、动态上游、灰度发布（金丝雀发布）、服务熔断、限速、防御恶意攻击、身份认证、可观测性等丰富的流量管理功能。可以使用 Apache APISIX 来处理传统的南北向流量，也可以处理服务间的东西向流量</p></blockquote></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微服务治理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网关 </tag>
             
         </tags>
       
@@ -875,12 +894,12 @@
       <link href="/post/3b343194.html"/>
       <url>/post/3b343194.html</url>
       
-        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>Jcasbin<blockquote><p>一个支持访问控制模型的授权库，如Java中的ACL、RBAC、ABAC</p></blockquote></li><li>Disruptor<blockquote><p>Disruptor是一个高性能、低延迟的并发框架，它可以用于构建具有快速数据传输和处理能力的应用程序。它使用了一种称为环形缓冲区的数据结构来实现内存共享，并提供了可扩展和灵活的内存共享机制。</p></blockquote></li><li>Netty+Nacos+Disruptor构建自研企业级API网关<blockquote><ol><li>核心组件：<br>请求路由器：负责将请求路由到对应的后端服务，可以基于请求的URL、HTTP方法、头部信息等条件进行路由。路由信息可以通过Nacos动态配置。<br>认证和授权模块：处理用户身份验证和权限控制，确保只有经过授权的用户可以访问特定的API。可以集成常用的认证方式，如JWT、OAuth等。<br>请求处理器：对请求进行处理，包括请求转换、数据验证、请求限制等操作。可以使用Disruptor实现异步处理。<br>负载均衡器：负责将请求分发到多个后端服务实例，以实现负载均衡和高可用性。可以使用Nacos提供的服务发现功能来获取后端服务实例地址，并结合负载均衡算法进行请求分发。<br>缓存模块：可选组件，用于缓存经常请求的数据，以减轻后端服务的负载并提高响应速度。<br>日志记录和监控模块：记录请求和响应的日志信息，用于监控系统运行状况和性能分析。可以使用Nacos配置动态调整日志级别，结合监控系统实时监控系统运行情况。<ol><li>安全防护：<br>包括对请求进行安全检查、防止恶意攻击、防止拒绝服务等功能。可以集成WAF(Web Application Firewall)等防护措施，保护网关和后端服务免受各种网络攻击。<br>插件系统：<br>提供可扩展的插件系统，允许用户根据需求自定义扩展API网关的功能，如自定义过滤器、拦截器、日志处理器等。<br>这样的架构可以实现一个高性能、可扩展、灵活配置的企业级API网关，适用于各种规模和复杂度的应用场景。</li><li>结论<br>通过使用Netty、Nacos和Disruptor，我们可以轻松地构建自己的企业级API网关。这种方案可以提供高性能、可伸缩的网络应用程序开发模型，并支持异步事件处理、服务注册和发现等功能。如果您正在构建自己的API网关，那么这种方案可能是您的最佳选择。</li></ol></li></ol></blockquote></li></ul>]]></content>
       
       
       <categories>
           
-          <category> 业务架构 </category>
+          <category> Java工具类 </category>
           
       </categories>
       
@@ -1104,31 +1123,6 @@
     
     
     <entry>
-      <title>设计模式总览</title>
-      <link href="/post/d2ce3ca5.html"/>
-      <url>/post/d2ce3ca5.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式</li></ol><h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3><ol><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）</li></ol><h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3><ol><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模式 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 设计模式 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>组件的生命周期</title>
       <link href="/post/66fd44c2.html"/>
       <url>/post/66fd44c2.html</url>
@@ -1146,6 +1140,31 @@
         <tags>
             
             <tag> 组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>设计模式总览</title>
+      <link href="/post/d2ce3ca5.html"/>
+      <url>/post/d2ce3ca5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="设计模式总览"><a href="#设计模式总览" class="headerlink" title="设计模式总览"></a>设计模式总览</h2><h3 id="创建型模式（Creational-Patterns）"><a href="#创建型模式（Creational-Patterns）" class="headerlink" title="创建型模式（Creational Patterns）"></a>创建型模式（Creational Patterns）</h3><ol><li>单例（Singleton）模式</li><li>原型（Prototype）模式</li><li>工厂方法（FactoryMethod）模式</li><li>抽象工厂（AbstractFactory）模式</li><li>建造者（Builder）模式</li></ol><h3 id="结构型模式（Structural-Patterns）"><a href="#结构型模式（Structural-Patterns）" class="headerlink" title="结构型模式（Structural Patterns）"></a>结构型模式（Structural Patterns）</h3><ol><li>代理（Proxy）模式</li><li>适配器（Adapter）模式</li><li>桥接（Bridge）模式</li><li>装饰（Decorator）模式</li><li>外观（Facade）模式</li><li>享元（Flyweight）模式</li><li>组合（Composite）模式</li><li>过滤器模式（Filter Pattern）</li></ol><h3 id="行为型模式（Behavioral-Patterns）"><a href="#行为型模式（Behavioral-Patterns）" class="headerlink" title="行为型模式（Behavioral Patterns）"></a>行为型模式（Behavioral Patterns）</h3><ol><li>模板方法（Template Method）模式</li><li>策略（Strategy）模式</li><li>命令（Command）模式</li><li>职责链（Chain of Responsibility）模式</li><li>状态（State）模式</li><li>观察者（Observer）模式</li><li>中介者（Mediator）模式</li><li>迭代器（Iterator）模式</li><li>访问者（Visitor）模式</li><li>备忘录（Memento）模式</li><li>解释器（Interpreter）模式</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 设计模式 </tag>
             
         </tags>
       
