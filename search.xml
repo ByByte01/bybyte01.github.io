@@ -169,23 +169,25 @@
     
     
     <entry>
-      <title>互联网医院</title>
-      <link href="/post/739c7710.html"/>
-      <url>/post/739c7710.html</url>
+      <title>领域驱动设计精要</title>
+      <link href="/post/c606c862.html"/>
+      <url>/post/c606c862.html</url>
       
-        <content type="html"><![CDATA[<h3 id="什么是互联网医院"><a href="#什么是互联网医院" class="headerlink" title="什么是互联网医院"></a>什么是互联网医院</h3><p><strong>互联网医院：</strong> 以及依托实体医疗机构独立设置的互联网医院。互联网医院可以使用在本机构和其他医疗机构注册的医师开展互联网诊疗活动。互联网医院可以为患者提供部分常见病、慢性病复诊、家庭医生签约服务。此外，当患者到实体医疗机构就诊时，由接诊的医师通过互联网医院邀请其他医师进行会诊时，会诊医师以出具诊断意见并开具处方</p><h4 id="陪诊"><a href="#陪诊" class="headerlink" title="陪诊"></a>陪诊</h4>]]></content>
+        <content type="html"><![CDATA[<p><img src="../../images/企业架构/领域驱动设计精要/1.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/2.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/3.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/4.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/5.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/6.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/7.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/8.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/9.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/10.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/11.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/12.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/13.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/14.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/15.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/16.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/17.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/18.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/19.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/20.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/21.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/22.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/23.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/24.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/25.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/26.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/27.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/28.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/29.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/30.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/31.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/32.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/33.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/34.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/35.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/36.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/37.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/38.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/39.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/40.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/41.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/42.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/43.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/44.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/45.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/46.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/47.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/48.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/49.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/50.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/51.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/52.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/53.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/54.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/55.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/56.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/57.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/58.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/59.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/60.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/61.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/62.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/63.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/64.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/65.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/66.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/67.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/68.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/69.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/70.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/71.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/72.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/73.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/74.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/75.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/76.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/77.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/78.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/79.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/80.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/81.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/82.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/83.png" alt="1"><br><img src="../../images/企业架构/领域驱动设计精要/84.png" alt="1"></p>]]></content>
       
       
       <categories>
           
-          <category> 互联网医院 </category>
+          <category> DDD </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 互联网医院 </tag>
+            <tag> DDD </tag>
+            
+            <tag> 领域驱动设计 </tag>
             
         </tags>
       
@@ -219,23 +221,23 @@
     
     
     <entry>
-      <title>技术架构</title>
-      <link href="/post/119cc232.html"/>
-      <url>/post/119cc232.html</url>
+      <title>互联网医院</title>
+      <link href="/post/739c7710.html"/>
+      <url>/post/739c7710.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="8624d49af6fec91ec280b2ded7c24bb09fab0d7e85180437976762bb99cc33c6">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9ec23bf8520349031c54df91ff7ba90a2a3e5a5fe936490710a2eb3623a2b529fe4ce35ffed7f1efeeab7dbed8da69faf82c09c7911eb14a223ee1adc4e0a49959f41a67329ffa30c7c5fe4a11f206d434ab7fecaa404e35fa768f99ca560d89479ce54ac16a5082eaf834d02d85a25b44</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<h3 id="什么是互联网医院"><a href="#什么是互联网医院" class="headerlink" title="什么是互联网医院"></a>什么是互联网医院</h3><p><strong>互联网医院：</strong> 以及依托实体医疗机构独立设置的互联网医院。互联网医院可以使用在本机构和其他医疗机构注册的医师开展互联网诊疗活动。互联网医院可以为患者提供部分常见病、慢性病复诊、家庭医生签约服务。此外，当患者到实体医疗机构就诊时，由接诊的医师通过互联网医院邀请其他医师进行会诊时，会诊医师以出具诊断意见并开具处方</p><h4 id="陪诊"><a href="#陪诊" class="headerlink" title="陪诊"></a>陪诊</h4>]]></content>
       
       
       <categories>
           
-          <category> 技术架构 </category>
+          <category> 互联网医院 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 技术架构 </tag>
+            <tag> 互联网医院 </tag>
             
         </tags>
       
@@ -269,31 +271,6 @@
     
     
     <entry>
-      <title>架构真经</title>
-      <link href="/post/f784ee36.html"/>
-      <url>/post/f784ee36.html</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="94d5bc9ce41125d7ff3079a18c372904fd319817563e1e3ad14307f6fa8c03b3">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9eba8dff4415deceb357afdf3e902254ce1aa9c47db8c6b994a8fcfc4348c9085abf009c0251d26897916165c62003d5c7539348f02cc40ac86a14e7ba37827e65a1910fefd7cb0a8ae5ebf2f8f23451a695d624faa160027dbc1523143acfa975d9d38ee6efc9741eba0d3316cf7f435c3027fb621855f3421c0022a8f8f11015db04e433ba6422b81ed55ee0f9ebc0eddb6db4c7ca8bc3b41808a083a569eaaf81f9e427bdcbcd684c632ee89322cc1e2f5a9a81ae65b7e57bee309c6d97647dee13403461f4cfced3a2085966337b320d0352287282b2ca13dde85107aa05e383a9d61b575a83dc85238e5f13d521dc09ee68b3086b03cf3b4cbb2372f29bf4cba909bc0d577eed1919d63ec812c3a45124b2d31f1b9e3261f0cf738d4282390593c7f7ede5bb3d3aabfafb2d1a5fa8af120e86dab5024eb0dff133c7f681401f328b7afb36d5a3af3beaf4a4b599af3dc767222357bbe4b57929ce0155715f8bf40704e87440861255a84200f4c98118d3e7df63c9b7e979cfa0fa50ce478875fdf10c578daafe4a5ebe05572b7ff139a92b5d199c9fd22e102bf8f4c8b9c8c7d19cf979edf9279031c796158cb17c873816c4265c6c34987ab51e57a5a57051de82823c436ee1bb3778f69a9d3a897e47f911a81fa7ba24e570903dadf5ac8a3f7f6ef2e61d6d8778eafe78bf583ee221c61e9ddb6c8fc4be9d438bd98205c072ea43fb7d87fb8bbb53256c879e1051104f4992068337ed738502dd24f4d4c346cfd8e1513fa419c43ad20f5462d542d8f4cad78b67f02b6bb7a60a6140456b938d00f9b6c7dcd26ae220ed6e5bc6870c9a3dacc2b1e69beb552c31f11ffd3e6dbffe8ae42d7dcaa7838f0ab5eb1cab34367662af0e05fc7d272a7501439d0854c00c86792ee8fdc59399322a842a93d53dc938813b7ad5a26b70338f815a0575426a3d53fed73ea1459c04572fb761b894c1c89602ef5f0b9163adef0b2bf92b531fdc8c5df08e8f4393c236073fca3235b017941f54b45786c134e108c06ed9c84f13ac6738c0acbdda405a56c3c971893dd756e113528e2ac73c939bbb8f921f9a2a8ba36bd20352ad65bf37bb443da7a058b8d95e0472dd93ca248f0f4fc0233de2934621468d6ae58c27122e745d6665d5342c2b8f7291eaf77fe4a105dcf60ad769496ce5f46d20636174325493b875492e0eaf6b0d2128ec2988f105bc33280d7bdebfff63a298178b036f198e112faef35dbd18aea534901c138f</script>  <h3 id="分而治之"><a href="#分而治之" class="headerlink" title="分而治之"></a>分而治之</h3><ol><li>X轴扩展：水平扩展，通过复制服务处理负载。</li><li>Y轴拆分：垂直拆分，把服务或资源进行拆分。</li><li>Z轴拆分：业务拆分，根据客户的独特属性进行拆分（分片)</li></ol><h3 id="大道至简"><a href="#大道至简" class="headerlink" title="大道至简"></a>大道至简</h3><ol><li>核心逻辑一定要简单明了，经得起时间检验。</li></ol>,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      <categories>
-          
-          <category> IT架构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> IT架构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>大模型</title>
       <link href="/post/75bf6943.html"/>
       <url>/post/75bf6943.html</url>
@@ -311,6 +288,56 @@
         <tags>
             
             <tag> 大模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>技术架构</title>
+      <link href="/post/119cc232.html"/>
+      <url>/post/119cc232.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="8624d49af6fec91ec280b2ded7c24bb09fab0d7e85180437976762bb99cc33c6">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9ec23bf8520349031c54df91ff7ba90a2a3e5a5fe936490710a2eb3623a2b529fe4ce35ffed7f1efeeab7dbed8da69faf82c09c7911eb14a223ee1adc4e0a49959f41a67329ffa30c7c5fe4a11f206d434ab7fecaa404e35fa768f99ca560d89479ce54ac16a5082eaf834d02d85a25b44</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>架构真经</title>
+      <link href="/post/f784ee36.html"/>
+      <url>/post/f784ee36.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="94d5bc9ce41125d7ff3079a18c372904fd319817563e1e3ad14307f6fa8c03b3">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9eba8dff4415deceb357afdf3e902254ce1aa9c47db8c6b994a8fcfc4348c9085abf009c0251d26897916165c62003d5c7539348f02cc40ac86a14e7ba37827e65a1910fefd7cb0a8ae5ebf2f8f23451a695d624faa160027dbc1523143acfa975d9d38ee6efc9741eba0d3316cf7f435c3027fb621855f3421c0022a8f8f11015db04e433ba6422b81ed55ee0f9ebc0eddb6db4c7ca8bc3b41808a083a569eaaf81f9e427bdcbcd684c632ee89322cc1e2f5a9a81ae65b7e57bee309c6d97647dee13403461f4cfced3a2085966337b320d0352287282b2ca13dde85107aa05e383a9d61b575a83dc85238e5f13d521dc09ee68b3086b03cf3b4cbb2372f29bf4cba909bc0d577eed1919d63ec812c3a45124b2d31f1b9e3261f0cf738d4282390593c7f7ede5bb3d3aabfafb2d1a5fa8af120e86dab5024eb0dff133c7f681401f328b7afb36d5a3af3beaf4a4b599af3dc767222357bbe4b57929ce0155715f8bf40704e87440861255a84200f4c98118d3e7df63c9b7e979cfa0fa50ce478875fdf10c578daafe4a5ebe05572b7ff139a92b5d199c9fd22e102bf8f4c8b9c8c7d19cf979edf9279031c796158cb17c873816c4265c6c34987ab51e57a5a57051de82823c436ee1bb3778f69a9d3a897e47f911a81fa7ba24e570903dadf5ac8a3f7f6ef2e61d6d8778eafe78bf583ee221c61e9ddb6c8fc4be9d438bd98205c072ea43fb7d87fb8bbb53256c879e1051104f4992068337ed738502dd24f4d4c346cfd8e1513fa419c43ad20f5462d542d8f4cad78b67f02b6bb7a60a6140456b938d00f9b6c7dcd26ae220ed6e5bc6870c9a3dacc2b1e69beb552c31f11ffd3e6dbffe8ae42d7dcaa7838f0ab5eb1cab34367662af0e05fc7d272a7501439d0854c00c86792ee8fdc59399322a842a93d53dc938813b7ad5a26b70338f815a0575426a3d53fed73ea1459c04572fb761b894c1c89602ef5f0b9163adef0b2bf92b531fdc8c5df08e8f4393c236073fca3235b017941f54b45786c134e108c06ed9c84f13ac6738c0acbdda405a56c3c971893dd756e113528e2ac73c939bbb8f921f9a2a8ba36bd20352ad65bf37bb443da7a058b8d95e0472dd93ca248f0f4fc0233de2934621468d6ae58c27122e745d6665d5342c2b8f7291eaf77fe4a105dcf60ad769496ce5f46d20636174325493b875492e0eaf6b0d2128ec2988f105bc33280d7bdebfff63a298178b036f198e112faef35dbd18aea534901c138f</script>  <h3 id="分而治之"><a href="#分而治之" class="headerlink" title="分而治之"></a>分而治之</h3><ol><li>X轴扩展：水平扩展，通过复制服务处理负载。</li><li>Y轴拆分：垂直拆分，把服务或资源进行拆分。</li><li>Z轴拆分：业务拆分，根据客户的独特属性进行拆分（分片)</li></ol><h3 id="大道至简"><a href="#大道至简" class="headerlink" title="大道至简"></a>大道至简</h3><ol><li>核心逻辑一定要简单明了，经得起时间检验。</li></ol>,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> IT架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
             
         </tags>
       
@@ -513,6 +540,31 @@
     
     
     <entry>
+      <title>数据访问层工具</title>
+      <link href="/post/6e4e4699.html"/>
+      <url>/post/6e4e4699.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="数据访问层工具"><a href="#数据访问层工具" class="headerlink" title="数据访问层工具"></a>数据访问层工具</h3><ol><li>p6spy<blockquote><p>p6spy 是数据库动态监控的一种框架，是一个可以用来监控JDBC执行语句的开源产品，它可以使得数据库数据无缝拦截和操作，而不必对现有应用程序的代码作任何修改。利用p6spy很容易的就能监控到JDBC中执行的SQL语句，便于系统调试和性能调优。p6spy分发包括P6Log，它是一个可记录任何Java应用程序的所有JDBC事务的应用程序。其配置完成使用时，可以进行数据访问性能的监测。</p></blockquote></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据访问层 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据访问层 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>企业架构成熟度模型</title>
       <link href="/post/76f8439c.html"/>
       <url>/post/76f8439c.html</url>
@@ -532,31 +584,6 @@
             <tag> 企业架构 </tag>
             
             <tag> 在线PDF </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>数据访问层工具</title>
-      <link href="/post/6e4e4699.html"/>
-      <url>/post/6e4e4699.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="数据访问层工具"><a href="#数据访问层工具" class="headerlink" title="数据访问层工具"></a>数据访问层工具</h3><ol><li>p6spy<blockquote><p>p6spy 是数据库动态监控的一种框架，是一个可以用来监控JDBC执行语句的开源产品，它可以使得数据库数据无缝拦截和操作，而不必对现有应用程序的代码作任何修改。利用p6spy很容易的就能监控到JDBC中执行的SQL语句，便于系统调试和性能调优。p6spy分发包括P6Log，它是一个可记录任何Java应用程序的所有JDBC事务的应用程序。其配置完成使用时，可以进行数据访问性能的监测。</p></blockquote></li><li></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数据访问层 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数据访问层 </tag>
             
         </tags>
       
@@ -590,31 +617,6 @@
     
     
     <entry>
-      <title>Maven 插件</title>
-      <link href="/post/cc066ced.html"/>
-      <url>/post/cc066ced.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="Maven-插件"><a href="#Maven-插件" class="headerlink" title="Maven 插件"></a>Maven 插件</h3><ol><li><p>flatten-maven-plugin</p><blockquote><p>处理版本占位符</p></blockquote></li><li><p>jacoco-maven-plugin</p></li><li><p>versions-maven-plugin</p></li><li><p>docker-maven-plugin</p></li><li><p>versions-maven-plugin</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Maven </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Maven </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Maven 插件开发</title>
       <link href="/post/10d9ef49.html"/>
       <url>/post/10d9ef49.html</url>
@@ -632,6 +634,31 @@
         <tags>
             
             <tag> Maven插件开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven 插件</title>
+      <link href="/post/cc066ced.html"/>
+      <url>/post/cc066ced.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Maven-插件"><a href="#Maven-插件" class="headerlink" title="Maven 插件"></a>Maven 插件</h3><ol><li><p>flatten-maven-plugin</p><blockquote><p>处理版本占位符</p></blockquote></li><li><p>jacoco-maven-plugin</p></li><li><p>versions-maven-plugin</p></li><li><p>docker-maven-plugin</p></li><li><p>versions-maven-plugin</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Maven </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven </tag>
             
         </tags>
       
@@ -850,29 +877,6 @@
     
     
     <entry>
-      <title>扩展性的几个方面</title>
-      <link href="/post/e8c5c92.html"/>
-      <url>/post/e8c5c92.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="扩展性的几个方面"><a href="#扩展性的几个方面" class="headerlink" title="扩展性的几个方面"></a>扩展性的几个方面</h1><h3 id="架构扩展性"><a href="#架构扩展性" class="headerlink" title="架构扩展性"></a>架构扩展性</h3><p><strong>AKF扩展立方体（Scalability Cube）</strong></p><p><img src="../images/扩展性1.png" alt="AKF扩展立方体"><br><strong>1.</strong> X：服务，数据的水平复制（数据副本），多实例部署；</p><p>   <strong><font color="red">弹性扩容伸缩</font></strong>   <strong><font color="blue">性能规划</font></strong>       <strong><font color="red">业务解耦 </font></strong>     <strong><font color="green">部署复杂度增加</font></strong> </p><p><strong>2.</strong> Y：按功能、服务或资源划分。<br><psw>文本内容</psw></p><aside>💡 一个服务可能代表一系列用途，通常最容易想象的是把它想象成一个动词或行为，比如“登录”，而面向资源的分割最容易想象成名词，比如“帐户信息”Y轴伸缩将整体应用程序拆分为一组服务。每个服务都实现了一组相关的功能，如订单管理、客户管理、库存等。此外，每个服务应该有自己的非共享数据，以确保高可用性和故障隔离。Y 轴伸缩与多维数据集的所有轴共享增加事务可伸缩性的好处。</aside><p><strong>3.</strong>   Z: 根据(数据)逻辑划分划.</p><aside>💡 当使用z轴缩放时，每个服务器运行一个相同的代码副本。这与x轴缩放相似。最大的区别在于，每个服务器只负责数据的一个数据子集。系统的某些组件负责将每个请求路由到适当的服务器。一个常用的路由标准是请求的属性，例如被访问实体的主键。另一个常见的路由标准是客户类型.例如，通过将付费客户的请求路由到另一组容量更大的服务器，应用程序可以为付费客户提供比免费客户更高的SLA。Z轴拆分通常用于缩放数据库。<u>基于每个记录的属性，将数据分区（又称分片）在一组服务器上进行了分区。在此示例中，餐厅表的主要键用于将两个不同数据库服务器之间的行分开。请注意，通过将一个或多个服务器部署为副本/从属服务器，Z轴缩放也可以应用于应用程序。比如搜索服务由许多分区组成。路由器将每个内容项发送到适当的分区，并在该分区中索引和存储。查询聚合器将每个查询发送到所有分区，并将每个查询的结果结合在一起</u></aside><p><strong><font color="blue">分开处理数据（子集）</font></strong>     <strong><font color="green">提高资源利用率</font></strong>   <strong><font color="red">提高业务可伸缩性</font></strong>   <strong><font color="blue">改进故障隔离</font> </strong><font color="red">业务解偶 </font><strong>     </strong><font color="red">有状态服务</font><strong>   </strong><font color="blue">增加复杂度</font>**</p><h3 id="应用扩展性"><a href="#应用扩展性" class="headerlink" title="应用扩展性"></a>应用扩展性</h3><ol><li>X<ul><li>无状态应用，多节点克隆复制。</li><li>容器技术快速复制（比如Docker）</li><li>负载均衡器，控制业务负载流向（比如Nginx,F5,SpringCloud Rabbion,Feign）</li><li>有状态应用，状态分离（比如会话存储（ cookie 存储 token  ，Redis ，Session），文件存储 无状态（FastDFS），日志无状态（日志标准输出，监控服务））</li></ul></li><li>Y<ul><li>（微）前端</li><li>后端（子系统，模块，聚合化分，微服务化）</li></ul></li><li>Z<ul><li>业务ID分割</li><li>地理位置分割，单元化</li><li>产品ID   SPU，SKU</li></ul></li></ol><h3 id="数据扩展性"><a href="#数据扩展性" class="headerlink" title="数据扩展性"></a>数据扩展性</h3><ol><li><p>X:</p><ul><li>读写分离</li><li>多副本</li><li><p>缓层读取</p><p><strong>CAP最终一致性</strong>   <strong>CDC复制</strong>   <strong>数据高可用</strong> </p></li></ul></li><li><p>Y：</p><ul><li>配合应用Y扩展</li><li>每个子系统，微服务独立数据库；数据群集</li><li>康威定律</li></ul></li><li><p>Z：</p><ul><li>Key分表：ID SPU，SKU，Hash 取模</li><li><p>分库分表（MyCat ShardingSphere）</p><p><strong>加速查询</strong>   <strong>业务解偶</strong>    <strong>X（副本）Z（分片）</strong>  </p></li></ul></li></ol><h3 id="编码扩展性"><a href="#编码扩展性" class="headerlink" title="编码扩展性"></a>编码扩展性</h3><ol><li>插件编程</li><li>SPI</li></ol><h2 id="组织扩展性"><a href="#组织扩展性" class="headerlink" title="组织扩展性"></a>组织扩展性</h2><ol><li>披萨组织<ul><li>目标一致- &gt;吃披萨<ul><li>贝索斯推荐：6～12</li><li>配合应用和数据的Y轴</li><li>可扩展责任矩阵（RASCI）</li></ul></li></ul></li></ol><h2 id="流程扩展性"><a href="#流程扩展性" class="headerlink" title="流程扩展性"></a>流程扩展性</h2><ol><li>ITI L</li><li>ITSM</li><li>6西格码</li><li>Devops</li><li>JAD 联合架构设计</li><li>ARB 架构评审会</li><li>OKR</li><li>SMART</li></ol><h2 id="实现方案"><a href="#实现方案" class="headerlink" title="实现方案"></a>实现方案</h2><ol><li>分布式架构设计</li><li>复制</li><li>应用无状态 容器化 </li><li>数据多副本，读写分离，冷热备份</li><li>中间件，最终一致性<span id="more"></span></li><li><strong>CDC</strong> 技术（canal）<br> <aside> 💡 canal 是阿里巴巴 MySQL 数据库 Binlog 的增量订阅 & 消费组件。 </aside><br>  <img src="../images/扩展性2.png" alt="AKF扩展立方体"></li><li>服务拆分（微服务架构）<ul><li>需求驱动（业务关联性，流程边界）</li><li>用户群体</li><li>DDD领域驱动（值对象，实体，聚合，聚合根，模块，界限上下午，领域（子域，核心域，通用域，支撑域））</li><li>事件风暴 event storming</li></ul></li><li>服务发现，服务治理，负载均衡，链路追踪,监控<ul><li>SpringCloud</li><li>负载均衡（客户端Ribbon/Feign，服务端Nginx ，K8S Service ,ESB, API Gateway）</li></ul></li><li>数据分片，分库分表（Sharding jdbc Spanner,MyCat,Aurora）</li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> IT架构 </tag>
-            
-            <tag> 系统设计 </tag>
-            
-            <tag> 扩展性 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>金额支付中台</title>
       <link href="/post/e8c5c92.html"/>
       <url>/post/e8c5c92.html</url>
@@ -888,6 +892,29 @@
             <tag> 金融IT架构 </tag>
             
             <tag> 中台 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>扩展性的几个方面</title>
+      <link href="/post/e8c5c92.html"/>
+      <url>/post/e8c5c92.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="扩展性的几个方面"><a href="#扩展性的几个方面" class="headerlink" title="扩展性的几个方面"></a>扩展性的几个方面</h1><h3 id="架构扩展性"><a href="#架构扩展性" class="headerlink" title="架构扩展性"></a>架构扩展性</h3><p><strong>AKF扩展立方体（Scalability Cube）</strong></p><p><img src="../images/扩展性1.png" alt="AKF扩展立方体"><br><strong>1.</strong> X：服务，数据的水平复制（数据副本），多实例部署；</p><p>   <strong><font color="red">弹性扩容伸缩</font></strong>   <strong><font color="blue">性能规划</font></strong>       <strong><font color="red">业务解耦 </font></strong>     <strong><font color="green">部署复杂度增加</font></strong> </p><p><strong>2.</strong> Y：按功能、服务或资源划分。<br><psw>文本内容</psw></p><aside>💡 一个服务可能代表一系列用途，通常最容易想象的是把它想象成一个动词或行为，比如“登录”，而面向资源的分割最容易想象成名词，比如“帐户信息”Y轴伸缩将整体应用程序拆分为一组服务。每个服务都实现了一组相关的功能，如订单管理、客户管理、库存等。此外，每个服务应该有自己的非共享数据，以确保高可用性和故障隔离。Y 轴伸缩与多维数据集的所有轴共享增加事务可伸缩性的好处。</aside><p><strong>3.</strong>   Z: 根据(数据)逻辑划分划.</p><aside>💡 当使用z轴缩放时，每个服务器运行一个相同的代码副本。这与x轴缩放相似。最大的区别在于，每个服务器只负责数据的一个数据子集。系统的某些组件负责将每个请求路由到适当的服务器。一个常用的路由标准是请求的属性，例如被访问实体的主键。另一个常见的路由标准是客户类型.例如，通过将付费客户的请求路由到另一组容量更大的服务器，应用程序可以为付费客户提供比免费客户更高的SLA。Z轴拆分通常用于缩放数据库。<u>基于每个记录的属性，将数据分区（又称分片）在一组服务器上进行了分区。在此示例中，餐厅表的主要键用于将两个不同数据库服务器之间的行分开。请注意，通过将一个或多个服务器部署为副本/从属服务器，Z轴缩放也可以应用于应用程序。比如搜索服务由许多分区组成。路由器将每个内容项发送到适当的分区，并在该分区中索引和存储。查询聚合器将每个查询发送到所有分区，并将每个查询的结果结合在一起</u></aside><p><strong><font color="blue">分开处理数据（子集）</font></strong>     <strong><font color="green">提高资源利用率</font></strong>   <strong><font color="red">提高业务可伸缩性</font></strong>   <strong><font color="blue">改进故障隔离</font> </strong><font color="red">业务解偶 </font><strong>     </strong><font color="red">有状态服务</font><strong>   </strong><font color="blue">增加复杂度</font>**</p><h3 id="应用扩展性"><a href="#应用扩展性" class="headerlink" title="应用扩展性"></a>应用扩展性</h3><ol><li>X<ul><li>无状态应用，多节点克隆复制。</li><li>容器技术快速复制（比如Docker）</li><li>负载均衡器，控制业务负载流向（比如Nginx,F5,SpringCloud Rabbion,Feign）</li><li>有状态应用，状态分离（比如会话存储（ cookie 存储 token  ，Redis ，Session），文件存储 无状态（FastDFS），日志无状态（日志标准输出，监控服务））</li></ul></li><li>Y<ul><li>（微）前端</li><li>后端（子系统，模块，聚合化分，微服务化）</li></ul></li><li>Z<ul><li>业务ID分割</li><li>地理位置分割，单元化</li><li>产品ID   SPU，SKU</li></ul></li></ol><h3 id="数据扩展性"><a href="#数据扩展性" class="headerlink" title="数据扩展性"></a>数据扩展性</h3><ol><li><p>X:</p><ul><li>读写分离</li><li>多副本</li><li><p>缓层读取</p><p><strong>CAP最终一致性</strong>   <strong>CDC复制</strong>   <strong>数据高可用</strong> </p></li></ul></li><li><p>Y：</p><ul><li>配合应用Y扩展</li><li>每个子系统，微服务独立数据库；数据群集</li><li>康威定律</li></ul></li><li><p>Z：</p><ul><li>Key分表：ID SPU，SKU，Hash 取模</li><li><p>分库分表（MyCat ShardingSphere）</p><p><strong>加速查询</strong>   <strong>业务解偶</strong>    <strong>X（副本）Z（分片）</strong>  </p></li></ul></li></ol><h3 id="编码扩展性"><a href="#编码扩展性" class="headerlink" title="编码扩展性"></a>编码扩展性</h3><ol><li>插件编程</li><li>SPI</li></ol><h2 id="组织扩展性"><a href="#组织扩展性" class="headerlink" title="组织扩展性"></a>组织扩展性</h2><ol><li>披萨组织<ul><li>目标一致- &gt;吃披萨<ul><li>贝索斯推荐：6～12</li><li>配合应用和数据的Y轴</li><li>可扩展责任矩阵（RASCI）</li></ul></li></ul></li></ol><h2 id="流程扩展性"><a href="#流程扩展性" class="headerlink" title="流程扩展性"></a>流程扩展性</h2><ol><li>ITI L</li><li>ITSM</li><li>6西格码</li><li>Devops</li><li>JAD 联合架构设计</li><li>ARB 架构评审会</li><li>OKR</li><li>SMART</li></ol><h2 id="实现方案"><a href="#实现方案" class="headerlink" title="实现方案"></a>实现方案</h2><ol><li>分布式架构设计</li><li>复制</li><li>应用无状态 容器化 </li><li>数据多副本，读写分离，冷热备份</li><li>中间件，最终一致性<span id="more"></span></li><li><strong>CDC</strong> 技术（canal）<br> <aside> 💡 canal 是阿里巴巴 MySQL 数据库 Binlog 的增量订阅 & 消费组件。 </aside><br>  <img src="../images/扩展性2.png" alt="AKF扩展立方体"></li><li>服务拆分（微服务架构）<ul><li>需求驱动（业务关联性，流程边界）</li><li>用户群体</li><li>DDD领域驱动（值对象，实体，聚合，聚合根，模块，界限上下午，领域（子域，核心域，通用域，支撑域））</li><li>事件风暴 event storming</li></ul></li><li>服务发现，服务治理，负载均衡，链路追踪,监控<ul><li>SpringCloud</li><li>负载均衡（客户端Ribbon/Feign，服务端Nginx ，K8S Service ,ESB, API Gateway）</li></ul></li><li>数据分片，分库分表（Sharding jdbc Spanner,MyCat,Aurora）</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> IT架构 </tag>
+            
+            <tag> 系统设计 </tag>
+            
+            <tag> 扩展性 </tag>
             
         </tags>
       
@@ -1121,6 +1148,31 @@
     
     
     <entry>
+      <title>业务场景</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>什么是IT架构及架构管理</title>
       <link href="/post/c0e93fbc.html"/>
       <url>/post/c0e93fbc.html</url>
@@ -1173,23 +1225,23 @@
     
     
     <entry>
-      <title>业务场景</title>
-      <link href="/post/3b343194.html"/>
-      <url>/post/3b343194.html</url>
+      <title>组件的生命周期</title>
+      <link href="/post/66fd44c2.html"/>
+      <url>/post/66fd44c2.html</url>
       
-        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
       
       
       <categories>
           
-          <category> 业务架构 </category>
+          <category> 设计模式 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 业务架构 </tag>
+            <tag> 组件 </tag>
             
         </tags>
       
@@ -1214,36 +1266,11 @@
       
         <tags>
             
+            <tag> JVM </tag>
+            
             <tag> 系统优化 </tag>
             
             <tag> Java </tag>
-            
-            <tag> JVM </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>组件的生命周期</title>
-      <link href="/post/66fd44c2.html"/>
-      <url>/post/66fd44c2.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模式 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 组件 </tag>
             
         </tags>
       
