@@ -225,6 +225,31 @@
     
     
     <entry>
+      <title>互联网医院</title>
+      <link href="/post/739c7710.html"/>
+      <url>/post/739c7710.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是互联网医院"><a href="#什么是互联网医院" class="headerlink" title="什么是互联网医院"></a>什么是互联网医院</h3><p><strong>互联网医院：</strong> 以及依托实体医疗机构独立设置的互联网医院。互联网医院可以使用在本机构和其他医疗机构注册的医师开展互联网诊疗活动。互联网医院可以为患者提供部分常见病、慢性病复诊、家庭医生签约服务。此外，当患者到实体医疗机构就诊时，由接诊的医师通过互联网医院邀请其他医师进行会诊时，会诊医师以出具诊断意见并开具处方</p><h4 id="陪诊"><a href="#陪诊" class="headerlink" title="陪诊"></a>陪诊</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 互联网医院 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 互联网医院 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>企业架构相关图片</title>
       <link href="/post/88c6f45a.html"/>
       <url>/post/88c6f45a.html</url>
@@ -267,31 +292,6 @@
         <tags>
             
             <tag> 企业架构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>互联网医院</title>
-      <link href="/post/739c7710.html"/>
-      <url>/post/739c7710.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="什么是互联网医院"><a href="#什么是互联网医院" class="headerlink" title="什么是互联网医院"></a>什么是互联网医院</h3><p><strong>互联网医院：</strong> 以及依托实体医疗机构独立设置的互联网医院。互联网医院可以使用在本机构和其他医疗机构注册的医师开展互联网诊疗活动。互联网医院可以为患者提供部分常见病、慢性病复诊、家庭医生签约服务。此外，当患者到实体医疗机构就诊时，由接诊的医师通过互联网医院邀请其他医师进行会诊时，会诊医师以出具诊断意见并开具处方</p><h4 id="陪诊"><a href="#陪诊" class="headerlink" title="陪诊"></a>陪诊</h4>]]></content>
-      
-      
-      <categories>
-          
-          <category> 互联网医院 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 互联网医院 </tag>
             
         </tags>
       
@@ -646,31 +646,6 @@
     
     
     <entry>
-      <title>Maven 插件开发</title>
-      <link href="/post/10d9ef49.html"/>
-      <url>/post/10d9ef49.html</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      <categories>
-          
-          <category> Maven </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Maven插件开发 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Maven 插件</title>
       <link href="/post/cc066ced.html"/>
       <url>/post/cc066ced.html</url>
@@ -688,6 +663,31 @@
         <tags>
             
             <tag> Maven </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Maven 插件开发</title>
+      <link href="/post/10d9ef49.html"/>
+      <url>/post/10d9ef49.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="85f10501b7cc84ba6ae7a50c5d6969cf1c7e05b8048f07563a76ace71b9dd7ef">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9e7c3871559f9857b20e269f41b80e765e1479d5c83552001126f5eb6243ad09ea2c38c2b26d08870f4d7c41c138f2bce3ca3794b8116528d59b4022897c844431487d4b61e840ecc106f4bc2ca1efa5725cbc9a60ab14d1ba2ae720bcd4a47c919033cb5139df32702a41b6d8750e7253195e9eb557be8f0bf1685a39e7ad3234</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> Maven </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven插件开发 </tag>
             
         </tags>
       
