@@ -60,7 +60,7 @@
     
     
     <entry>
-      <title>金融信息系统多活技术规范</title>
+      <title>金融信息系统多活技术规范-在线阅读</title>
       <link href="/post/bf41f5a2.html"/>
       <url>/post/bf41f5a2.html</url>
       
@@ -300,6 +300,31 @@
     
     
     <entry>
+      <title>技术架构</title>
+      <link href="/post/119cc232.html"/>
+      <url>/post/119cc232.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="8624d49af6fec91ec280b2ded7c24bb09fab0d7e85180437976762bb99cc33c6">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9ec23bf8520349031c54df91ff7ba90a2a3e5a5fe936490710a2eb3623a2b529fe4ce35ffed7f1efeeab7dbed8da69faf82c09c7911eb14a223ee1adc4e0a49959f41a67329ffa30c7c5fe4a11f206d434ab7fecaa404e35fa768f99ca560d89479ce54ac16a5082eaf834d02d85a25b44</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大模型</title>
       <link href="/post/75bf6943.html"/>
       <url>/post/75bf6943.html</url>
@@ -342,31 +367,6 @@
         <tags>
             
             <tag> IT架构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>技术架构</title>
-      <link href="/post/119cc232.html"/>
-      <url>/post/119cc232.html</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="8624d49af6fec91ec280b2ded7c24bb09fab0d7e85180437976762bb99cc33c6">ff8093e7a65d4753ca1aafc7bbf304ab6807cb569242718be1b066c809022e9ec23bf8520349031c54df91ff7ba90a2a3e5a5fe936490710a2eb3623a2b529fe4ce35ffed7f1efeeab7dbed8da69faf82c09c7911eb14a223ee1adc4e0a49959f41a67329ffa30c7c5fe4a11f206d434ab7fecaa404e35fa768f99ca560d89479ce54ac16a5082eaf834d02d85a25b44</script>  ,.........  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-wave">        <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">请输入密码</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术架构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 技术架构 </tag>
             
         </tags>
       
@@ -621,6 +621,31 @@
     
     
     <entry>
+      <title>Maven 插件</title>
+      <link href="/post/cc066ced.html"/>
+      <url>/post/cc066ced.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Maven-插件"><a href="#Maven-插件" class="headerlink" title="Maven 插件"></a>Maven 插件</h3><ol><li><p>flatten-maven-plugin</p><blockquote><p>处理版本占位符</p></blockquote></li><li><p>jacoco-maven-plugin</p></li><li><p>versions-maven-plugin</p></li><li><p>docker-maven-plugin</p></li><li><p>versions-maven-plugin</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Maven </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Maven </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MPLS</title>
       <link href="/post/10d9ef49.html"/>
       <url>/post/10d9ef49.html</url>
@@ -663,31 +688,6 @@
         <tags>
             
             <tag> Maven插件开发 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Maven 插件</title>
-      <link href="/post/cc066ced.html"/>
-      <url>/post/cc066ced.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="Maven-插件"><a href="#Maven-插件" class="headerlink" title="Maven 插件"></a>Maven 插件</h3><ol><li><p>flatten-maven-plugin</p><blockquote><p>处理版本占位符</p></blockquote></li><li><p>jacoco-maven-plugin</p></li><li><p>versions-maven-plugin</p></li><li><p>docker-maven-plugin</p></li><li><p>versions-maven-plugin</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Maven </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Maven </tag>
             
         </tags>
       
@@ -1308,31 +1308,6 @@
     
     
     <entry>
-      <title>组件的生命周期</title>
-      <link href="/post/66fd44c2.html"/>
-      <url>/post/66fd44c2.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计模式 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 组件 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>设计模式总览</title>
       <link href="/post/d2ce3ca5.html"/>
       <url>/post/d2ce3ca5.html</url>
@@ -1350,6 +1325,31 @@
         <tags>
             
             <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>组件的生命周期</title>
+      <link href="/post/66fd44c2.html"/>
+      <url>/post/66fd44c2.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="../images/设计模式/组件的生命周期.png" alt="组件的生命周期"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组件 </tag>
             
         </tags>
       
