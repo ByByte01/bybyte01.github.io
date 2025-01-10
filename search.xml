@@ -8,7 +8,7 @@
       <link href="/post/6d29d214.html"/>
       <url>/post/6d29d214.html</url>
       
-        <content type="html"><![CDATA[<h4 id="主数据驱动的数据治理-原理-技术与实践"><a href="#主数据驱动的数据治理-原理-技术与实践" class="headerlink" title="主数据驱动的数据治理-原理-技术与实践"></a>主数据驱动的数据治理-原理-技术与实践</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/主数据驱动的数据治理-原理-技术与实践.pdf.pdf" style="width:100%;height:900px"></iframe> <h3 id="星球推荐"><a href="#星球推荐" class="headerlink" title="星球推荐"></a>星球推荐</h3><p>   初衷成为从事IT技术侧和IT业务侧人员，提高产研能效参考库，并且个人10多年工作经验积累全部放在这里包含IT架构管理、4A架构和安全架构、数据治理、主数据、企业架构、大模型、金融、医疗、电商行业等各种案例</p><p>  <img src="../../images/星球二维码.png" alt="星球二维码"></p><h4 id="星球部分内容截图"><a href="#星球部分内容截图" class="headerlink" title="星球部分内容截图"></a>星球部分内容截图</h4><p><img src="../../images/星球截图.png" alt="星球截图"></p>]]></content>
+        <content type="html"><![CDATA[<h4 id="主数据驱动的数据治理-原理-技术与实践"><a href="#主数据驱动的数据治理-原理-技术与实践" class="headerlink" title="主数据驱动的数据治理-原理-技术与实践"></a>主数据驱动的数据治理-原理-技术与实践</h4> <iframe src="/myjs/pdfjs/web/viewer.html?file=/pdf/主数据驱动的数据治理-原理-技术与实践.pdf" style="width:100%;height:900px"></iframe> <h3 id="星球推荐"><a href="#星球推荐" class="headerlink" title="星球推荐"></a>星球推荐</h3><p>   初衷成为从事IT技术侧和IT业务侧人员，提高产研能效参考库，并且个人10多年工作经验积累全部放在这里包含IT架构管理、4A架构和安全架构、数据治理、主数据、企业架构、大模型、金融、医疗、电商行业等各种案例</p><p>  <img src="../../images/星球二维码.png" alt="星球二维码"></p><h4 id="星球部分内容截图"><a href="#星球部分内容截图" class="headerlink" title="星球部分内容截图"></a>星球部分内容截图</h4><p><img src="../../images/星球截图.png" alt="星球截图"></p>]]></content>
       
       
       <categories>
@@ -627,6 +627,31 @@
     
     
     <entry>
+      <title>数据访问层工具</title>
+      <link href="/post/6e4e4699.html"/>
+      <url>/post/6e4e4699.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="数据访问层工具"><a href="#数据访问层工具" class="headerlink" title="数据访问层工具"></a>数据访问层工具</h3><ol><li>p6spy<blockquote><p>p6spy 是数据库动态监控的一种框架，是一个可以用来监控JDBC执行语句的开源产品，它可以使得数据库数据无缝拦截和操作，而不必对现有应用程序的代码作任何修改。利用p6spy很容易的就能监控到JDBC中执行的SQL语句，便于系统调试和性能调优。p6spy分发包括P6Log，它是一个可记录任何Java应用程序的所有JDBC事务的应用程序。其配置完成使用时，可以进行数据访问性能的监测。</p></blockquote></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据访问层 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据访问层 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>企业架构成熟度模型</title>
       <link href="/post/76f8439c.html"/>
       <url>/post/76f8439c.html</url>
@@ -646,31 +671,6 @@
             <tag> 企业架构 </tag>
             
             <tag> 在线PDF </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>数据访问层工具</title>
-      <link href="/post/6e4e4699.html"/>
-      <url>/post/6e4e4699.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="数据访问层工具"><a href="#数据访问层工具" class="headerlink" title="数据访问层工具"></a>数据访问层工具</h3><ol><li>p6spy<blockquote><p>p6spy 是数据库动态监控的一种框架，是一个可以用来监控JDBC执行语句的开源产品，它可以使得数据库数据无缝拦截和操作，而不必对现有应用程序的代码作任何修改。利用p6spy很容易的就能监控到JDBC中执行的SQL语句，便于系统调试和性能调优。p6spy分发包括P6Log，它是一个可记录任何Java应用程序的所有JDBC事务的应用程序。其配置完成使用时，可以进行数据访问性能的监测。</p></blockquote></li><li></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数据访问层 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数据访问层 </tag>
             
         </tags>
       
@@ -1260,6 +1260,31 @@
     
     
     <entry>
+      <title>业务场景</title>
+      <link href="/post/3b343194.html"/>
+      <url>/post/3b343194.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 业务架构 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 业务架构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>什么是IT架构及架构管理</title>
       <link href="/post/c0e93fbc.html"/>
       <url>/post/c0e93fbc.html</url>
@@ -1304,31 +1329,6 @@
         <tags>
             
             <tag> 企业架构 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>业务场景</title>
-      <link href="/post/3b343194.html"/>
-      <url>/post/3b343194.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="什么是业务场景"><a href="#什么是业务场景" class="headerlink" title="什么是业务场景"></a>什么是业务场景</h3><p><strong>业务场景</strong> 是发现和记录业务需求的有⽤技术，在业务体系结构的分层分解中，可以在不同<br>的细节层次上迭代使⽤。业务场景分析可以参考下图<br>  <span id="more"></span><br><img src="https://cdn.jsdelivr.net/gh/dybyte/dybyte.github.io/images/02_1.png" alt="业务场景"></p><ul><li><p>逐步分解业务：</p><ul><li><p>业务能⼒映射：识别、分类和分解业务所需的业务能⼒，以便能够向⼀个或多个利益相<br>关者提供价值</p></li><li><p>组织映射：表⽰业务的组织结构（包括第三⽅域），描述业务单元，将这些单元分解为<br>较低级别的功能，以及组织关系。（单位到单位，映射到业务能⼒、位置和其他属性）</p></li><li>价值流映射：组织为创造与利益相关者交换的价值⽽执⾏的活动的分解</li><li>结构化分析：确定架构范围内的关键业务功能，并将这些功能映射到业务中的组织单元</li><li>⽤例分析：跨参与者和组织的业务级功能分解允许识别功能中的参与者，并允许分解为<br>⽀持/提供该功能能⼒的服务</li><li>流程建模：通过流程建模对功能或业务服务进⾏分解，可以识别流程的元素，并识别较<br>低级别的业务服务或功能 </li><li>所需分解的级别和严格程度因企业⽽异，企业内部也是如此，架构师应该考虑企业的⽬<br>的、⽬标、范围和企业架构的⽬的，以确定分解的级别  </li></ul><p><a href="https://t.zsxq.com/xoroW">获取完整PDF</a></p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 业务架构 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 业务架构 </tag>
             
         </tags>
       
